@@ -16,7 +16,7 @@ is_project_page: false
 Before diving into the quesitons, some of the most handy notes and equations will be summarized in this section.
 ### Tables
 All pictures, tables, charts, unless noted otherwise, are taken from \[1].
-![Comman Joints and their DoF](assets/images/KapII_pic_1.png)
+![Comman Joints and their DoF](assets/images/KapII_pic_1.jpg)
 
 ### Equations
 General idea about degree of freedom (DoF):
