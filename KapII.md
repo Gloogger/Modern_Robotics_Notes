@@ -15,7 +15,7 @@ is_project_page: false
 ## Useful Notes and Equations
 Before diving into the quesitons, some of the most handy notes and equations will be summarized in this section.
 ### Tables
-All pictures, tables, charts, unless noted otherwise, are taken from <sup>1</sup>.
+All pictures, tables, charts, unless noted otherwise, are taken from \[1].
 ![Comman Joints and their DoF](assets/images/KapII_pic_1.png)
 
 ### Equations
