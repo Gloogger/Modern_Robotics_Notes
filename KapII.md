@@ -19,18 +19,26 @@ All pictures, tables, charts, unless noted otherwise, are taken from <sup>1</sup
 ![Comman Joints and their DoF](assets/images/KapII_pic_1.png)
 
 ### Equations
-#### Grübler's Formula
-$$
-dof = m(N-1)-/sum_{i=1}^{J}f_{i}
-$$
+General idea about degree of freedom (DoF):
 $$
 \begin{align}
-    \label{eq:flywheel_inertia}
     \begin{split}
-        E&=\frac{I \omega^2}{2}\\
-        \text{where}~\omega&=\text{rotational speed of the air compressor,}\\
-        I&=\text{inertia of the flywheel,}\\
-        E&=\text{energy.}\\
+        \text{DoF} &= (\text{sum of freedoms of the points}) - (\text{No. of independent constraints})\\
+        &= (\text{sum of freedoms of the bodies}) - (\text{No. of independent constraints})\\
+    \end{split}
+\end{align}
+$$
+#### Grübler's Formula
+$$
+\begin{align}
+    \begin{split}
+        \text{DoF} &= m(N-1)-\sigma_{i=1}^{J}c_{i}\\
+        &= m(N-1-J)+\sigma_{i=1}^{J}\\
+        \text{where } m&=\text{DoF of a rigid body. For planar, m=3; for spatial, m=6}\\
+        N&=\text{No. of links}\\
+        J&=\text{No. of joints}\\
+        c_{i}&=\text{No. of constraints provided by ith joint}\\
+        f_{i}&=\text{No. of DoF provided by ith joint}
     \end{split}
 \end{align}
 $$
