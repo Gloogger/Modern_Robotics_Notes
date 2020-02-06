@@ -1,11 +1,10 @@
 ---
 layout: post
 mathjax: true
-title: 'Kapitel 2'
-description: blah blah blah blah
+title: 'Kapitel 2: Configuration Space'
+description: 
 is_project_page: false
 ---
-
 
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='index.html';">Homepage</button>
