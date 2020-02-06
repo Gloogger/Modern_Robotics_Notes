@@ -23,6 +23,7 @@ All pictures, tables, charts, unless noted otherwise, are taken from <sup>1</sup
 $$
 dof = m(N-1)-/sum_{i=1}^{J}f_{i}
 $$
+$$
 \begin{align}
     \label{eq:flywheel_inertia}
     \begin{split}
@@ -32,6 +33,7 @@ $$
         E&=\text{energy.}\\
     \end{split}
 \end{align}
+$$
 
 
 ***
