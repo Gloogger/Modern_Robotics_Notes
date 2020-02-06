@@ -14,9 +14,25 @@ is_project_page: false
 
 ## Useful Notes and Equations
 Before diving into the quesitons, some of the most handy notes and equations will be summarized in this section.
-### Useful Tables
+### Tables
 All pictures, tables, charts, unless noted otherwise, are taken from <sup>1</sup>.
 ![Comman Joints and their DoF](assets/images/KapII_pic_1.png)
+
+### Equations
+#### Grübler's Formula
+$$
+dof = m(N-1)-/sum_{i=1}^{J}f_{i}
+$$
+\begin{align}
+    \label{eq:flywheel_inertia}
+    \begin{split}
+        E&=\frac{I \omega^2}{2}\\
+        \text{where}~\omega&=\text{rotational speed of the air compressor,}\\
+        I&=\text{inertia of the flywheel,}\\
+        E&=\text{energy.}\\
+    \end{split}
+\end{align}
+
 
 ***
 The omnipotent math shows that:
