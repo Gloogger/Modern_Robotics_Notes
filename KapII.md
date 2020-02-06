@@ -82,17 +82,22 @@ $$
 
 - (a) 
 The base is kinematically equivalent to a rolling coin, then its C-space is $$\mathbb{R}^{2}\times \mathbb{T}^{2}$$. The C-space of a standard 6R robot is just plainly 6 rotational DoF, i.e. $$\mathbb{S}^{1}\times ...\times \mathbb{S}^{1}=\mathbb{T}^{6}$$. Altogether we have the system C-space as $$\mathbb{R}^{2}\times \mathbb{T}^{2}\times \mathbb{T}^{6}=\mathbb{R}^{2}\times \mathbb{T}^{8}$$.
-- (b)
-\begin{align}
+- (b) $$ \begin{align}
     \begin{split}
-        DoF &= 10(\text{total DoF})-4(\text{stationary base}-6(\text{door(rigid body in space)}))+1(\text{door been free to rotate})\\
+        DoF &= 10(\text{total DoF})-4(\text{stationary base})
+        &-6(\text{rigid body in space})+1(\text{door been free to rotate})\\
         &=1\\
     \end{split}
 \end{align}
 $$
-- (c)
-$$DoF=2\cdot(10-4-6)+1=1$$
+- (c) $$DoF=2\cdot(10-4-6)+1=1$$
 
+> Exercise 2.7 Three identical SRS open-chain arms are grasping a common object, as shown in Figure 2.17.
+> (a) Find the number of degrees of freedom of this system.
+> (b) Suppose there are now a total of n such arms grasping the object. How many degrees of freedom does this system have?
+> (c) Suppose the spherical wrist joint in each of the n arms is now replaced by a universal joint. How many degrees of freedom does this system have?
+ 
+<img src="./assets/images/fig_2_17.jpg" width="300">
 
 $$
 \begin{align}
