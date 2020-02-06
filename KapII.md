@@ -55,7 +55,37 @@ Generalize this idea we have $$\mathbb{R}^{n}\times \mathbb{S}^{n-1}\times \math
 
 The wheel is a fixed rigid body in space, therefore it adds 6 constraints to the system. Then, each of your hand has a $$DoF = n-6 $$. Together you have $$DoF = 2n-12$$. However, if the wheel is free to rotate, then it adds 1 extra DoF to the system. In this case you have $$DoF = 2n-11$$.
 
-> Exercise 2.5 Figure 2.15 shows a robot used for human arm rehabilitation. Determine the number of degrees of freedom of the chain formed by the human arm and the robot. ![fig2.15](assets/images/fig_2_15.jpg)
+> Exercise 2.5 Figure 2.15 shows a robot used for human arm rehabilitation. Determine the number of degrees of freedom of the chain formed by the human arm and the robot. <img src="./assets/images/fig_2_15.jpg" width="250">
+
+$$
+\begin{align}
+    \begin{split}
+        m &= 6\\
+        N &= 6(links) + 1(ground)=7\\
+        J &= 5R + 2S=7\\
+        \sigma f_{i}&=5+2\cdot 3=11\\
+        DoF&=m(N-1-J)+\sigma f_{i}\\
+        &= 6\cdot(7-1-7)+11\\
+        &=5\\
+    \end{split}
+\end{align}
+$$
+
+> Exercise 2.6 The mobile manipulator of Figure 2.16 consists of a 6R arm and multi-fingered hand mounted on a mobile base with a single wheel. You can think of the wheeled base as the same as the rolling coin in Figure 2.11 – the wheel (and base) can spin together about an axis perpendicular to the ground, and the wheel rolls without slipping. The base always remains horizontal. (Left unstated are the means to keep the base horizontal and to spin the wheel and base about an axis perpendicular to the ground.)
+> (a) Ignoring the multi-fingered hand, describe the configuration space of the mobile manipulator.
+> (b) Now suppose that the robot hand rigidly grasps a refrigerator door handle and, with its wheel and base completely stationary, opens the door using only its arm. With the door open, how many degrees of freedom does the mechanism formed by the arm and open door have?
+> (c) A second identical mobile manipulator comes along, and after parking its mobile base, also rigidly grasps the refrigerator door handle. How many degrees of freedom does the mechanism formed by the two arms and the open refrigerator door have?
+
+- (a) 
+The base is kinematically equivalent to a rolling coin, then its C-space is $$\mathbb{R}^{2}\times \mathbb{T}^{2}$$. The C-space of a standard 6R robot is just plainly 6 rotational DoF, i.e. $$\mathbb{S}^{1}\times ...\times \mathbb{S}^{1}=\mathbb{T}^{6}$$. Altogether we have the system C-space as $$\mathbb{R}^{2}\times \mathbb{T}^{2}\times \mathbb{T}^{6}=\mathbb{R}^{2}\times \mathbb{T}^{8}$$.
+
+$$
+\begin{align}
+    \begin{split}
+        a
+    \end{split}
+\end{align}
+$$
 
 ***
 
