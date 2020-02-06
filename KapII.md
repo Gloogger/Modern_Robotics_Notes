@@ -33,9 +33,9 @@ $$
 \begin{align}
     \begin{split}
         \text{DoF} &= m(N-1)-\sigma_{i=1}^{J}c_{i}\\
-        &= m(N-1-J)+\sigma_{i=1}^{J}\\
+        &= m(N-1-J)+\sigma_{i=1}^{J}f_{i}\\
         \text{where } m&=\text{DoF of a rigid body. For planar, m=3; for spatial, m=6}\\
-        N&=\text{No. of links}\\
+        N&=\text{No. of links, always add 1 to count for the ground}\\
         J&=\text{No. of joints}\\
         c_{i}&=\text{No. of constraints provided by ith joint}\\
         f_{i}&=\text{No. of DoF provided by ith joint}
