@@ -45,7 +45,7 @@ $$
 
 ***
 
-## Textbook Exercises
+## Textbook Exercises Attempts
 > Exercise 2.1 Using the methods of Section 2.1 derive a formula, in terms of n, for the number of degrees of freedom of a rigid body in n-dimensional space. Indicate how many of these dof are translational and how many are rotational. Describe the topology of the C-space (e.g., for n = 2, the topology is R2 × S1).
 
 Recall that in 3D we first choose an arbitrary point in space, which has a linear DoF of 3, then for all of the following rotational DoF, the preceding choice provides one constraint. Therefore in n=3 we have the topology $$\mathbb{R}^{3}\times \mathbb{S}^{2}\times \mathbb{S}^{1}$$.
@@ -57,7 +57,7 @@ The wheel is a fixed rigid body in space, therefore it adds 6 constraints to the
 
 > Exercise 2.5 Figure 2.15 shows a robot used for human arm rehabilitation. Determine the number of degrees of freedom of the chain formed by the human arm and the robot. 
 
-![fig2.15](assets/images/fig_2_15.png | width=100)
+![](assets/images/fig_2_15.jpg | width=100)
 
 ***
 
