@@ -55,7 +55,9 @@ Generalize this idea we have $$\mathbb{R}^{n}\times \mathbb{S}^{n-1}\times \math
 
 The wheel is a fixed rigid body in space, therefore it adds 6 constraints to the system. Then, each of your hand has a $$DoF = n-6 $$. Together you have $$DoF = 2n-12$$. However, if the wheel is free to rotate, then it adds 1 extra DoF to the system. In this case you have $$DoF = 2n-11$$.
 
-> Exercise 2.5 Figure 2.15 shows a robot used for human arm rehabilitation. Determine the number of degrees of freedom of the chain formed by the human arm and the robot. <img src="./assets/images/fig_2_15.jpg" width="250">
+> Exercise 2.5 Figure 2.15 shows a robot used for human arm rehabilitation. Determine the number of degrees of freedom of the chain formed by the human arm and the robot. 
+ 
+<img src="./assets/images/fig_2_15.jpg" width="250">
 
 $$
 \begin{align}
@@ -75,9 +77,22 @@ $$
 > (a) Ignoring the multi-fingered hand, describe the configuration space of the mobile manipulator.
 > (b) Now suppose that the robot hand rigidly grasps a refrigerator door handle and, with its wheel and base completely stationary, opens the door using only its arm. With the door open, how many degrees of freedom does the mechanism formed by the arm and open door have?
 > (c) A second identical mobile manipulator comes along, and after parking its mobile base, also rigidly grasps the refrigerator door handle. How many degrees of freedom does the mechanism formed by the two arms and the open refrigerator door have?
+ 
+<img src="./assets/images/fig_2_16.jpg" width="300">
 
 - (a) 
 The base is kinematically equivalent to a rolling coin, then its C-space is $$\mathbb{R}^{2}\times \mathbb{T}^{2}$$. The C-space of a standard 6R robot is just plainly 6 rotational DoF, i.e. $$\mathbb{S}^{1}\times ...\times \mathbb{S}^{1}=\mathbb{T}^{6}$$. Altogether we have the system C-space as $$\mathbb{R}^{2}\times \mathbb{T}^{2}\times \mathbb{T}^{6}=\mathbb{R}^{2}\times \mathbb{T}^{8}$$.
+- (b)
+\begin{align}
+    \begin{split}
+        DoF &= 10(\text{total DoF})-4(\text{stationary base}-6(\text{door(rigid body in space)}))+1(\text{door been free to rotate})\\
+        &=1\\
+    \end{split}
+\end{align}
+$$
+- (c)
+$$DoF=2\cdot(10-4-6)+1=1$$
+
 
 $$
 \begin{align}
