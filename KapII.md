@@ -98,14 +98,45 @@ $$
 > (c) Suppose the spherical wrist joint in each of the n arms is now replaced by a universal joint. How many degrees of freedom does this system have?
  
 <img src="./assets/images/fig_2_17.jpg" width="300">
-
-$$
-\begin{align}
+- (a) $$\begin{align}
     \begin{split}
-        a
+        N &= 3\cdot(2)+1\\
+        J &= 3\cdot(2S+R)\\
+        \Sigma f_{i}&=3\cdot(2\cdot 3 +1)\\
+        DoF&=6\cdot (8-1+9)+21\\
+        &=9\\
     \end{split}
 \end{align}
 $$
+- (b)$$\begin{align}
+    \begin{split}
+        N&=2n+2\\
+        J&=n\cdot (2S+R)=3n\\
+        \Sigma f_{i}&=7n\\
+        DoF&=6\cdot (2n+2-1-3n)+7n\\
+        &=6+n\\
+    \end{split}
+\end{align}
+$$
+- (c) S=>U, 3=>2
+$$
+\begin{align}
+    \begin{split}
+        \Sigma f_{i}&=n\cdot (U+S+R)=6n\\
+        DoF&=6\cdot (2n+2-1-3n)+5n\\
+        &=6\\
+    \end{split}
+\end{align}
+$$
+
+
+$$\begin{align}
+    \begin{split}
+        Valete!
+    \end{split}
+\end{align}
+$$
+
 
 ***
 
