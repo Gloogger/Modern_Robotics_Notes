@@ -2,7 +2,7 @@
 layout: post
 mathjax: true
 title: 'Kapitel 2: Configuration Space'
-description: 
+description: Useful Equations and Exercise Attempts
 is_project_page: false
 ---
 
