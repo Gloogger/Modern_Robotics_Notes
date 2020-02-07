@@ -130,9 +130,10 @@ $$
 $$
 
 
+
 $$\begin{align}
     \begin{split}
-        Valete!
+        \text{Valete discipulae et discipuli}
     \end{split}
 \end{align}
 $$
