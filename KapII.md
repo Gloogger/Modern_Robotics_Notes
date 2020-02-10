@@ -166,8 +166,17 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 
 <img src="./assets/images/fig_2_22.jpg" width="400">
 
-> Exercise 2.14 The 3×UPU platform of Figure 2.23 consists of two platforms – the lower one stationary, the upper one mobile–connected by three UPU legs.
-> - (a) Using the spatial version of Gru ̈bler’s formula, verify that it has three degrees of freedom.
+> _**Exercise 2.14**_ The 3×UPU platform of Figure 2.23 consists of two platforms – the lower one stationary, the upper one mobile–connected by three UPU legs.
+> - (a) Using the spatial version of Grübler’s formula, verify that it has three degrees of freedom.
+> - (b) Construct a physical model of the 3×UPU platform to see if it indeed has three degrees of freedom. In particular, lock the three P joints in place; does the robot become a rigid structure as predicted by Grübler’s formula, or does it move?
+
+<img src="./assets/images/fig_2_23.jpg" width="400">
+
+> _**Exercise 2.15**_ The mechanisms of Figures 2.24(a) and 2.24(b).
+> - (a) The mechanism of Figure 2.24(a) consists of six identical squares arranged in a single closed loop, connected by revolute joints. The bottom square is fixed to ground. Determine the number of degrees of freedom using Grübler’s formula.
+> - (b) The mechanism of Figure 2.24(b) also consists of six identical squares connected by revolute joints, but arranged differently (as shown). Determine the number of degrees of freedom using Grübler’s formula. Does your result agree with your intuition about the possible motions of this mechanism?
+
+![fig_2_24](assets/images/fig_2_24.jpg)
 
 
 $$\begin{align}
