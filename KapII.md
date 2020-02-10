@@ -73,10 +73,10 @@ $$
 \end{align}
 $$
 
->  _**Exercise 2.6**_ The mobile manipulator of Figure 2.16 consists of a 6R arm and multi-fingered hand mounted on a mobile base with a single wheel. You can think of the wheeled base as the same as the rolling coin in Figure 2.11 – the wheel (and base) can spin together about an axis perpendicular to the ground, and the wheel rolls without slipping. The base always remains horizontal. (Left unstated are the means to keep the base horizontal and to spin the wheel and base about an axis perpendicular to the ground.)
-> (a) Ignoring the multi-fingered hand, describe the configuration space of the mobile manipulator.
-> (b) Now suppose that the robot hand rigidly grasps a refrigerator door handle and, with its wheel and base completely stationary, opens the door using only its arm. With the door open, how many degrees of freedom does the mechanism formed by the arm and open door have?
-> (c) A second identical mobile manipulator comes along, and after parking its mobile base, also rigidly grasps the refrigerator door handle. How many degrees of freedom does the mechanism formed by the two arms and the open refrigerator door have?
+>  _**Exercise 2.6**_ The mobile manipulator of Figure 2.16 consists of a 6R arm and multi-fingered hand mounted on a mobile base with a single wheel. You can think of the wheeled base as the same as the rolling coin in Figure 2.11 – the wheel (and base) can spin together about an axis perpendicular to the ground, and the wheel rolls without slipping. The base always remains horizontal. (Left unstated are the means to keep the base horizontal and to spin the wheel and base about an axis perpendicular to the ground.) \
+> - (a) Ignoring the multi-fingered hand, describe the configuration space of the mobile manipulator.\
+> - (b) Now suppose that the robot hand rigidly grasps a refrigerator door handle and, with its wheel and base completely stationary, opens the door using only its arm. With the door open, how many degrees of freedom does the mechanism formed by the arm and open door have?\
+> - (c) A second identical mobile manipulator comes along, and after parking its mobile base, also rigidly grasps the refrigerator door handle. How many degrees of freedom does the mechanism formed by the two arms and the open refrigerator door have?
  
 <img src="./assets/images/fig_2_16.jpg" width="300">
 
@@ -144,13 +144,6 @@ $$\begin{align}
 $$
 It seems that the DoF is a constant.
 
-$$\begin{align}
-    \begin{split}
-        \text{Valete discipulae et discipuli}
-    \end{split}
-\end{align}
-$$
-
 >  _**Exercise 2.9**_ Use the planar version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.18. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
  
 ![fig_2_18](assets/images/fig_2_18.jpg)
@@ -168,6 +161,21 @@ $$
 ![fig_2_21](assets/images/fig_2_21.jpg)
 
 For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or lazy Tongs), which is a kind of planar four-bar linkage. Such structure provides 1 DoF.
+
+> _**Exercise 2.13**_ In the parallel mechanism shown in Figure 2.22, six legs of identical length are connected to a fixed and moving platform via spherical joints. Determine the number of degrees of freedom of this mechanism using Grübler’s formula. Illustrate all possible motions of the upper platform.
+
+![fig_2_22](assets/images/fig_2_22.jpg)
+
+> Exercise 2.14 The 3×UPU platform of Figure 2.23 consists of two platforms – the lower one stationary, the upper one mobile–connected by three UPU legs.\
+> - (a) Using the spatial version of Gru ̈bler’s formula, verify that it has three degrees of freedom.\
+
+
+$$\begin{align}
+    \begin{split}
+        \text{Valete discipulae et discipuli}
+    \end{split}
+\end{align}
+$$
 
 ***
 
