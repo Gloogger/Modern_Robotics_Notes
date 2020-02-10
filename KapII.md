@@ -73,9 +73,9 @@ $$
 \end{align}
 $$
 
->  _**Exercise 2.6**_ The mobile manipulator of Figure 2.16 consists of a 6R arm and multi-fingered hand mounted on a mobile base with a single wheel. You can think of the wheeled base as the same as the rolling coin in Figure 2.11 – the wheel (and base) can spin together about an axis perpendicular to the ground, and the wheel rolls without slipping. The base always remains horizontal. (Left unstated are the means to keep the base horizontal and to spin the wheel and base about an axis perpendicular to the ground.) \
-> - (a) Ignoring the multi-fingered hand, describe the configuration space of the mobile manipulator.\
-> - (b) Now suppose that the robot hand rigidly grasps a refrigerator door handle and, with its wheel and base completely stationary, opens the door using only its arm. With the door open, how many degrees of freedom does the mechanism formed by the arm and open door have?\
+>  _**Exercise 2.6**_ The mobile manipulator of Figure 2.16 consists of a 6R arm and multi-fingered hand mounted on a mobile base with a single wheel. You can think of the wheeled base as the same as the rolling coin in Figure 2.11 – the wheel (and base) can spin together about an axis perpendicular to the ground, and the wheel rolls without slipping. The base always remains horizontal. (Left unstated are the means to keep the base horizontal and to spin the wheel and base about an axis perpendicular to the ground.) 
+> - (a) Ignoring the multi-fingered hand, describe the configuration space of the mobile manipulator.
+> - (b) Now suppose that the robot hand rigidly grasps a refrigerator door handle and, with its wheel and base completely stationary, opens the door using only its arm. With the door open, how many degrees of freedom does the mechanism formed by the arm and open door have?
 > - (c) A second identical mobile manipulator comes along, and after parking its mobile base, also rigidly grasps the refrigerator door handle. How many degrees of freedom does the mechanism formed by the two arms and the open refrigerator door have?
  
 <img src="./assets/images/fig_2_16.jpg" width="300">
@@ -93,9 +93,9 @@ $$
 - (c) $$DoF=2\cdot(10-4-6)+1=1$$
 
 >  _**Exercise 2.7**_ Three identical SRS open-chain arms are grasping a common object, as shown in Figure 2.17.
-> (a) Find the number of degrees of freedom of this system.
-> (b) Suppose there are now a total of n such arms grasping the object. How many degrees of freedom does this system have?
-> (c) Suppose the spherical wrist joint in each of the n arms is now replaced by a universal joint. How many degrees of freedom does this system have?
+> - (a) Find the number of degrees of freedom of this system.
+> - (b) Suppose there are now a total of n such arms grasping the object. How many degrees of freedom does this system have?
+> - (c) Suppose the spherical wrist joint in each of the n arms is now replaced by a universal joint. How many degrees of freedom does this system have?
  
 <img src="./assets/images/fig_2_17.jpg" width="300">
 - (a) $$\begin{align}
@@ -164,10 +164,10 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 
 > _**Exercise 2.13**_ In the parallel mechanism shown in Figure 2.22, six legs of identical length are connected to a fixed and moving platform via spherical joints. Determine the number of degrees of freedom of this mechanism using Grübler’s formula. Illustrate all possible motions of the upper platform.
 
-![fig_2_22](assets/images/fig_2_22.jpg)
+<img src="./assets/images/fig_2_22.jpg" width="400">
 
-> Exercise 2.14 The 3×UPU platform of Figure 2.23 consists of two platforms – the lower one stationary, the upper one mobile–connected by three UPU legs.\
-> - (a) Using the spatial version of Gru ̈bler’s formula, verify that it has three degrees of freedom.\
+> Exercise 2.14 The 3×UPU platform of Figure 2.23 consists of two platforms – the lower one stationary, the upper one mobile–connected by three UPU legs.
+> - (a) Using the spatial version of Gru ̈bler’s formula, verify that it has three degrees of freedom.
 
 
 $$\begin{align}
