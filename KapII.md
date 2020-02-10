@@ -151,6 +151,9 @@ $$\begin{align}
 \end{align}
 $$
 
+> Exercise 2.9 Use the planar version of Gru ̈bler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.18. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
+ 
+![fig_2_18](assets/images/fig_2_18.jpg)
 
 ***
 
