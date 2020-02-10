@@ -129,7 +129,20 @@ $$
 \end{align}
 $$
 
+> Exercise 2.8 Consider a spatial parallel mechanism consisting of a moving plate connected to a fixed plate by n identical legs. For the moving plate to have six degrees of freedom, how many degrees of freedom should each leg have, as a function of n? For example, if n = 3 then the moving plate and fixed plate are connected by three legs; how many degrees of freedom should each leg have for the moving plate to move with six degrees of freedom? Solve for arbitrary n.
 
+$$\begin{align}
+    \begin{split}
+        N &= 1(moving plate) + 1(fix plate/ground)\\
+        J &= n\\
+        \text{Let x be the No. of DoF of one leg.}\\
+        \text{Then, }\Sigma f_{i}&=x\cdot n\\
+        \text{DoF}&=6\cdot (2-1-n)+x\cdot n\\
+        &=6\\
+    \end{split}
+\end{align}
+$$
+It seems that the DoF is a constant.
 
 $$\begin{align}
     \begin{split}
