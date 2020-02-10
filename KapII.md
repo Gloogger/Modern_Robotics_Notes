@@ -185,8 +185,12 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 
 ![fig_2_25](assets/images/fig_2_25.jpg)
 
+> _**Exercise 2.17**_ Figure 2.26 shows a parallel robot used for surgical applications. As shown in Figure 2.26(a), leg A is an RRRP chain, while legs B and C are RRRUR chains. A surgical tool is rigidly attached to the end-effector.
+> - (a) Use Gru ̈bler’s formula to find the number of degrees of freedom of the mechanism in Figure 2.26(a).
+> - (b) Now suppose that the surgical tool must always pass through point A in Figure 2.26(a). How many degrees of freedom does the manipulator have?
+> - (c) Legs A, B, and C are now replaced by three identical RRRR legs as shown in Figure 2.26(b). Furthermore, the axes of all R joints pass through point A. Use Gru ̈bler’s formula to derive the number of degrees of freedom of this mechanism.
 
-
+![fig_2_26](assets/images/fig_2_26.jpg)
 
 
 $$\begin{align*}
