@@ -84,7 +84,7 @@ $$
 The base is kinematically equivalent to a rolling coin, then its C-space is $$\mathbb{R}^{2}\times \mathbb{T}^{2}$$. The C-space of a standard 6R robot is just plainly 6 rotational DoF, i.e. $$\mathbb{S}^{1}\times ...\times \mathbb{S}^{1}=\mathbb{T}^{6}$$. Altogether we have the system C-space as $$\mathbb{R}^{2}\times \mathbb{T}^{2}\times \mathbb{T}^{6}=\mathbb{R}^{2}\times \mathbb{T}^{8}$$.
 - (b) $$ \begin{align}
     \begin{split}
-        DoF &= 10(\text{total DoF})-4(\text{stationary base})
+        DoF &= 10(\text{total DoF})-4(\text{stationary base})\\
         &-6(\text{rigid body in space})+1(\text{door been free to rotate})\\
         &=1\\
     \end{split}
