@@ -178,12 +178,22 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 
 ![fig_2_24](assets/images/fig_2_24.jpg)
 
+> _**Exercise 2.16**_ Figure 2.25 shows a spherical four-bar linkage, in which four links (one of the links is the ground link) are connected by four revolute joints to form a single-loop closed chain. The four revolute joints are arranged so that they lie on a sphere such that their joint axes intersect at a common point.
+> - (a) Use Grübler’s formula to find the number of degrees of freedom. Justify your choice of formula.
+> - (b) Describe the configuration space.
+> - (c) Assuming that a reference frame is attached to the center link, describe its workspace.
 
-$$\begin{align}
+![fig_2_25](assets/images/fig_2_25.jpg)
+
+
+
+
+
+$$\begin{align*}
     \begin{split}
         \text{Valete discipulae et discipuli}
     \end{split}
-\end{align}
+\end{align*}
 $$
 
 ***
