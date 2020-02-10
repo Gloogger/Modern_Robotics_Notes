@@ -192,6 +192,14 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 
 ![fig_2_26](assets/images/fig_2_26.jpg)
 
+> _**Exercise 2.18**_ Figure 2.27 shows a 3×PUP platform, in which three identical PUP legs connect a fixed base to a moving platform. The P joints on both the fixed base and moving platform are arranged symmetrically. Use Gru ̈bler’s formula to find the number of degrees of freedom. Does your answer agree with your intuition about this mechanism? If not, try to explain any discrepancies without resorting to a detailed kinematic analysis.
+
+<img src="./assets/images/fig_2_27.jpg" width="300">
+
+> _**Exercise 2.19**_ The dual-arm robot of Figure 2.28 is rigidly grasping a box. The box can only slide on the table; the bottom face of the box must always be in contact with the table. How many degrees of freedom does this system have?
+
+![fig_2_28](assets/images/fig_2_28.jpg)
+
 
 $$\begin{align*}
     \begin{split}
