@@ -159,6 +159,10 @@ $$
 
 ![fig_2_19](assets/images/fig_2_19.jpg)
 
+> _**Exercise 2.11**_ Use the spatial version of Gru ̈bler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.20. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
+
+![fig_2_20](assets/images/fig_2_20.jpg)
+
 ***
 
 ## References
