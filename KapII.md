@@ -44,8 +44,8 @@ $$
 $$
 \begin{align}
     \begin{split}
-        \text{DoF} &= m(N-1)-\Sigma_{i=1}^{J}c_{i}\\
-        &= m(N-1-J)+\Sigma_{i=1}^{J}f_{i}\\
+        \text{DoF} &= m(N-1)-\sum_{i=1}^{J}c_{i}\\
+        &= m(N-1-J)+\sum_{i=1}^{J}f_{i}\\
         \text{where } m&=\text{DoF of a rigid body. For planar, m=3; for spatial, m=6}\\
         N&=\text{No. of links, always add 1 to account the ground}\\
         J&=\text{No. of joints}\\
@@ -342,12 +342,15 @@ With some math, the ratio of free C-space on original C-space can be calculated.
 - (a) A chalk in contact with the blackboard is an object on surface, therefore immediately we have $$\R^{2}&&. Then, the orientation of the chalk will affect the sharpness of the drawing, therefore we now have $$\R^{2}\times \S^{2}$$. Trivially, rotating the chalk about its central axis will not affect the drawing, thus the final task space is just $$\R^{2}\times \S^{2}$$.
 - (b) Not sure what does 'twirling a baton' refer to.
 
-> _**Exercise 2.29**_ Give a mathematical description of the topologies of the C-spaces of the following systems. Use cross products, as appropriate, of spaces such as a closed interval $$[a,b]$$ of a line and Rk, Sm, and Tn, where k, m, and n are chosen appropriately.
+> _**Exercise 2.29**_ Give a mathematical description of the topologies of the C-spaces of the following systems. Use cross products, as appropriate, of spaces such as a closed interval $$[a,b]$$ of a line and $$\R^{k}$$, $$\S^{m}$$, and $$\T^{n}$$, where k, m, and n are chosen appropriately.
 > - (a) The chassis of a car-like mobile robot rolling on an infinite plane.
 > - (b) The car-like mobile robot (chassis only) driving around on a spherical asteroid.
 > - (c) The car-like mobile robot (chassis only) on an infinite plane with an RRPR robot arm mounted on it. The prismatic joint has joint limits, but the revolute joints do not.
 > - (d) A free-flying spacecraft with a 6R arm mounted on it and no joint limits.
 
+- (a) $$\R^{2}\times \S^{1}$$
+- (b) $$\S^{2}\times \S^{1}$$
+- (c) $$ \underbrace{\R^{2}\times \S^{1}}{\text{chassis on plane}} \times \underbrace{\S^{1}\times \S^{1}\times \S^{1}}{\text{RRR joints}} \times \underbrace{[a,b]}{\text{limited P joint}} = \R^{2}\times \S^{2} \times \T^{3}\times [a,b]$$
 
 
 
