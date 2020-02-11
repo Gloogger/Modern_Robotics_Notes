@@ -357,6 +357,7 @@ With some math, the ratio of free C-space on original C-space can be calculated.
 > - (a) Let q = (x, y, $$\theta$$, $$\phi_{1}$$, $$\phi_{2}$$) be the configuration of the robot. If the two control inputs are the angular velocities of the wheels $$\omega_{1} = \dot{\phi_{1}}$$ and $$\omega_{2} = \dot{\phi_{2}}$$, write down the vector differential equation $$\dot{q} = g_{1}(q)\omega_{1} + g_{2}(q)\omega_{2}$$. The vector fields $$g_{1}(q)$$ and $$g_{2}(q)$$ are called control vector fields (see Section 13.3) and express how the system moves when the respective unit control signal is applied.
 > - (b) Write the corresponding Pfaffian constraints $$A(q)\dot{q} = \theta$$ for this system. How many Pfaffian constraints are there?
 > - (c) Are the constraints holonomic or nonholonomic? Or how many are holo- nomic and how many nonholonomic?
+![fig_2_34](assets/images/fig_2_34.jpg)
 
 - (a) The derivation of vector q in terms of $$\phi_{1}$$ and $$\phi_{2}$$ is shown below in the sketch:
 
@@ -431,7 +432,7 @@ There are 3 Pfaffian constraits.
 
 - (c) Not sure, it seems to me that all 3 Pfaffian constraints are integratable, since they are derived by differentiation. If it is really so, then all constraints are holonomic.
 
-## _fin_
+This is the end of Kapitel II Exercise Attempts.
 
 
 $$\begin{align*}
