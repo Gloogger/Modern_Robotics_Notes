@@ -405,7 +405,24 @@ $$
 \end{bmatrix}
 $$
 
-
+- (b) The Pfaffian form can be expressed as
+$$
+A(q)\dot{q} =
+\begin{bmatrix}
+    1 & 0 & 0 & -\frac{r}{2}\cos{\theta} & -\frac{r}{2}\cos{\theta} \\
+    0 & 1 & 0 & -\frac{r}{2}\sin{\theta} & -\frac{r}{2}\sin{\theta} \\
+    0 & 0 & 1 & \frac{r}{2d} & -\frac{r}{2d}\\
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+    \dot{x}\\
+    \dot{y}\\
+    \dot{\theta}\\
+    \dot{\phi_{1}}\\
+    \dot{\phi_{2}}
+\end{bmatrix}
+= \vec{0}
+$$
 
 
 $$\begin{align*}
