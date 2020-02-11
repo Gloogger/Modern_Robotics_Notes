@@ -237,7 +237,7 @@ It should be pointed out that the wings of the Dragonfly are free to move. This 
 
 > _**Exercise 2.23**_ Consider the slider–crank mechanism of Figure 2.4(b). A rotational motion at the revolute joint fixed to ground (the “crank”) causes a translational motion at the prismatic joint (the “slider”). Suppose that the two links connected to the crank and slider are of equal length. Determine the configuration space of this mechanism, and draw its projected version on the space defined by the crank and slider joint variables.
 
-![fig_2_4_(b)](assets/images/fig_2_4_(b).jpg)
+<img src="./assets/images/fig_2_4_(b).jpg" width="450">
 
 Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let x be
 
@@ -277,12 +277,12 @@ $$ \text{C-space} = \{x | g_{i}(x)\} $$
 Not sure of what is the question asking for the projection.
 
 > _**Exercise 2.26**_ The tip coordinates for the two-link planar 2R robot of Figure 2.33 are given by
-> $$ \begin{align} \begin{split} x&=2cosθ1 +cos(θ1 +θ2)\\ y &= 2 sin θ1 + sin(θ1 + θ2)\\ \end{split} \end{align}$$
+> $$ \begin{align} \begin{split} x&=2\cos{\theta_{1}} +\cos(\theta_{1}+\theta_{2})\\ y &= 2 \sin{\theta_{1}} + \sin{\theta_{1} + \theta_{2}}\\ \end{split} \end{align}$$
 > - (a) What is the robot’s configuration space?
 > - (b) What is the robot’s workspace (i.e., the set of all points reachable by the tip)?
 > - (c) Suppose infinitely long vertical barriers are placed at x = 1 and x = −1. What is the free C-space of the robot (i.e., the portion of the C-space that does not result in any collisions with the vertical barriers)?
 
-<img src="./assets/images/fig_2_33.jpg" width="300">
+<img src="./assets/images/fig_2_33.jpg" width="450">
 
 - (a) Let $$(x_{1},y_{1})$$ and $$(x_{2},y_{2})$$ be the centre of the two links respectively. Define vector $$q$$ as 
 
@@ -322,7 +322,11 @@ $$
 \text{Workspace} = \{ (x,y) | x=2c_{1}+c_{12}\text{, } y=2s_{1}+s_{12}, \theta_{i} \in (0,2\pi)  \}
 $$
 
-- (c) 
+- (c) The reacheable space is shown below in the sketch:
+
+<img src="./assets/images/sketch_1.jpg" width="450">
+
+with some math, the portion of free C-space on original C-space can be calculated. The calculation is skipped here.
 
 
 $$\begin{align*}
