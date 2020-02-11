@@ -240,24 +240,19 @@ It should be pointed out that the wings of the Dragonfly are free to move. This 
 ![fig_2_4_(b)](assets/images/fig_2_4_(b).jpg)
 
 Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let $$\theta_{1}$$, $$\theta_{2}$$, and $$x_{3}$$ be the joint variables.
+
 $$
-\text{Let}x=
+\text{Let}x=\left{[}\begin{matrix}x_{1}\y_{1}\x_{2}\y_{2}\x_{3}\y_{3}\\theta_{1}\\theta_{2}\\end{matrix}\right{]}
+$$
+Then, my constraint equation $$g(x)$$ will be,
+$$
+g_{i}(x)=
 \left{[}
     \begin{matrix}
-        x_{1}\
-        y_{1}\
-        x_{2}\
-        y_{2}\
-        x_{3}\
-        y_{3}\
-        \theta_{1}\
-        \theta_{2}\
+        g
     \end{matrix}
 \right{]}
 $$
-Then, my constraint equation $$g(x)$$ will be,
-
-
 
 
 
