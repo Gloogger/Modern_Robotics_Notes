@@ -375,8 +375,8 @@ $$
             \dot{\theta}\\
             \dot{\phi_{1}}\\
             \dot{\phi_{2}}
-        \end{bmatrix}\\
-        &=
+        \end{bmatrix}
+        =
         \begin{bmatrix}
             \frac{r}{2}(\omega_{1}+\omega_{2})\cos{\theta}\\
             \frac{r}{2}(\omega_{1}+\omega_{2})\sin{\theta}\\
