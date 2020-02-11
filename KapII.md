@@ -390,8 +390,23 @@ $$
 
 Rearrange the above equation as
 $$
-
+\dot{q} = 
+\begin{bmatrix}
+    \frac{r}{2}\cos{\theta} & \frac{r}{2}\cos{\theta}\\
+    \frac{r}{2}\sin{\theta} & \frac{r}{2}\sin{\theta}\\
+    -\frac{r}{2d} & \frac{r}{2d}\\
+    1 & 0\\
+    0 & 1\\
+\end{bmatrix}
+\cdot
+\begin{bmatrix}
+    \omega_{1}\\
+    \omega_{2}\\
+\end{bmatrix}
 $$
+
+
+
 
 $$\begin{align*}
     \begin{split}
