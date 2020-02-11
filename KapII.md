@@ -257,11 +257,22 @@ $$
 
 Then, let the constraint equations $$g_{i}(x)$$ be
 
-$$ g_{i}(x) = \left[\begin{matrix} x_{1}-\frac{L}{2}\cos{\theta_{1}} & y_{1}-\frac{L}{2}\sin{\theta_{1}} & x_{2}-L \cos{\theta_1} - \frac{L}{2}\cos{\theta_{2}} & y_{2}-L \sin{\theta_1} + \frac{L}{2}\sin{\theta_{2}} & x_{3} - L \cos{\theta_{1}} - L \cos{\theta_{2}} & y_{3} - L \sin{\theta_{1}} + L \sin{\theta_{2}} & y_{1} \end{matrix}\right] = \vec{0}$$
+$$ 
+g_{i}(x) = 
+\begin{bmatrix} 
+    x_{1}-\frac{L}{2}\cos{\theta_{1}} \\
+    y_{1}-\frac{L}{2}\sin{\theta_{1}} \\
+    x_{2}-L \cos{\theta_1} - \frac{L}{2}\cos{\theta_{2}} \\
+    y_{2}-L \sin{\theta_1} + \frac{L}{2}\sin{\theta_{2}} \\
+    x_{3} - L \cos{\theta_{1}} - L \cos{\theta_{2}} \\
+    y_{3} - L \sin{\theta_{1}} + L \sin{\theta_{2}} \\
+    y_{1} 
+\end{bmatrix}
+= \vec{0}$$
 
 The C-space is then defined as
 
-$$ \text{C-space} = \left{x | g_{i}(x)\right} $$
+$$ \text{C-space} = \{x | g_{i}(x)\} $$
 
 Not sure of what is the question asking for the projection.
 
