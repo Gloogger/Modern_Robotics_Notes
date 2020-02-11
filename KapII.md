@@ -15,9 +15,16 @@ is_project_page: false
 ## Useful Notes and Equations
 Before diving into the quesitons, some of the most handy notes and equations will be summarized in this section.
 
+##### Configuration & C-space
 > **Definition 2.1.** The **configuration** of a robot is a complete specification of the position of every point of the robot. The minimum number n of **real-valued** coordinates needed to represent the configuration is the number of **degrees of freedom (dof)** of the robot. The n-dimensional space containing all possible configurations of the robot is called the **configuration space (C-space)**. The configuration of a robot is represented by a point in its C-space. 
 
-It is worth noticing that a dof has to be real-valued coordinates. For instance, a discrete coordinate of a coin, $${head, tail}$$, cannot be a dof, because its range is not real.
+##### Task Space
+Is the space containing all the configurations specified by the tasks. This space is independent of the physical robot mechanism.
+
+##### Workspace
+Is the C-space of the end-effector of the robot. The workspace can be interpreted as the reacheable space of the end-effector.
+
+It is also worth noticing that a dof has to be real-valued coordinates. For instance, a discrete coordinate of a coin, $${head, tail}$$, cannot be a dof, because its range is not real.
 
 ### Tables
 All pictures, tables, charts, unless noted otherwise, are taken from \[1].
@@ -326,7 +333,22 @@ $$
 
 <img src="./assets/images/sketch_1.jpg" width="450">
 
-with some math, the portion of free C-space on original C-space can be calculated. The calculation is skipped here.
+With some math, the ratio of free C-space on original C-space can be calculated. The calculation is skipped here.
+
+> _**Exercise 2.28**_ Task space.
+> - (a) Describe the task space for a robot arm writing on a blackboard. 
+> - (b) Describe the task space for a robot arm twirling a baton.
+
+- (a) A chalk in contact with the blackboard is an object on surface, therefore immediately we have $$\R^{2}&&. Then, the orientation of the chalk will affect the sharpness of the drawing, therefore we now have $$\R^{2}\times \S^{2}$$. Trivially, rotating the chalk about its central axis will not affect the drawing, thus the final task space is just $$\R^{2}\times \S^{2}$$.
+- (b) Not sure what does 'twirling a baton' refer to.
+
+> _**Exercise 2.29**_ Give a mathematical description of the topologies of the C-spaces of the following systems. Use cross products, as appropriate, of spaces such as a closed interval $$[a,b]$$ of a line and Rk, Sm, and Tn, where k, m, and n are chosen appropriately.
+> - (a) The chassis of a car-like mobile robot rolling on an infinite plane.
+> - (b) The car-like mobile robot (chassis only) driving around on a spherical asteroid.
+> - (c) The car-like mobile robot (chassis only) on an infinite plane with an RRPR robot arm mounted on it. The prismatic joint has joint limits, but the revolute joints do not.
+> - (d) A free-flying spacecraft with a 6R arm mounted on it and no joint limits.
+
+
 
 
 $$\begin{align*}
