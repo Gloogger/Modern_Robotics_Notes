@@ -14,6 +14,11 @@ is_project_page: false
 
 ## Useful Notes and Equations
 Before diving into the quesitons, some of the most handy notes and equations will be summarized in this section.
+
+> **Definition 2.1.** The **configuration** of a robot is a complete specification of the position of every point of the robot. The minimum number n of **real-valued** coordinates needed to represent the configuration is the number of **degrees of freedom (dof)** of the robot. The n-dimensional space containing all possible configurations of the robot is called the **configuration space (C-space)**. The configuration of a robot is represented by a point in its C-space. 
+
+It is worth noticing that a dof has to be real-valued coordinates. For instance, a discrete coordinate of a coin, $${head, tail}$$, cannot be a dof, because its range is not real.
+
 ### Tables
 All pictures, tables, charts, unless noted otherwise, are taken from \[1].
 ![Comman Joints and their DoF](assets/images/kapII_pic_1.jpg)
@@ -35,13 +40,20 @@ $$
         \text{DoF} &= m(N-1)-\Sigma_{i=1}^{J}c_{i}\\
         &= m(N-1-J)+\Sigma_{i=1}^{J}f_{i}\\
         \text{where } m&=\text{DoF of a rigid body. For planar, m=3; for spatial, m=6}\\
-        N&=\text{No. of links, always add 1 to count for the ground}\\
+        N&=\text{No. of links, always add 1 to account the ground}\\
         J&=\text{No. of joints}\\
         c_{i}&=\text{No. of constraints provided by ith joint}\\
         f_{i}&=\text{No. of DoF provided by ith joint}
     \end{split}
 \end{align}
 $$
+
+N.B. that:
+- Watch out for overlapping joints. If three links are connected to the same joint, then there are actually 2 joints!
+- When dealing with constraints, try to model them as a special kind of joints. 
+  - A point constraint (e.g., the end-effector must pass through a given point in space) is equivalent to a SP joint;
+  - A surface constraint (e.g., a block sliding on a surface) is equivalent to a RP2 joint.
+  - If a mechanism is consisted of purely revolute joints and have their axes of rotation meeting at a single point, then the system is actually confined to move on a surface of sphere. In this case, choose $$m = 3$$.
 
 ***
 
@@ -199,6 +211,18 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 > _**Exercise 2.19**_ The dual-arm robot of Figure 2.28 is rigidly grasping a box. The box can only slide on the table; the bottom face of the box must always be in contact with the table. How many degrees of freedom does this system have?
 
 ![fig_2_28](assets/images/fig_2_28.jpg)
+
+> _**Exercise 2.20**_ The dragonfly robot of Figure 2.29 has a body, four legs, and four wings as shown. Each leg is connected to each adjacent leg by a USP linkage. Use Gru ̈bler’s formula to answer the following questions.
+> - (a) Suppose the body is fixed and only the legs and wings can move. How many degrees of freedom does the robot have?
+> - (b) Now suppose the robot is flying in the air. How many degrees of freedom does the robot have?
+> - (c) Now suppose the robot is standing with all four feet in contact with the ground. Assume that the ground is uneven and that each foot–ground contact can be modeled as a point contact with no slip. How many degrees of freedom does the robot have? Explain your answer.
+
+
+
+
+
+
+
 
 
 $$\begin{align*}
