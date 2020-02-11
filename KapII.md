@@ -50,9 +50,9 @@ $$
 
 N.B. that:
 - Watch out for overlapping joints. If three links are connected to the same joint, then there are actually 2 joints!
-- When dealing with constraints, try to model them as a special kind of joints. 
+- When dealing with constraints, try to model them as a special kind of joints:
   - A point constraint (e.g., the end-effector must pass through a given point in space) is equivalent to a SP joint;
-  - A surface constraint (e.g., a block sliding on a surface) is equivalent to a RP2 joint.
+  - A surface constraint (e.g., a block sliding on a surface) is equivalent to a RP2 joint;
   - If a mechanism is consisted of purely revolute joints and have their axes of rotation meeting at a single point, then the system is actually confined to move on a surface of sphere. In this case, choose $$m = 3$$.
 
 ***
@@ -198,13 +198,13 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 ![fig_2_25](assets/images/fig_2_25.jpg)
 
 > _**Exercise 2.17**_ Figure 2.26 shows a parallel robot used for surgical applications. As shown in Figure 2.26(a), leg A is an RRRP chain, while legs B and C are RRRUR chains. A surgical tool is rigidly attached to the end-effector.
-> - (a) Use Gru ̈bler’s formula to find the number of degrees of freedom of the mechanism in Figure 2.26(a).
+> - (a) Use Grübler’s formula to find the number of degrees of freedom of the mechanism in Figure 2.26(a).
 > - (b) Now suppose that the surgical tool must always pass through point A in Figure 2.26(a). How many degrees of freedom does the manipulator have?
 > - (c) Legs A, B, and C are now replaced by three identical RRRR legs as shown in Figure 2.26(b). Furthermore, the axes of all R joints pass through point A. Use Gru ̈bler’s formula to derive the number of degrees of freedom of this mechanism.
 
 ![fig_2_26](assets/images/fig_2_26.jpg)
 
-> _**Exercise 2.18**_ Figure 2.27 shows a 3×PUP platform, in which three identical PUP legs connect a fixed base to a moving platform. The P joints on both the fixed base and moving platform are arranged symmetrically. Use Gru ̈bler’s formula to find the number of degrees of freedom. Does your answer agree with your intuition about this mechanism? If not, try to explain any discrepancies without resorting to a detailed kinematic analysis.
+> _**Exercise 2.18**_ Figure 2.27 shows a 3×PUP platform, in which three identical PUP legs connect a fixed base to a moving platform. The P joints on both the fixed base and moving platform are arranged symmetrically. Use Grbler’s formula to find the number of degrees of freedom. Does your answer agree with your intuition about this mechanism? If not, try to explain any discrepancies without resorting to a detailed kinematic analysis.
 
 <img src="./assets/images/fig_2_27.jpg" width="300">
 
@@ -212,14 +212,25 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 
 ![fig_2_28](assets/images/fig_2_28.jpg)
 
-> _**Exercise 2.20**_ The dragonfly robot of Figure 2.29 has a body, four legs, and four wings as shown. Each leg is connected to each adjacent leg by a USP linkage. Use Gru ̈bler’s formula to answer the following questions.
+> _**Exercise 2.20**_ The dragonfly robot of Figure 2.29 has a body, four legs, and four wings as shown. Each leg is connected to each adjacent leg by a USP linkage. Use Grübler’s formula to answer the following questions.
 > - (a) Suppose the body is fixed and only the legs and wings can move. How many degrees of freedom does the robot have?
 > - (b) Now suppose the robot is flying in the air. How many degrees of freedom does the robot have?
 > - (c) Now suppose the robot is standing with all four feet in contact with the ground. Assume that the ground is uneven and that each foot–ground contact can be modeled as a point contact with no slip. How many degrees of freedom does the robot have? Explain your answer.
 
-
-
-
+<img src="./assets/images/fig_2_29.jpg" width="450">
+- (c) The legs on the ground can be viewed as a point constraint that does not allow translation, therefore it can be modeled as merely a S joint. In doing so, by Grübler's formula we have:
+$$
+\begin{align*}
+    \begin{split}
+        N&=18\\
+        J&=20+4S=24\\
+        \Sigma f_{i}&=32+4\cdot (3)=44\\
+        DoF &= 6\cdot (18-1-24)+44\\
+        &=2\\
+    \end{split}
+\end{align*}
+$$
+It should be pointed out that the wings of the Dragonfly are free to move. This means that the wings have 4 DoF, while the entire system only has 2. It might imply that the rest of the system has negative DoF. I am not sure whether this is showing that the existence of dependent joints (in this case the Grübler's formula will give negative DoF), or it is showing that there are extra constraints applied to the system.
 
 
 
