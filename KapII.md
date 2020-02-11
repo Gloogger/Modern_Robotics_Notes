@@ -362,9 +362,9 @@ $$
 $$
 
 > _**Exercise 2.31**_ A differential-drive mobile robot has two wheels that do not steer but whose speeds can be controlled independently. The robot goes forward and backward by spinning the wheels in the same direction at the same speed, and it turns by spinning the wheels at different speeds. The configuration of the robot is given by five variables: the $$(x, y)$$ location of the point halfway between the wheels, the heading direction $$\theta$$ of the robot’s chassis relative to the x-axis of the world frame, and the rotation angles $$\phi_{1}$$ and $$\phi_{2}$$ of the two wheels about the axis through the centers of the wheels (Figure 2.34). Assume that the radius of each wheel is r and the distance between the wheels is 2d.
-(a) Let q = (x, y, $$\theta$$, $$\phi_{1}$$, $$\phi_{2}$$) be the configuration of the robot. If the two control inputs are the angular velocities of the wheels ω1 = φ ̇1 and ω2 = φ ̇2, write down the vector differential equation q ̇ = g1(q)ω1 + g2(q)ω2. The vector fields g1(q) and g2(q) are called control vector fields (see Section 13.3) and express how the system moves when the respective unit control signal is applied.
-(b) Write the corresponding Pfaffian constraints A(q)q ̇ = 0 for this system. How many Pfaffian constraints are there?
-(c) Are the constraints holonomic or nonholonomic? Or how many are holo- nomic and how many nonholonomic?
+> - (a) Let q = (x, y, $$\theta$$, $$\phi_{1}$$, $$\phi_{2}$$) be the configuration of the robot. If the two control inputs are the angular velocities of the wheels $$\omega_{1} = \dot{\phi_{1}}$$ and $$\omega_{2} = \dot{\phi_{2}}$$, write down the vector differential equation $$\dot{q} = g_{1}(q)\omega_{1} + g_{2}(q)\omega_{2}$$. The vector fields $$g_{1}(q)$$ and $$g_{2}(q)$$ are called control vector fields (see Section 13.3) and express how the system moves when the respective unit control signal is applied.
+> - (b) Write the corresponding Pfaffian constraints $$A(q)\dot{q} = \theta$$ for this system. How many Pfaffian constraints are there?
+> - (c) Are the constraints holonomic or nonholonomic? Or how many are holo- nomic and how many nonholonomic?
 
 
 $$\begin{align*}
