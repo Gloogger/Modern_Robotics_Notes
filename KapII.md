@@ -277,8 +277,7 @@ $$ \text{C-space} = \{x | g_{i}(x)\} $$
 Not sure of what is the question asking for the projection.
 
 > _**Exercise 2.26**_ The tip coordinates for the two-link planar 2R robot of Figure 2.33 are given by
-> - x=2cosθ1 +cos(θ1 +θ2)
-> - y = 2 sin θ1 + sin(θ1 + θ2).
+> $$ \begin{align} \begin{split} x&=2cosθ1 +cos(θ1 +θ2)\\ y &= 2 sin θ1 + sin(θ1 + θ2)\\ \end{split} \end{align}$$
 > - (a) What is the robot’s configuration space?
 > - (b) What is the robot’s workspace (i.e., the set of all points reachable by the tip)?
 > - (c) Suppose infinitely long vertical barriers are placed at x = 1 and x = −1. What is the free C-space of the robot (i.e., the portion of the C-space that does not result in any collisions with the vertical barriers)?
