@@ -239,7 +239,7 @@ It should be pointed out that the wings of the Dragonfly are free to move. This 
 
 ![fig_2_4_(b)](assets/images/fig_2_4_(b).jpg)
 
-Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let $$\theta_{1}$$, $$\theta_{2}$$, and $$x_{3}$$ be the joint variables. Let x be
+Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let x be
 
 $$ 
 x = 
@@ -282,6 +282,44 @@ Not sure of what is the question asking for the projection.
 > - (a) What is the robot’s configuration space?
 > - (b) What is the robot’s workspace (i.e., the set of all points reachable by the tip)?
 > - (c) Suppose infinitely long vertical barriers are placed at x = 1 and x = −1. What is the free C-space of the robot (i.e., the portion of the C-space that does not result in any collisions with the vertical barriers)?
+
+<img src="./assets/images/fig_2_33.jpg" width="300">
+
+- (a) Let $$(x_{1},y_{1})$$ and $$(x_{2},y_{2})$$ be the centre of the two links respectively. Define vector $$q$$ as 
+
+$$
+q = 
+\begin{bmatrix}
+    x_{1}\\
+    y_{1}\\
+    x_{2}\\
+    y_{2}\\
+    \theta_{1}\\
+    \theta_{2}
+\end{bmatrix}
+$$
+
+The constraint equations $$g_{i}(x)$$ can be defined as
+
+$$
+g_{i}(x) = 
+\begin{bmatrix}
+    x_{1} - \frac{2}{2} \cos{\theta_{1}} \\
+    y_{1} - \frac{2}{2} \sin{\theta_{2}} \\
+    x_{2} - 2 \cos{\theta_{1}} - \frac{1}{2} \cos{\theta_{1}+\theta_{2}} \\
+    y_{2} - 2 \sin{\theta_{1}} - \frac{1}{2} \sin{\theta_{1}+\theta_{2}} \\
+\end{bmatrix}
+= \vec{0}
+$$
+
+The C-space can therefore be defined as
+
+$$
+\text{C-space} = \{q | g_{i}(x)\}
+$$
+
+- (b) 
+
 
 $$\begin{align*}
     \begin{split}
