@@ -353,9 +353,13 @@ $$\mathbb{R}^{2}\times \mathbb{S}^{1}$$
 - (b) 
 $$\mathbb{S}^{2}\times \mathbb{S}^{1}$$
 - (c) 
-$$ \underbrace{\mathbb{R}^{2}\times \mathbb{S}^{1}}{\text{chassis on plane}} \times \underbrace{\mathbb{S}^{1}\times \mathbb{S}^{1}\times \mathbb{S}^{1}}{\text{RRR joints}} \times \underbrace{[a,b]}{\text{limited P joint}} = \mathbb{R}^{2}\times \mathbb{S}^{2} \times \mathbb{T}^{3}\times [a,b]$$
+$$ 
+\underbrace{\mathbb{R}^{2}\times \mathbb{S}^{1}}{\text{chassis on plane}} \times \underbrace{\mathbb{S}^{1}\times \mathbb{S}^{1}\times \mathbb{S}^{1}}{\text{RRR joints}} \times \underbrace{[a,b]}{\text{limited P joint}} = \mathbb{R}^{2}\times \mathbb{S}^{2} \times \mathbb{T}^{3}\times [a,b]
+$$
 - (d)
-$$ \underbrace{\mathbb{R}^{3}\times \mathbb{S}^{2} \times \mathbb{S}^{1}}{\text{rigid body in space}} \times \underbrace{\mathbb{T}^{6}}{\text{6R arm}} = \mathbb{R}^{3}\times \mathbb{S}^{2} \times \mathbb{T}^{7}$$
+$$ 
+\underbrace{\mathbb{R}^{3}\times \mathbb{S}^{2} \times \mathbb{S}^{1}}{\text{rigid body in space}} \times \underbrace{\mathbb{T}^{6}}{\text{6R arm}} = \mathbb{R}^{3}\times \mathbb{S}^{2} \times \mathbb{T}^{7}
+$$
 
 
 $$\begin{align*}
