@@ -241,7 +241,19 @@ It should be pointed out that the wings of the Dragonfly are free to move. This 
 
 Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let $$\theta_{1}$$, $$\theta_{2}$$, and $$x_{3}$$ be the joint variables. Let x be
 
-$$ x = \left[\begin{bmatrix} x_{1} \\ y_{1} \\ x_{2} \\ y_{2} \\ x_{3} \\ y_{3} \\ \theta_{1} \\ \theta_{2} \end{bmatrix}\right]$$
+$$ 
+x = 
+\begin{bmatrix} 
+    x_{1} \\ 
+    y_{1} \\ 
+    x_{2} \\ 
+    y_{2} \\ 
+    x_{3} \\ 
+    y_{3} \\ 
+    \theta_{1} \\ 
+    \theta_{2} 
+\end{bmatrix}
+$$
 
 Then, let the constraint equations $$g_{i}(x)$$ be
 
@@ -252,6 +264,13 @@ The C-space is then defined as
 $$ \text{C-space} = \left{x | g_{i}(x)\right} $$
 
 Not sure of what is the question asking for the projection.
+
+> _**Exercise 2.26**_ The tip coordinates for the two-link planar 2R robot of Figure 2.33 are given by
+> - x=2cosθ1 +cos(θ1 +θ2)
+> - y = 2 sin θ1 + sin(θ1 + θ2).
+> - (a) What is the robot’s configuration space?
+> - (b) What is the robot’s workspace (i.e., the set of all points reachable by the tip)?
+> - (c) Suppose infinitely long vertical barriers are placed at x = 1 and x = −1. What is the free C-space of the robot (i.e., the portion of the C-space that does not result in any collisions with the vertical barriers)?
 
 $$\begin{align*}
     \begin{split}
