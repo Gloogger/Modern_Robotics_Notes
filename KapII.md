@@ -365,6 +365,7 @@ With some math, the ratio of free C-space on original C-space can be calculated.
 For a more detailed derivation, check this [note](http://planning.cs.uiuc.edu/node659.html).
 
 Based on that, we get 
+
 $$
 \begin{align}
     \begin{split}
@@ -389,6 +390,7 @@ $$
 $$
 
 Rearrange the above equation as
+
 $$
 \dot{q} = 
 \begin{bmatrix}
@@ -406,6 +408,7 @@ $$
 $$
 
 - (b) The Pfaffian form can be expressed as
+
 $$
 A(q)\dot{q} =
 \begin{bmatrix}
@@ -423,6 +426,12 @@ A(q)\dot{q} =
 \end{bmatrix}
 = \vec{0}
 $$
+
+There are 3 Pfaffian constraits.
+
+- (c) Not sure, it seems to me that all 3 Pfaffian constraints are integratable, since they are derived by differentiation. If it is really so, then all constraints are holonomic.
+
+## _fin_
 
 
 $$\begin{align*}
