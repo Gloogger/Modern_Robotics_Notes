@@ -239,22 +239,13 @@ It should be pointed out that the wings of the Dragonfly are free to move. This 
 
 ![fig_2_4_(b)](assets/images/fig_2_4_(b).jpg)
 
-Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let $$\theta_{1}$$, $$\theta_{2}$$, and $$x_{3}$$ be the joint variables.
+Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let $$\theta_{1}$$, $$\theta_{2}$$, and $$x_{3}$$ be the joint variables. Let x be
 
-$$
-\text{Let}x=\left{[}\begin{matrix}x_{1}\y_{1}\x_{2}\y_{2}\x_{3}\y_{3}\\theta_{1}\\theta_{2}\\end{matrix}\right{]}
-$$
-Then, my constraint equation $$g(x)$$ will be,
-$$
-g_{i}(x)=
-\left{[}
-    \begin{matrix}
-        g
-    \end{matrix}
-\right{]}
-$$
+$$ x = \left[\begin{matrix} x_{1} \ y_{1} \ x_{2} \ y_{2} \ x_{3} \ y_{3} \ \theta_{1} \ \theta_{2} \end{matrix}\right]$$
 
+Then, let the constraint equations $$g_{i}(x)$$ be
 
+$$ g_{i}(x) = \left[\begin{matrix} x_{1}-\frac{L}{2}\cos{\theta_{1}} \ y_{1}-\frac{L}{2}\sin{\theta_{1}} \ x_{2}-L \cos{\theta_1} - \frac{L}{2}\cos{\theta_{2}} \ y_{2}-L \sin{\theta_1} + \frac{L}{2}\sin{\theta_{2}} \ x_{3} - L \cos{\theta_{1}} - L \cos{\theta_{2}} \ y_{3} - L \sin{\theta_{1}} + L \sin{\theta_{2}} \ y_{1} \end{matrix}\right] = \vec{0}$$
 
 
 $$\begin{align*}
