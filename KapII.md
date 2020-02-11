@@ -218,7 +218,9 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 > - (c) Now suppose the robot is standing with all four feet in contact with the ground. Assume that the ground is uneven and that each foot–ground contact can be modeled as a point contact with no slip. How many degrees of freedom does the robot have? Explain your answer.
 
 <img src="./assets/images/fig_2_29.jpg" width="450">
+
 - (c) The legs on the ground can be viewed as a point constraint that does not allow translation, therefore it can be modeled as merely a S joint. In doing so, by Grübler's formula we have:
+
 $$
 \begin{align*}
     \begin{split}
@@ -230,7 +232,31 @@ $$
     \end{split}
 \end{align*}
 $$
+
 It should be pointed out that the wings of the Dragonfly are free to move. This means that the wings have 4 DoF, while the entire system only has 2. It might imply that the rest of the system has negative DoF. I am not sure whether this is showing that the existence of dependent joints (in this case the Grübler's formula will give negative DoF), or it is showing that there are extra constraints applied to the system.
+
+> _**Exercise 2.23**_ Consider the slider–crank mechanism of Figure 2.4(b). A rotational motion at the revolute joint fixed to ground (the “crank”) causes a translational motion at the prismatic joint (the “slider”). Suppose that the two links connected to the crank and slider are of equal length. Determine the configuration space of this mechanism, and draw its projected version on the space defined by the crank and slider joint variables.
+
+![fig_2_4_(b)](assets/images/fig_2_4_(b).jpg)
+
+Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let $$\theta_{1}$$, $$\theta_{2}$$, and $$x_{3}$$ be the joint variables.
+$$
+\text{Let}x=
+\left{[}
+    \begin{matrix}
+        x_{1}\
+        y_{1}\
+        x_{2}\
+        y_{2}\
+        x_{3}\
+        y_{3}\
+        \theta_{1}\
+        \theta_{2}\
+    \end{matrix}
+\right{]}
+$$
+Then, my constraint equation $$g(x)$$ will be,
+
 
 
 
