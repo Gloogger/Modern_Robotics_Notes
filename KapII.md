@@ -318,7 +318,10 @@ $$
 \text{C-space} = \{q | g_{i}(x)\}
 $$
 
-- (b) 
+- (b) The workspace can be defined as 
+$$
+\text{Workspace} = \{ (x,y) | x=2c_{1}+c_{12}\text{, } y=2s_{1}+s_{12}, \theta_{i} \in (0,2\pi)  \}
+$$
 
 
 $$\begin{align*}
