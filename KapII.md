@@ -249,7 +249,7 @@ $$ g_{i}(x) = \left[\begin{matrix} x_{1}-\frac{L}{2}\cos{\theta_{1}} & y_{1}-\fr
 
 The C-space is then defined as
 
-$$ C-space = {x | g_{i}(x)} $$
+$$ \text{C-space} = \left{x | g_{i}(x)\right} $$
 
 Not sure of what is the question asking for the projection.
 
