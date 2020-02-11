@@ -363,7 +363,23 @@ $$
 
 ![sketch_2](assets/images/sketch_2.jpg)
 
-Based on that, we get
+For a more detailed derivation, check this [note](http://planning.cs.uiuc.edu/node659.html).
+
+Based on that, we get 
+$$
+\begin{align}
+    \begin{split}
+        \dot{q} &= 
+        \begin{bmatrix}
+        \dot{x}\\
+        \dot{y}\\
+        \dot{\theta}\\
+        \dot{\phi_{1}}\\
+        \dot{\phi_{2}}
+        \end{bmatrix}\\
+    \end{split}
+\end{align}
+$$
 
 
 $$\begin{align*}
