@@ -1,7 +1,7 @@
 title: Modern Robotics Notes
 description: Notes taken for the Coursera MOOC 'Modern Robotics'
 show_downloads: false
-google_analytics: false
+google_analytics: true
 theme: jekyll-theme-cayman
 mathjax: true
 markdown: kramdown
