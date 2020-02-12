@@ -99,7 +99,9 @@ $$
 > - (b) Now suppose that the robot hand rigidly grasps a refrigerator door handle and, with its wheel and base completely stationary, opens the door using only its arm. With the door open, how many degrees of freedom does the mechanism formed by the arm and open door have?
 > - (c) A second identical mobile manipulator comes along, and after parking its mobile base, also rigidly grasps the refrigerator door handle. How many degrees of freedom does the mechanism formed by the two arms and the open refrigerator door have?
  
-<img src="./assets/images/fig_2_16.jpg" width="300">
+<p align="center">
+    <img src="https://lh6.googleusercontent.com/fcD20HMWPhZtqpiNMv1PaRFJ-eZ4klQ9Il3ADLI3-AjcO_caBAGhyp5LhIdlNa5tTc1ne_drPzRWXcGr6NY_=w2880-h1380" width="300">
+</p>
 
 - (a) 
 The base is kinematically equivalent to a rolling coin, then its C-space is $$\mathbb{R}^{2}\times \mathbb{T}^{2}$$. The C-space of a standard 6R robot is just plainly 6 rotational DoF, i.e. $$\mathbb{S}^{1}\times ...\times \mathbb{S}^{1}=\mathbb{T}^{6}$$. Altogether we have the system C-space as $$\mathbb{R}^{2}\times \mathbb{T}^{2}\times \mathbb{T}^{6}=\mathbb{R}^{2}\times \mathbb{T}^{8}$$.
@@ -117,8 +119,11 @@ $$
 > - (a) Find the number of degrees of freedom of this system.
 > - (b) Suppose there are now a total of n such arms grasping the object. How many degrees of freedom does this system have?
 > - (c) Suppose the spherical wrist joint in each of the n arms is now replaced by a universal joint. How many degrees of freedom does this system have?
- 
-<img src="./assets/images/fig_2_17.jpg" width="300">
+
+<p align="center">
+<img src="https://lh3.googleusercontent.com/htKLo4tjEyTMxElQlO5wfftGDhIrHTof4MAjjMRJrWQDHphreOC4Qnt5ewdmFWEZCObRmlvlXt3ucbawY1IN=w2880-h1380-rw" width="450">
+</p>
+
 - (a) $$\begin{align}
     \begin{split}
         N &= 3\cdot(2)+1\\
@@ -166,8 +171,11 @@ $$
 It seems that the DoF is a constant.
 
 >  _**Exercise 2.9**_ Use the planar version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.18. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
- 
-![fig_2_18](assets/images/fig_2_18.jpg)
+
+<p align="center">
+    <img src="https://lh4.googleusercontent.com/-bkL_atgbm_kh4sBhvvNkqJb7r9z9VwbijLs2xOMStSHbWJmEfTTVRBXRraUFvFpbYcCzRCVmQOdTLNP8eYw=w2880-h1380-rw">
+</p>
+
 
 >  _**Exercise 2.10**_ Use the planar version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.19. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
 
