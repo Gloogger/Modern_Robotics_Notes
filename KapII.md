@@ -121,7 +121,7 @@ $$
 > - (c) Suppose the spherical wrist joint in each of the n arms is now replaced by a universal joint. How many degrees of freedom does this system have?
 
 <p align="center">
-<img src="https://lh3.googleusercontent.com/htKLo4tjEyTMxElQlO5wfftGDhIrHTof4MAjjMRJrWQDHphreOC4Qnt5ewdmFWEZCObRmlvlXt3ucbawY1IN=w2880-h1380-rw" width="450">
+    <img src="https://lh3.googleusercontent.com/htKLo4tjEyTMxElQlO5wfftGDhIrHTof4MAjjMRJrWQDHphreOC4Qnt5ewdmFWEZCObRmlvlXt3ucbawY1IN=w2880-h1380-rw" width="450">
 </p>
 
 - (a) $$\begin{align}
@@ -179,27 +179,37 @@ It seems that the DoF is a constant.
 
 >  _**Exercise 2.10**_ Use the planar version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.19. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
 
-![fig_2_19](assets/images/fig_2_19.jpg)
+<p align="center">
+    <img src="https://lh3.googleusercontent.com/4y4SglKemYFinD_enodU_GwtSVIs2wMmrfzf8wZ83dTQ5r60llWuAs2_-GkROXRBpdbx0oLw4Io-cJTT21Xw=w2880-h1380-rw">
+</p>
 
 > _**Exercise 2.11**_ Use the spatial version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.20. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
 
-![fig_2_20](assets/images/fig_2_20.jpg)
+<p align="center">
+    <img src="https://lh3.googleusercontent.com/7BlMUPNKZevsGQXuXg1TnVLlyQjkfDCMAV6kuQhSoET8kQBcOigR5n0NkMHOQWV0GZ_EjI6NPVrjFIfyEJhQ=w2880-h1380-rw">
+</p>
 
 > _**Exercise 2.12**_ Use the spatial version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.21. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
 
-![fig_2_21](assets/images/fig_2_21.jpg)
+<p align="center">
+    <img src="https://lh4.googleusercontent.com/5fCYQTQSfeYvWCQNMayz17drcVtLzjBrNW68mBUx-RzR6PXf36u2CNQk1hmpdBwie16OdPjYfZHG3f76jIPh=w2880-h1380-rw">
+</p>
 
 For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or lazy Tongs), which is a kind of planar four-bar linkage. Such structure provides 1 DoF.
 
 > _**Exercise 2.13**_ In the parallel mechanism shown in Figure 2.22, six legs of identical length are connected to a fixed and moving platform via spherical joints. Determine the number of degrees of freedom of this mechanism using Grübler’s formula. Illustrate all possible motions of the upper platform.
 
-<img src="./assets/images/fig_2_22.jpg" width="400">
+<p align="center">
+    <img src="https://lh3.googleusercontent.com/znibLNzCcjBsa4WcKy1blWFcI62X7l0V-IT9A06wwwfACqTSpP-y-IJ3Iice1RJBTT6hKibCjoI02YvzZ7gM=w2880-h1380-rw" width="400">
+</p>
 
 > _**Exercise 2.14**_ The 3×UPU platform of Figure 2.23 consists of two platforms – the lower one stationary, the upper one mobile–connected by three UPU legs.
 > - (a) Using the spatial version of Grübler’s formula, verify that it has three degrees of freedom.
 > - (b) Construct a physical model of the 3×UPU platform to see if it indeed has three degrees of freedom. In particular, lock the three P joints in place; does the robot become a rigid structure as predicted by Grübler’s formula, or does it move?
 
-<img src="./assets/images/fig_2_23.jpg" width="400">
+<p align="center">
+    <img src="https://lh4.googleusercontent.com/sFyXY8yTrgIroNHBbuLwLKmt9-ELN-cUIUlsTbhLq44qhMHr_KwbkxbL7LV3xzYU3Ml8c-CEsKhiZDm4vuos=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_23.jpg" aria-hidden="true" width="500">
+</p>
 
 > _**Exercise 2.15**_ The mechanisms of Figures 2.24(a) and 2.24(b).
 > - (a) The mechanism of Figure 2.24(a) consists of six identical squares arranged in a single closed loop, connected by revolute joints. The bottom square is fixed to ground. Determine the number of degrees of freedom using Grübler’s formula.
