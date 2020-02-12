@@ -75,8 +75,10 @@ Generalize this idea we have $$\mathbb{R}^{n}\times \mathbb{S}^{n-1}\times \math
 The wheel is a fixed rigid body in space, therefore it adds 6 constraints to the system. Then, each of your hand has a $$DoF = n-6 $$. Together you have $$DoF = 2n-12$$. However, if the wheel is free to rotate, then it adds 1 extra DoF to the system. In this case you have $$DoF = 2n-11$$.
 
 > _**Exercise 2.5**_ Figure 2.15 shows a robot used for human arm rehabilitation. Determine the number of degrees of freedom of the chain formed by the human arm and the robot. 
- 
-<img src="https://lh6.googleusercontent.com/qW7tSEfNQ9OcxgyufpfKztWYNe6sccGH2VdFTDv52SrgKEMMlD0GX-YREDWjr47ZoJVfShCOaWg9LtsrcWdK=w2880-h1380" width="300" align="middle">
+
+<p align="center">
+    <img src="https://lh6.googleusercontent.com/qW7tSEfNQ9OcxgyufpfKztWYNe6sccGH2VdFTDv52SrgKEMMlD0GX-YREDWjr47ZoJVfShCOaWg9LtsrcWdK=w2880-h1380" width="300">
+</p>
 
 $$
 \begin{align}
