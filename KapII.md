@@ -474,7 +474,8 @@ There are 3 Pfaffian constraits.
 
 - (c) Not sure, it seems to me that all 3 Pfaffian constraints are integratable, since they are derived by differentiation. If it is really so, then all constraints are holonomic.
 
-This is the end of Kapitel II Exercise Attempts.
+
+_This is the end of Kapitel II Exercise Attempts._
 
 
 $$\begin{align*}
