@@ -2,7 +2,7 @@
 layout: default
 mathjax: true
 title: 'Modern Robotics Course Notes'
-description: Salvete discipulae et discipuli
+description: Salvete discipulae et discipuli !
 ---
 The notes here are taken for the Coursera course [Modern Robotics](https://www.coursera.org/specializations/modernrobotics). The MOOC is created by Northwestern University, and in its [homepage](http://hades.mech.northwestern.edu/index.php/Modern_Robotics) one could download the corresponding textbook and exercise book for free. 
 
