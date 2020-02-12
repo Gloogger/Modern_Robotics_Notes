@@ -76,7 +76,7 @@ The wheel is a fixed rigid body in space, therefore it adds 6 constraints to the
 
 > _**Exercise 2.5**_ Figure 2.15 shows a robot used for human arm rehabilitation. Determine the number of degrees of freedom of the chain formed by the human arm and the robot. 
  
-<img src="./assets/images/fig_2_15.jpg" width="250">
+<img src="https://lh6.googleusercontent.com/qW7tSEfNQ9OcxgyufpfKztWYNe6sccGH2VdFTDv52SrgKEMMlD0GX-YREDWjr47ZoJVfShCOaWg9LtsrcWdK=w2880-h1380" width="300" align="middle">
 
 $$
 \begin{align}
