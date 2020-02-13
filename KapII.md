@@ -28,7 +28,9 @@ It is also worth noticing that a dof has to be real-valued coordinates. For inst
 
 ### Tables
 All pictures, tables, charts, unless noted otherwise, are taken from \[1].
-<img src="https://lh5.googleusercontent.com/2lq4dGeBJE4iXdoDkcAXFARdKFflJDxsz6uNjV9D0O8TLrFYvVUovnZ2ilNQkA_k61yAJtva29lTix3bKh7V=w2880-h1380-rw" align="middle">
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1iMx1lfOZzl9-pem5sGMQhX-9SB123DAY">
+</p>
 
 ### Equations
 General idea about degree of freedom (DoF):
