@@ -29,7 +29,7 @@ It is also worth noticing that a dof has to be real-valued coordinates. For inst
 ### Tables
 All pictures, tables, charts, unless noted otherwise, are taken from \[1].
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1iMx1lfOZzl9-pem5sGMQhX-9SB123DAY">
+    <img src="https://drive.google.com/uc?export=view&id=1iMx1lfOZzl9-pem5sGMQhX-9SB123DAY" alt="Tables of common joints(kapII_pic_1.jpg)">
 </p>
 
 ### Equations
@@ -79,8 +79,9 @@ The wheel is a fixed rigid body in space, therefore it adds 6 constraints to the
 > _**Exercise 2.5**_ Figure 2.15 shows a robot used for human arm rehabilitation. Determine the number of degrees of freedom of the chain formed by the human arm and the robot. 
 
 <p align="center">
-    <img src="https://lh6.googleusercontent.com/qW7tSEfNQ9OcxgyufpfKztWYNe6sccGH2VdFTDv52SrgKEMMlD0GX-YREDWjr47ZoJVfShCOaWg9LtsrcWdK=w2880-h1380" width="300">
+    <img src="https://drive.google.com/uc?export=view&id=1S7-evUPFlx3O2epPoPCKy9-jhQSi-kxH" width="400" alt="(fig_2_15.jpg)">
 </p>
+
 
 $$
 \begin{align}
@@ -100,9 +101,8 @@ $$
 > - (a) Ignoring the multi-fingered hand, describe the configuration space of the mobile manipulator.
 > - (b) Now suppose that the robot hand rigidly grasps a refrigerator door handle and, with its wheel and base completely stationary, opens the door using only its arm. With the door open, how many degrees of freedom does the mechanism formed by the arm and open door have?
 > - (c) A second identical mobile manipulator comes along, and after parking its mobile base, also rigidly grasps the refrigerator door handle. How many degrees of freedom does the mechanism formed by the two arms and the open refrigerator door have?
- 
 <p align="center">
-    <img src="https://lh6.googleusercontent.com/fcD20HMWPhZtqpiNMv1PaRFJ-eZ4klQ9Il3ADLI3-AjcO_caBAGhyp5LhIdlNa5tTc1ne_drPzRWXcGr6NY_=w2880-h1380" width="300">
+    <img src="https://drive.google.com/uc?export=view&id=1T1_Cite02RUvmDkEu1DolLw4F_WT3aUl" width="400" alt="(fig_2_16.jpg)">
 </p>
 
 - (a) 
@@ -125,6 +125,10 @@ $$
 <p align="center">
     <img src="https://lh3.googleusercontent.com/htKLo4tjEyTMxElQlO5wfftGDhIrHTof4MAjjMRJrWQDHphreOC4Qnt5ewdmFWEZCObRmlvlXt3ucbawY1IN=w2880-h1380-rw" width="450">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="(fig_2_17.jpg)">
+</p>
+**NEEDS ATTENTION HERE**
 
 - (a) $$\begin{align}
     \begin{split}
@@ -177,6 +181,9 @@ It seems that the DoF is a constant.
 <p align="center">
     <img src="https://lh4.googleusercontent.com/-bkL_atgbm_kh4sBhvvNkqJb7r9z9VwbijLs2xOMStSHbWJmEfTTVRBXRraUFvFpbYcCzRCVmQOdTLNP8eYw=w2880-h1380-rw">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 
 >  _**Exercise 2.10**_ Use the planar version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.19. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
@@ -184,17 +191,26 @@ It seems that the DoF is a constant.
 <p align="center">
     <img src="https://lh3.googleusercontent.com/4y4SglKemYFinD_enodU_GwtSVIs2wMmrfzf8wZ83dTQ5r60llWuAs2_-GkROXRBpdbx0oLw4Io-cJTT21Xw=w2880-h1380-rw">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 > _**Exercise 2.11**_ Use the spatial version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.20. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
 
 <p align="center">
     <img src="https://lh3.googleusercontent.com/7BlMUPNKZevsGQXuXg1TnVLlyQjkfDCMAV6kuQhSoET8kQBcOigR5n0NkMHOQWV0GZ_EjI6NPVrjFIfyEJhQ=w2880-h1380-rw">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 > _**Exercise 2.12**_ Use the spatial version of Grübler’s formula to determine the number of degrees of freedom of the mechanisms shown in Figure 2.21. Comment on whether your results agree with your intuition about the possible motions of these mechanisms.
 
 <p align="center">
     <img src="https://lh4.googleusercontent.com/5fCYQTQSfeYvWCQNMayz17drcVtLzjBrNW68mBUx-RzR6PXf36u2CNQk1hmpdBwie16OdPjYfZHG3f76jIPh=w2880-h1380-rw">
+</p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
 </p>
 
 For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or lazy Tongs), which is a kind of planar four-bar linkage. Such structure provides 1 DoF.
@@ -204,6 +220,9 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 <p align="center">
     <img src="https://lh3.googleusercontent.com/znibLNzCcjBsa4WcKy1blWFcI62X7l0V-IT9A06wwwfACqTSpP-y-IJ3Iice1RJBTT6hKibCjoI02YvzZ7gM=w2880-h1380-rw" width="400">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 > _**Exercise 2.14**_ The 3×UPU platform of Figure 2.23 consists of two platforms – the lower one stationary, the upper one mobile–connected by three UPU legs.
 > - (a) Using the spatial version of Grübler’s formula, verify that it has three degrees of freedom.
@@ -212,6 +231,9 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 <p align="center">
     <img src="https://lh4.googleusercontent.com/sFyXY8yTrgIroNHBbuLwLKmt9-ELN-cUIUlsTbhLq44qhMHr_KwbkxbL7LV3xzYU3Ml8c-CEsKhiZDm4vuos=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_23.jpg" aria-hidden="true" width="500">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 > _**Exercise 2.15**_ The mechanisms of Figures 2.24(a) and 2.24(b).
 > - (a) The mechanism of Figure 2.24(a) consists of six identical squares arranged in a single closed loop, connected by revolute joints. The bottom square is fixed to ground. Determine the number of degrees of freedom using Grübler’s formula.
@@ -219,6 +241,9 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 
 <p align="center">
     <img src="https://lh3.googleusercontent.com/z29p9jL8fX4ldMaWMX3QNIm89iE-PdNFd76b3OQOucHnpGXxwtPVaLj-S0-qhJh7Tn7es6oEDEHAxhg65raa=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_24.jpg" aria-hidden="true">
+</p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
 </p>
 
 > _**Exercise 2.16**_ Figure 2.25 shows a spherical four-bar linkage, in which four links (one of the links is the ground link) are connected by four revolute joints to form a single-loop closed chain. The four revolute joints are arranged so that they lie on a sphere such that their joint axes intersect at a common point.
@@ -229,6 +254,9 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 <p align="center">
     <img src="https://lh5.googleusercontent.com/P-0nxV1Nl_Z8FnW8eCtyQxI7g8alwKSy1vXImi1hBa1WQmQ8wbZ5f0_bP29IOkPHAPo4kHqfsrVhcgAMPxz8=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_25.jpg" aria-hidden="true">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 > _**Exercise 2.17**_ Figure 2.26 shows a parallel robot used for surgical applications. As shown in Figure 2.26(a), leg A is an RRRP chain, while legs B and C are RRRUR chains. A surgical tool is rigidly attached to the end-effector.
 > - (a) Use Grübler’s formula to find the number of degrees of freedom of the mechanism in Figure 2.26(a).
@@ -238,17 +266,26 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 <p align="center">
     <img src="https://lh5.googleusercontent.com/b13oYVXOXDsvBEdPTOurErH8JSaJmX4oTq8xdCK1FC0fz9ffGhSHBRnu-hVG-jOhjuPWvJ1iV57Om6Ilt7d6=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_26.jpg" aria-hidden="true">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 > _**Exercise 2.18**_ Figure 2.27 shows a 3×PUP platform, in which three identical PUP legs connect a fixed base to a moving platform. The P joints on both the fixed base and moving platform are arranged symmetrically. Use Grbler’s formula to find the number of degrees of freedom. Does your answer agree with your intuition about this mechanism? If not, try to explain any discrepancies without resorting to a detailed kinematic analysis.
 
 <p align="center">
     <img src="https://lh4.googleusercontent.com/0EYwWoABZrhD1lGob7lMdEnlpFTNEFd9XMoJj8VrTTMRPG2aUDnRUN6DiaroRXTW18QLIRY6HwWeS6D5-o4Y=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_27.jpg" aria-hidden="true" width="450">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 > _**Exercise 2.19**_ The dual-arm robot of Figure 2.28 is rigidly grasping a box. The box can only slide on the table; the bottom face of the box must always be in contact with the table. How many degrees of freedom does this system have?
 
 <p align="center">
     <img src="https://lh5.googleusercontent.com/OB4wdZOhI1ufq--uH56EQSCLcqulVrzzO0eSReQs4UwBxPvvJLe_IMoMuGGiZAaKxvWvz-yh2sUolfuzZR0J=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_28.jpg" aria-hidden="true">
+</p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
 </p>
 
 > _**Exercise 2.20**_ The dragonfly robot of Figure 2.29 has a body, four legs, and four wings as shown. Each leg is connected to each adjacent leg by a USP linkage. Use Grübler’s formula to answer the following questions.
@@ -258,6 +295,9 @@ For part (d), The RRRR mechanism at the bottom is called a scissor linkage (or l
 
 <p align="center">
     <img src="https://lh5.googleusercontent.com/HC-G7nHfk-2dg0NT7e6W_JZCtrEDfWGVc5p7raQhIoOA-A-OlmXjFaIDMCmq1hJkiF3hqMLpeVKLHh60Sqcx=w1770-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_29.jpg" aria-hidden="true" width="450">
+</p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
 </p>
 
 - (c) The legs on the ground can be viewed as a point constraint that does not allow translation, therefore it can be modeled as merely a S joint. In doing so, by Grübler's formula we have:
@@ -280,6 +320,9 @@ It should be pointed out that the wings of the Dragonfly are free to move. This 
 
 <p align="center">
     <img src="https://lh3.googleusercontent.com/gy4EoLq1cVyl5hDMANVeulIcXsrFuC_U_f9cRs9ug4f7TYwYt9cGL8BacbP2a6v2YQsWzgW5_gcKM7AnZXqp=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_4_(b).jpg" aria-hidden="true" width="450">
+</p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
 </p>
 
 Let $$(x_{1}, y_{1})$$, $$(x_{2}, y_{2})$$, $$(x_{3}, y_{3})$$ be the centre of the three links respectively. Let x be
@@ -328,6 +371,9 @@ Not sure of what is the question asking for the projection.
 <p align="center">
     <img src="https://lh5.googleusercontent.com/iZJBRhczpTnHHyrp-TZe4VhpWDCdxUlV7ZijDB5RESNBIeO26mkZArniIKz0SzAuSNEIUO7XZ1MGZafmAYzi=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_33.jpg" aria-hidden="true" width="450">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 - (a) Let $$(x_{1},y_{1})$$ and $$(x_{2},y_{2})$$ be the centre of the two links respectively. Define vector $$q$$ as 
 
@@ -372,6 +418,9 @@ $$
 <p align="center">
     <img src="https://lh4.googleusercontent.com/x3oRe4Dxnuz-pJKChL-bl8t11KIkvChjBnloTSmnz3KNMcLSVZmqlpT1S6ANM-8bauziYgj0MeOzCVnqGZkf=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示sketch_1.jpg" aria-hidden="true" width="450">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 With some math, the ratio of free C-space on original C-space can be calculated. The calculation is skipped here.
 
@@ -400,11 +449,17 @@ With some math, the ratio of free C-space on original C-space can be calculated.
 <p align="center">
     <img src="https://lh5.googleusercontent.com/-ulstbgZy_T_UQy1HoTWQPpFw6AFqC3dtbUM4J64dk6W_fk6rl7UKd8oBg1UpmIPY2hRwnV9vdykzZ6RTLUf=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示fig_2_34.jpg" aria-hidden="true">
 </p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
+</p>
 
 - (a) The derivation of vector q in terms of $$\phi_{1}$$ and $$\phi_{2}$$ is shown below in the sketch:
 
 <p align="center">
     <img src="https://lh5.googleusercontent.com/jmFCWmMfGQs9UZ6Bd6_yegIs0JGprCtlZ_T4ZtPCoDl2JmwZl_SeDdonb4lyjsD8A5KtBPf80HaAVfUbrzVh=w2880-h1380-rw" class="ndfHFb-c4YZDc-HiaYvf-RJLb9c" alt="当前显示sketch_2.jpg" aria-hidden="true">
+</p>
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="Tables of common joints(kapII_pic_1.jpg)">
 </p>
 
 For a more detailed derivation, check this [note](http://planning.cs.uiuc.edu/node659.html).
