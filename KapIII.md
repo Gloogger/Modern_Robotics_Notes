@@ -42,13 +42,20 @@ My own notes:
 ***
 
 ## Textbook Exercises Attempts
+> _**Exercise 3.1**_ In terms of the $$\hat{x}_{s}$$, $$\hat{y}_{s}$$, $$\hat{z}_{s}$$ coordinates of a fixed space frame {s}, the frame {a} has its $$\hat{x}_{a}$$-axis pointing in the direction (0,0,1) and its $$\hat{y}_{a}$$-axis pointing in the direction (−1,0,0), and the frame {b} has its $$\hat{x}_{b}$$-axis pointing in the direction (1, 0, 0) and its $$\hat{y}_{b}$$-axis pointing in the direction (0, 0, −1).
+> - (a) Draw by hand the three frames, at different locations so that they are easy to see.
+> - (b) Write down the rotation matrices $$R_{sa}$$ and $$R_{sb}$$.
+> - (c) Given $$R_{sb}$$, how do you calculate $$R^{-1}_{sb}$$ without using a matrix inverse? Write down $$R_{sb}^{-1}$$ and verify its correctness using your drawing.
+> - (d) Given $$R_{sa}$$ and $$R_{sb}$$, how do you calculate $$R_{ab}$$ (again without using matrix inverses)?Compute the answer and verify its correctness using your drawing.
+> - (e) Let R = $$R_{sb}$$ be considered as a transformation operator consisting of a rotation about xˆ by −90◦. Calculate R1 = RsaR, and think of Rsa as a representation of an orientation, R as a rotation of Rsa, and R1 as the new orientation after the rotation has been performed. Does the new orientation R1 correspond to a rotation of Rsa by −90◦ about the world- fixed xˆs-axis or about the body-fixed xˆa-axis? Now calculate R2 = RRsa. Does the new orientation R2 correspond to a rotation of Rsa by −90◦ about the world-fixed xˆs-axis or about the body-fixed xˆa-axis?
+(f) Use Rsb to change the representation of the point pb = (1,2,3) (which is in {b} coordinates) to {s} coordinates.
+(g) Choose a point p represented by ps = (1, 2, 3) in {s} coordinates. Calculate p′ = Rsbps and p′′ = RT ps. For each operation, should the result be
+interpreted as changing coordinates (from the {s} frame to {b}) without moving the point p or as moving the location of the point without changing the reference frame of the representation?
+(h) An angular velocity w is represented in {s} as ωs = (3, 2, 1). What is its representation ωa in {a}?
+(i) By hand, calculate the matrix logarithm [ωˆ]θ of Rsa. (You may verify your answer with software.) Extract the unit angular velocity ωˆ and rotation amount θ. Redraw the fixed frame {s} and in it draw ωˆ.
+(j) Calculate the matrix exponential corresponding to the exponential coor- dinates of rotation ωˆθ = (1, 2, 0). Draw the corresponding frame relative to {s}, as well as the rotation axis ωˆ.
 
-***
-The omnipotent math shows that:
 
-$$
-1+1 = 2
-$$
 
 ***
 
