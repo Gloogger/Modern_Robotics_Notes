@@ -116,6 +116,58 @@ $$
 \end{align}
 $$
 
+- (e) N.B. if $$R=\text{Rot}(\hat{u}_{i},\theta)$$ and R is pre-multiplied, that is, $$R\prime=RR_{ab}$$, then $$\hat{u}_{i}$$ is $$\hat{u}_{a}$$; if R is post-multiplied, that is, $$R\prime\prime=R_{ab}R$$, then $$\hat{u}_{i}$$ is $$\hat{u}_{b}$$.
+$$
+R = R_{sb}=\text{Rot}(\hat{x}_{i},-90^{\circ})
+$$
+$$
+\begin{align}
+    \begin{split}
+        R_{1} &= R_{sa} R \\
+        &= R_{sa} \text{Rot}(\hat{x}_{a},-90^{\circ}) \\
+        &= \begin{bmatrix}
+            0 & -1 & 0 \\
+            0 & 0 & -1 \\
+            1 & 0 & 0 \\
+        \end{bmatrix}
+        \begin{bmatrix}
+            1 & 0 & 0 \\
+            0 & 0 & 1 \\
+            0 & -1 & 0 \\
+        \end{bmatrix} \\
+        &= \begin{bmatrix}
+            0 & 0 & -1 \\
+            0 & 1 & 0 \\
+            1 & 0 & 0 \\
+        \end{bmatrix}
+    \end{split}
+\end{align}
+$$
+  Clearly, $$R_{1}$$ is $$R_{sa}$$ rotated $$-90^{\circ}$$ about $$\hat{x}_{a}$$.
+$$
+\begin{align}
+    \begin{split}
+        R_{2} &= R R_{sa} \\
+        &= \text{Rot}(\hat{x}_{s},-90^{\circ})R_{sa}\\
+        &= \begin{bmatrix}
+            1 & 0 & 0 \\
+            0 & 0 & 1 \\
+            0 & -1 & 0 \\
+        \end{bmatrix}
+        \begin{bmatrix}
+            0 & -1 & 0 \\
+            1 & 0 & 0 \\
+            0 & 0 & 1 \\
+        \end{bmatrix} \\
+        &= \begin{bmatrix}
+            0 & -1 & 0 \\
+            1 & 0 & 0 \\
+            0 & 0 & 1 \\
+        \end{bmatrix}
+    \end{split}
+\end{align}
+$$
+  Clearly, $$R_{2}$$ is $$R_{sa}$$ rotated $$-90^{\circ}$$ about $$\hat{x}_{s}$$.
 
 ***
 
