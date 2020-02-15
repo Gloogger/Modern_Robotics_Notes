@@ -305,6 +305,14 @@ $$
     \end{split}
 \end{align}
 $$
+To obtain the unit vector $$\hat{\omega}$$,
+$$
+\begin{align}
+    \begin{split}
+        \hat{\omega} &= \frac{1}{\lvert \omega \rvert}
+    \end{split}
+\end{align}
+$$
 
 ***
 
