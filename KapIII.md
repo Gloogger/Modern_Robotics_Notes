@@ -256,11 +256,11 @@ $$
 $$
 
 - (i) Because $$\text{tr}(R_{sa}) = 0 + 0 + 0 = 0$$, we should use the third general solution (see my own scribbling note).
-  By equation, we have
+  By the general formula, we have
 $$
 \begin{align}
     \begin{split}
-        \theta &= \cos^{-1}(\frac{\text{tr}(R)-1}{2}) = \cos^{-1}(-\frac{1}{2}) \\
+        \theta &= \cos^{-1}\left( \frac{\text{tr}(R)-1}{2} \right) = \cos^{-1}\left(-\frac{1}{2}\right) \\
         &= \frac{2\pi}{3} \in [0,\pi) \\
     \end{split}
 \end{align}
