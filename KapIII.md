@@ -54,6 +54,43 @@ My own notes:
 > - (i) By hand, calculate the matrix logarithm $$[\hat{\omega}]\theta$$ of $$R_{sa}$$. (You may verify your answer with software.) Extract the unit angular velocity $$\hat{\omega}$$ and rotation amount $$\theta$$. Redraw the fixed frame {s} and in it draw $$\hat{\omega}$$.
 > - (j) Calculate the matrix exponential corresponding to the exponential coordinates of rotation $$\hat{\omega}\theta = (1, 2, 0)$$. Draw the corresponding frame relative to {s}, as well as the rotation axis $$\hat{\omega}$$.
 
+- (a) As shown below:
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1_zODky3y3I56t2ut5R0n7k3XEtbSKWoa" alt="fig_3_7.png" width="450">
+</p>
+
+- (b) By observation we have
+$$
+R_{sa}=
+\begin{bmatrix}
+    0 & -1 & 0 \\
+    0 & 0 & -1 \\
+    1 & 0 & 0 \\
+\end{bmatrix},
+R_{sb}=
+\begin{bmatrix}
+    1 & 0 & 0 \\
+    0 & 0 & 1 \\
+    0 & -1 & 0 \\
+\end{bmatrix}
+$$
+
+- (c) 
+$$
+\begin{align}
+    \begin{split}
+        R_{sb}^{-1} &= R_{sb}^{T}\\
+        &= R_{bs}\\
+        &= 
+        \begin{bmatrix}
+            1 & 0 & 0 \\
+            0 & 0 & -1 \\
+            0 & 1 & 0 \\
+        \end{bmatrix}
+    \end{split}
+\end{align}
+$$
+
 
 ***
 
