@@ -292,6 +292,19 @@ $$
     \end{split}
 \end{align}
 $$
+By utilizing the equation $$R=e^{[\hat{\omega}]\theta}$$, we can find,
+$$
+\begin{align}
+    \begin{split}
+        \omega_{1} &= \frac{r_{32}-r_{23}}{2s_{\theta}} \\
+        &= \frac{1-(-1)}{2s_{120^{\circ}}} = \frac{\sqrt{3}}{3}\cdot(2)\\
+        \omega_{2} &= \frac{r_{13}-r_{31}}{2s_{\theta}} \\
+        &= \frac{-1-1}{2s_{120^{\circ}}} = \frac{\sqrt{3}}{3}\cdot(-2)\\
+        \omega_{3} &= \frac{r_{21}-r_{12}}{2s_{\theta}} \\
+        &= \frac{1-(-1)}{2s_{120^{\circ}}} = \frac{\sqrt{3}}{3}\cdot(2)\\
+    \end{split}
+\end{align}
+$$
 
 ***
 
