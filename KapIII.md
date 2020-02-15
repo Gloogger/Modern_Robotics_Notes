@@ -37,7 +37,12 @@ My own notes:
 </p>
 
 ### Useful Equations:
+For $$R = \text{Rot}(\hat{v}_{i},-90^{\circ})$$, if:
+1. $$R^{\prime}_{ab} = RR_{ab}$$, then the rotation is about $$\hat{v}_{a}$$ (in frame {a});
+2. $$R^{\prime}_{ab} = R_{ab}R$$, then the rotation is about $$\hat{v}_{b}$$ (in frame {b}).
 
+Adjacent Common Subscripts Cancellation Rule: if two subscripts are adjacent and common, then they can be cancelled. 
+This rule applies to the product of two rotation matrix and the product of one rotation matrix with a vector.
 
 ***
 
@@ -193,7 +198,62 @@ $$\begin{align}
 \end{align}
 $$
 
+- （g）
+$$
+\begin{align}
+    \begin{split}
+        p^{\prime} &= R_{sb}p_{s}\\
+        &= \begin{bmatrix}
+            1 \\
+            3 \\
+            -2 \\
+        \end{bmatrix} \text{(from (f))}\\
+        p^{\prime\prime} &= R^{T}_{sb}p_{s}\\
+        &= R_{bs}p_{s} \\
+        &= \begin{bmatrix}
+            1 & 0 & 0 \\
+            0 & 0 & -1 \\
+            0 & 1 & 0 \\
+        \end{bmatrix}
+        \begin{bmatrix}
+            1 \\
+            2 \\
+            3 \\
+        \end{bmatrix} \\
+        &= \begin{bmatrix}
+            1 \\
+            -3 \\
+            2 \\
+        \end{bmatrix}
+    \end{split}
+\end{align}
+$$
 
+$$p^{\prime}$$ should be interpreted as moving the location of the point without changing the reference frame. The reason is that the two adjacent subscripts are $$b$$ and $$s$$, which aren't common and therefore cannot be canceled. $$p^{\prime\prime}$$ should be interpreted as changing coordinates from {s} to {b} frame without moving the point $$p$$. The reason is that the two adjacent subscripts are common and can therefore be canceled. This cancellation indicates coordinate change.
+
+- (h) 
+$$
+\begin{align}
+    \begin{split}
+        \omega_{a} &= R_{as}\omega_{s} = R_{sa}^{T}\omega_{s}\\
+        &= \begin{bmatrix}
+            0 & 0 & 1 \\
+            -1 & 0 & 0 \\
+            0 & -1 & 0 \\
+        \end{bmatrix}
+        \begin{bmatrix}
+            3 \\
+            2 \\
+            1 \\
+        \end{bmatrix} \\
+        &= \begin{bmatrix}
+            1 \\
+            -3 \\
+            -2 \\
+        \end{bmatrix}
+    \end{split}
+\end{align}
+$$
 
 ***
 
@@ -203,6 +263,19 @@ Image hosting template:
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=" alt="Erklaerung">
 </p>
+```
+
+```
+$$
+\begin{align}
+    \begin{split}
+    \end{split}
+\end{align}
+
+\begin{bmatrix}
+       
+\end{bmatrix}
+$$
 ```
 
 <p style="text-align:center;">
