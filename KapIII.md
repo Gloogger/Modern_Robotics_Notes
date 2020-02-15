@@ -255,6 +255,44 @@ $$
 \end{align}
 $$
 
+- (i) Because $$\text{tr}(R_{sa})$$ = 0 + 0 + 0 = 0 \neq -1$$, we should use the third general solution (see my own scribbling note).
+  By equation, we have
+$$
+\begin{align}
+    \begin{split}
+        \theta &= \cos^{-1}(\frac{\text{tr}(R)-1}{2}) = \cos^{-1}(-\frac{1}{2}) \\
+        &= \frac{2\pi}{3} \in [0,\pi) \\
+    \end{split}
+\end{align}
+$$
+With $$\theta$$, $$[\hat{\omega}]$$ can be obtained using formula as well,
+$$
+\begin{align}
+    \begin{split}
+        [\hat{\omega}] &= \frac{1}{2\sin(\frac{2\pi}{3})}(R-R^{T}) \\
+        &= \frac{\sqrt{3}}{3}(R_{sa}-R_{as}) \\
+        &= \frac{\sqrt{3}}{3}\left( 
+            \begin{bmatrix}
+                0 & -1 & 0 \\
+                0 & 0 & -1 \\
+                1 & 0 & 0 \\
+            \end{bmatrix}
+            -
+            \begin{bmatrix}
+                0 & 0 & 1 \\
+                -1 & 0 & 0 \\
+                0 & -1 & 0 \\
+            \end{bmatrix}
+        \right) \\
+        &= \frac{\sqrt{3}}{3}\begin{bmatrix}
+            0 & -1 & -1 \\
+            1 & 0 & -1 \\
+            1 & 1 & 0 \\
+        \end{bmatrix}\\
+    \end{split}
+\end{align}
+$$
+
 ***
 
 Image hosting template:
