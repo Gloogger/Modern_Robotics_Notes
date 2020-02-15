@@ -309,8 +309,24 @@ To obtain the unit vector $$\hat{\omega}$$,
 $$
 \begin{align}
     \begin{split}
-        \hat{\omega} &= \frac{1}{\lvert \omega \rvert}
-    \end{split}
+        \hat{\omega} &= \frac{1}{\lvert \omega \rvert} \begin{bmatrix}
+            \omega_{1} \\
+            \omega_{2} \\
+            \omega_{3} \\ 
+        \end{bmatrix} \\
+        &= \frac{1}{2} \cdot \left( \frac{\sqrt{3}}{3} \begin{bmatrix}
+            2 \\
+            -2 \\
+            2 \\
+        \end{bmatrix}
+        \right) 
+        = \frac{\sqrt{3}}{3}
+        \begin{bmatrix}
+            1 \\
+            -1 \\
+            1 \\
+        \end{bmatrix}\\
+    \end{split} 
 \end{align}
 $$
 
