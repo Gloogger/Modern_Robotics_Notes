@@ -49,7 +49,7 @@ My own notes:
 > - (d) Given $$R_{sa}$$ and $$R_{sb}$$, how do you calculate $$R_{ab}$$ (again without using matrix inverses)?Compute the answer and verify its correctness using your drawing.
 > - (e) Let R = $$R_{sb}$$ be considered as a transformation operator consisting of a rotation about $$\hat{x}$$ by $$−90^{\circ}$$. Calculate $$R_{1} = R_{sa}R$$, and think of $$R_{sa}$$ as a representation of an orientation, R as a rotation of $$R_{sa}$$, and $$R_{1}$$ as the new orientation after the rotation has been performed. Does the new orientation $$R_{1}$$ correspond to a rotation of $$R_{sa}$$ by $$−90^{\circ}$$ about the world-fixed $$\hat{x_{s}}$$-axis or about the body-fixed $$\hat{x}_{a}$$-axis? Now calculate $$R_{2} = RR_{sa}$$. Does the new orientation $$R_{2}$$ correspond to a rotation of $$R_{sa}$$ by $$−90^{\circ}$$ about the world-fixed $$\hat{x}_{s}$$-axis or about the body-fixed $$\hat{x}_a$$-axis?
 > - (f) Use $$R_{sb}$$ to change the representation of the point $$p_{b} = (1,2,3)$$ (which is in {b} coordinates) to {s} coordinates.
-> - (g) Choose a point p represented by $$p_{s} = (1, 2, 3)$$ in {s} coordinates. Calculate $$p\prime = R_{sb}p_{s}$$ and $$p\prime\prime = R^{T}_{sb}p_{s}$$. For each operation, should the result be interpreted as changing coordinates (from the {s} frame to {b}) without moving the point p or as moving the location of the point without changing the reference frame of the representation?
+> - (g) Choose a point p represented by $$p_{s} = (1, 2, 3)$$ in {s} coordinates. Calculate $$p^{\prime} = R_{sb}p_{s}$$ and $$p^{\prime\prime} = R^{T}_{sb}p_{s}$$. For each operation, should the result be interpreted as changing coordinates (from the {s} frame to {b}) without moving the point p or as moving the location of the point without changing the reference frame of the representation?
 > - (h) An angular velocity w is represented in {s} as ωs = (3, 2, 1). What is its representation ωa in {a}?
 > - (i) By hand, calculate the matrix logarithm $$[\hat{\omega}]\theta$$ of $$R_{sa}$$. (You may verify your answer with software.) Extract the unit angular velocity $$\hat{\omega}$$ and rotation amount $$\theta$$. Redraw the fixed frame {s} and in it draw $$\hat{\omega}$$.
 > - (j) Calculate the matrix exponential corresponding to the exponential coordinates of rotation $$\hat{\omega}\theta = (1, 2, 0)$$. Draw the corresponding frame relative to {s}, as well as the rotation axis $$\hat{\omega}$$.
@@ -116,7 +116,8 @@ $$
 \end{align}
 $$
 
-- (e) N.B. if $$R=\text{Rot}(\hat{u}_{i},\theta)$$ and R is pre-multiplied, that is, $$R\prime=RR_{ab}$$, then $$\hat{u}_{i}$$ is $$\hat{u}_{a}$$; if R is post-multiplied, that is, $$R\prime\prime=R_{ab}R$$, then $$\hat{u}_{i}$$ is $$\hat{u}_{b}$$.
+- (e) N.B. if $$R=\text{Rot}(\hat{u}_{i},\theta)$$ and R is pre-multiplied, that is, $$R^{\prime}=RR_{ab}$$, then $$\hat{u}_{i}$$ is $$\hat{u}_{a}$$; if R is post-multiplied, that is, $$R^{\prime\prime}=R_{ab}R$$, then $$\hat{u}_{i}$$ is $$\hat{u}_{b}$$.
+  In this case, the rotation matrix is defined as, 
 $$
 R = R_{sb}=\text{Rot}(\hat{x}_{i},-90^{\circ})
 $$
@@ -168,6 +169,31 @@ $$
 \end{align}
 $$
   Clearly, $$R_{2}$$ is $$R_{sa}$$ rotated $$-90^{\circ}$$ about $$\hat{x}_{s}$$.
+
+- (f)
+$$\begin{align}
+    \begin{split}
+        p_{s} &= R_{sb} p_{b} \\
+        &= \begin{bmatrix}
+            1 & 0 & 0 \\
+            0 & 0 & 1 \\
+            0 & -1 & 0 \\
+        \end{bmatrix}
+        \begin{bmatrix}
+            1 \\
+            2 \\
+            3 \\
+        \end{bmatrix} \\
+        &= \begin{bmatrix}
+            1 \\
+            3 \\
+            -2 \\
+        \end{bmatrix}
+    \end{split}
+\end{align}
+$$
+
+
 
 ***
 
