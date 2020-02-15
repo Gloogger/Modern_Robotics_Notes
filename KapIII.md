@@ -91,6 +91,31 @@ $$
 \end{align}
 $$
 
+- (d) 
+$$
+\begin{align}
+    \begin{split}
+        R_{ab} &= R_{as} R_{sb}\\
+        &= R_{sa}^{T} R_{sb}\\
+        &= \begin{bmatrix}
+                0 & 0 & 1 \\
+                -1 & 0 & 0 \\
+                0 & -1 & 0 \\
+            \end{bmatrix}
+            \begin{bmatrix}
+                1 & 0 & 0 \\
+                0 & 0 & 1 \\
+                0 & -1 & 0 \\
+            \end{bmatrix} \\
+        &= \begin{bmatrix}
+            0 & -1 & 0 \\
+            -1 & 0 & 0 \\
+            0 & 0 & -1 \\
+           \end{bmatrix}
+    \end{split}
+\end{align}
+$$
+
 
 ***
 
