@@ -255,7 +255,7 @@ $$
 \end{align}
 $$
 
-- (i) Because $$\text{tr}(R_{sa})$$ = 0 + 0 + 0 = 0 \neq -1$$, we should use the third general solution (see my own scribbling note).
+- (i) Because $$\text{tr}(R_{sa})$$ = 0 + 0 + 0 = 0 \ne -1$$, we should use the third general solution (see my own scribbling note).
   By equation, we have
 $$
 \begin{align}
