@@ -379,7 +379,22 @@ $$
 > - (a) What are the coordinates $$p^{\prime}$$?
 > - (b) Find the rotation matrix $$R$$ such that $$p^{\prime} = Rp$$ for the $$p^{\prime}$$ you obtained in (a).
 
-- (a) Just use the formulae: $$p^{\prime} = \text{Rot}(\hat{z},-135^{\circ})\text{Rot}(\hat{y},135^{\circ})\text{Rot}(\hat{x},30^{\circ})p$$.
+- (a) Just use the formulae: $$p^{\prime} = \text{Rot}(\hat{z},-135^{\circ})\text{Rot}(\hat{y},135^{\circ})\text{Rot}(\hat{x},30^{\circ})p$$. The calculation and result are skipped here.
+
+- (b) $$R = \text{Rot}(\hat{z},-135^{\circ})\text{Rot}(\hat{y},135^{\circ})\text{Rot}(\hat{x},30^{\circ})$$.
+
+> _**Exercise 3.3**_ Suppose that $$p_{i} \in \mathbb{R}^{3}$$ and $$p^{\prime}_{i} \in \mathbb{R}^{3}$$ are related by $$p^{\prime}_{i} = Rp_{i},\text{where} i = 1, 2, 3$$, for some unknown rotation matrix $$R$$. Find, if it exists, the rotation $$R$$ for the three input–output pairs $$p_{i} \Rightarrow p^{\prime}_{i}$$, where: 
+> $$
+\begin{align}
+    \begin{split}
+        p_{1} &= (\sqrt{2}, 0, 2) \Rightarrow p^{\prime}_{1} = (0, 2, \sqrt{2}), \\
+        p_{2} &= (1,1,-1) \Rightarrow p^{\prime}_{2} = (\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}},-\sqrt{2}), \\
+        p_{3} &= (0, 2\sqrt{2}, 0) \Rightarrow p^{\prime}_{3} = (-\sqrt{2},\sqrt{2},-2) \\
+    \end{split}
+\end{align}
+$$
+
+
 
 
 ***
