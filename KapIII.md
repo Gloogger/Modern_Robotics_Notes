@@ -446,7 +446,18 @@ $$
 \end{align}
 $$
 
-
+The exponential coordinate $$\hat{\omega}\theta$$ can therefore be found as 
+$$
+\begin{align}
+    \begin{split}
+        \hat{\omega}\theta &= \frac{2\pi}{3} \frac{\sqrt{3}}{3} \begin{bmatrix}
+            1 \\
+            -1 \\
+            1 \\
+        \end{bmatrix}\\
+    \end{split}
+\end{align}
+$$
 
 ***
 
