@@ -450,7 +450,7 @@ The exponential coordinate $$\hat{\omega}\theta$$ can therefore be found as
 $$
 \begin{align}
     \begin{split}
-        \hat{\omega}\theta &= \frac{2\pi}{3} \frac{\sqrt{3}}{3} \begin{bmatrix}
+        \hat{\omega}\theta &= \left( \frac{2\pi}{3} \right) \left( \frac{\sqrt{3}}{3} \begin{bmatrix} \right)
             1 \\
             -1 \\
             1 \\
@@ -458,6 +458,21 @@ $$
     \end{split}
 \end{align}
 $$
+
+> _**Exercise 3.16**_ In terms of the $$\hat{x}_{s}, \hat{y}_{s}, \hat{z}_{s}$$ coordinates of a fixed space frame {s}, frame {a} has its $$\hat{x}_{a}$$-axis pointing in the direction $$(0,0,1)$$ and its $$\hat{y}_{a}$$-axis pointing in the direction $$(−1, 0, 0)$$, and frame {b} has its $$\hat{x}_{b}$$-axis pointing in the direction $$(1, 0, 0)$$ and its $$\hat{y}_{b}$$-axis pointing in the direction $$(0, 0, −1)$$. The origin of {a} is at $$(3,0,0)$$ in {s} and the origin of {b} is at $$(0,2,0)$$ in {s}.
+> - (a) Draw by hand a diagram showing {a} and {b} relative to {s}.
+> - (b) Write down the rotation matrices $$R_{sa}$$ and $$R_{sb}$$ and the transformation matrices $$T_{sa}$$ and $$T_{sb}$$.
+> - (c) Given $$T_{sb}$$, how do you calculate $$T^{−1}_{sb}$$ without using a matrix inverse? Write $$T_{sb}^{-1}$$ and verify its correctness using your drawing.
+> - (d) Given $$T_{sa}$$ and $$T_{sb}$$, how do you calculate Tab (again without using matrix inverses)? Compute the answer and verify its correctness using your drawing.
+> - (e) Let T = $$T_{sb}$$ be considered as a transformation operator consisting of a rotation about $$\hat{x}$$ by $$−90^{\circ}$$ and a translation along $$\hat{y}$$ by 2 units. Calculate $$T_{1} = T_{sa}T$$. Does $$T_{1}$$ correspond to a rotation and translation about $$\hat{x}_{s}$$ and $$\hat{y}_{s}$$, respectively (a world-fixed transformation of $$T_{sa}$$), or a rotation and translation about $$\hat{x}_{a}$$ and $$\hat{y}_{a}$$, respectively (a body-fixed transformation of $$T_{sa}$$)? Now calculate $$T_{2} = TT_{sa}$$. Does $$T_{2}$$ correspond to a body-fixed or world-fixed transformation of $$T_{sa}$$?
+> - (f) Use $$T_{sb}$$ to change the representation of the point $$p_{b} = (1,2,3)$$ in {b} coordinates to {s} coordinates.
+> - (g) Choose a point $$p$$ represented by $$p_{s} = (1, 2, 3)$$ in {s} coordinates. Calculate $$p^{\prime} = T_{sb}p_{s}$$ and $$p^{\prime\prime} = T^{-1}_{sb}p_{s}$$. For each operation, should the result be interpreted as changing coordinates (from the {s} frame to {b}) without moving the point p, or as moving the location of the point without changing the reference frame of the representation?
+> - (h) A twist V is represented in {s} as Vs = (3, 2, 1, −1, −2, −3). What is its representation Va in frame {a}?
+> - (i) By hand, calculate the matrix logarithm [S]θ of Tsa. (You may verify your answer with software.) Extract the normalized screw axis S and rotation amount θ. Find a {q,sˆ,h} representation of the screw axis. Redraw the fixed frame {s} and in it draw S.
+
+
+
+
 
 ***
 
