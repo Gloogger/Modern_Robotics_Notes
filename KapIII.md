@@ -396,6 +396,55 @@ $$
 
 Easy question. Since $$R\left[p_{1}^{T}, p_{2}^{T}, p_{3}^{T}\right] = \left[(p^{\prime}_{1})^{T}, (p^{\prime}_{2})^{T}, (p^{\prime}_{3})^{T}\right]$$, then $$R$$ can be found if the inverse of the term exists: $$R=\left[(p^{\prime}_{1})^{T}, (p^{\prime}_{2})^{T}, (p^{\prime}_{3})^{T}\right]\left[p_{1}^{T}, p_{2}^{T}, p_{3}^{T}\right]^{-1}$$.
 
+> _**Exercise 3.5**_ Find the exponential coordinates $$\hat{\omega}\theta \in \mathbb{R}^{3}$$ for the SO(3) matrix
+> $$ 
+    \begin{bmatrix}
+       0 & -1 & 0 \\
+       0 & 0 & -1 \\
+       1 & 0 & 0 \\
+    \end{bmatrix}
+$$
+
+Find $$\theta$$ first by 
+$$
+\begin{align}
+    \begin{split}
+        1+2c_{\theta} &= \text{tr}(R)=0 \\
+        \theta&= \frac{2\pi}{3} \\
+    \end{split}
+\end{align}
+$$
+
+Then find $$\hat{\omega}$$ by
+$$
+\begin{align}
+    \begin{split}
+        2s_{\theta}\begin{bmatrix}
+            \omega_{1} \\
+            \omega_{2} \\
+            \omega_{3} \\
+        \end{bmatrix} &=
+        \begin{bmatrix}
+            r_{32} - r_{23} \\
+            r_{13} - r_{31} \\
+            r_{21} - r_{12} \\
+        \end{bmatrix} = \begin{bmatrix}
+            0-(-1) \\
+            0-1 \\
+            0-(-1) \\
+        \end{bmatrix}\\
+        \hat{\omega} &= \frac{1}{2s_{\frac{2\pi}{3}}\begin{bmatrix}
+            1 \\
+            -1 \\
+            1 \\
+        \end{bmatrix} = \frac{1}{\sqrt{3}}\begin{bmatrix}
+            1 \\
+            -1 \\
+            1 \\
+        \end{bmatrix} \\
+    \end{split}
+\end{align}
+$$
 
 
 
