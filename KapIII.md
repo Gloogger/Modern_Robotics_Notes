@@ -394,6 +394,8 @@ $$
 \end{align}
 $$
 
+Easy question. Since $$R\left[p_{1}^{T}, p_{2}^{T}, p_{3}^{T}\right] = \left[(p^{\prime}_{1})^{T}, (p^{\prime}_{2})^{T}, (p^{\prime}_{3})^{T}\right]$$, then $$R$$ can be found if the inverse of the term exists: $$R=\left[(p^{\prime}_{1})^{T}, (p^{\prime}_{2})^{T}, (p^{\prime}_{3})^{T}\right]\left[p_{1}^{T}, p_{2}^{T}, p_{3}^{T}\right]^{-1}$$.
+
 
 
 
