@@ -419,7 +419,7 @@ Then find $$\hat{\omega}$$ by
 $$
 \begin{align}
     \begin{split}
-        2s_{\theta}\begin{bmatrix}
+        2s_{\theta} \begin{bmatrix}
             \omega_{1} \\
             \omega_{2} \\
             \omega_{3} \\
@@ -432,8 +432,8 @@ $$
             0-(-1) \\
             0-1 \\
             0-(-1) \\
-        \end{bmatrix}\\
-        \hat{\omega} &= \frac{1}{2s_{\frac{2\pi}{3}}\begin{bmatrix}
+        \end{bmatrix} \\
+        \hat{\omega} &= \frac{1}{ 2s_{\frac{2\pi}{3}} } \begin{bmatrix}
             1 \\
             -1 \\
             1 \\
