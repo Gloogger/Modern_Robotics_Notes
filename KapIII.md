@@ -364,7 +364,7 @@ $$
 \begin{align}
     \begin{split}
         R &= e^{[\hat{\omega}]\theta} \\
-        &= I + \sin(\theta) + (1-\cos{\theta})[\hat{\omega}]^{2}\\
+        &= I + \sin(\theta)[\hat{\omega}] + (1-\cos{\theta})[\hat{\omega}]^{2}\\
         &= 
         \begin{bmatrix}
             -0.29 & 0.65 & 0.70 \\
@@ -374,6 +374,13 @@ $$
     \end{split}
 \end{align}
 $$
+
+> _**Exercise3.2**_ Let $$p$$ be a point whose coordinates are $$p=\left( \frac{1}{\sqrt{3}},-\frac{1}{\sqrt{6}},\frac{1}{\sqrt{2}}\right)$$ with respect to the fixed frame $$\hat{x}-\hat{y}-\hat{z}$$. Suppose that $$p$$ is rotated about the fixed-frame $$\hat{x}$$-axis by 30 degrees, then about the fixed-frame $$\hat{y}$$-axis by 135 degrees, and finally about the fixed-frame $$\hat{z}$$-axis by −120 degrees. Denote the coordinates of this newly rotated point by $$p^{\prime}$$.
+> - (a) What are the coordinates $$p^{\prime}$$?
+> - (b) Find the rotation matrix $$R$$ such that $$p^{\prime} = Rp$$ for the $$p^{\prime}$$ you obtained in (a).
+
+- (a) Just use the formulae: $$p^{\prime} = \text{Rot}(\hat{z},-135^{\circ})\text{Rot}(\hat{y},135^{\circ})\text{Rot}(\hat{x},30^{\circ})p$$.
+
 
 ***
 
