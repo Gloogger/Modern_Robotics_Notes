@@ -44,6 +44,16 @@ For $$R = \text{Rot}(\hat{v}_{i},-90^{\circ})$$, if:
 Adjacent Common Subscripts Cancellation Rule: if two subscripts are adjacent and common, then they can be cancelled. 
 This rule applies to the product of two rotation matrix and the product of one rotation matrix with a vector.
 
+Matrix Exponentials
+$$
+\hat{\omega}\theta = \vec{v} = \frac{1}{\lvert v \rvert}
+\begin{bmatrix}
+    \frac{v_{1}}{\lvert v \rvert} \\
+    \frac{v_{2}}{\lvert v \rvert} \\
+    \frac{v_{3}}{\lvert v \rvert} \\
+\end{bmatrix}
+$$
+
 ***
 
 ## Textbook Exercises Attempts
@@ -327,6 +337,41 @@ $$
             1 \\
         \end{bmatrix}\\
     \end{split} 
+\end{align}
+$$
+
+- (j) Since $$\hat{\omega}\theta = (1, 2, 0)$$, we can find them separately by obtaining the unit vector:
+$$
+\hat{\omega}\theta = (1,2,0)^{T} = \sqrt{5}
+\begin{bmatrix}
+    \frac{1}{\sqrt{5}} \\
+    \frac{2}{\sqrt{5}} \\
+    0 \\
+\end{bmatrix}
+$$
+Then it's obvious that we have $$\theta=\sqrt{5}$$ and $$\hat{\omega}=(\frac{1}{\sqrt{5}},\frac{2}{\sqrt{5}},0)^{T}$$.
+Ipso facto, the skew symmetric form of $$\hat{\omega}$$ is, 
+$$
+[\hat{\omega}] = 
+\begin{bmatrix}
+    0 & 0 & \frac{2}{\sqrt{5}} \\
+    0 & 0 & -\frac{1}{\sqrt{5}} \\
+    -\frac{2}{\sqrt{5}} & \frac{1}{\sqrt{5}} & 0 \\
+\end{bmatrix}
+$$
+The rotation is obtained as
+$$
+\begin{align}
+    \begin{split}
+        R &= e^{[\hat{\omega}]\theta} \\
+        &= I + \sin(\theta) + (1-\cos{\theta})[\hat{\omega}]^{2}\\
+        &= 
+        \begin{bmatrix}
+            -0.29 & 0.65 & 0.70 \\
+            0.65 & 0.68 & -0.35 \\
+            -0.70 & 0.35 & -0.62 \\
+        \end{bmatrix}\\
+    \end{split}
 \end{align}
 $$
 
