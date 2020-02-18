@@ -610,6 +610,7 @@ p_{s} = \begin{bmatrix}
 $$
 
 - (g) From part (f) we have,
+$$
 p_{\prime} = \begin{bmatrix}
     1 \\
     5 \\
