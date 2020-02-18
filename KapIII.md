@@ -467,8 +467,8 @@ $$
 > - (e) Let T = $$T_{sb}$$ be considered as a transformation operator consisting of a rotation about $$\hat{x}$$ by $$−90^{\circ}$$ and a translation along $$\hat{y}$$ by 2 units. Calculate $$T_{1} = T_{sa}T$$. Does $$T_{1}$$ correspond to a rotation and translation about $$\hat{x}_{s}$$ and $$\hat{y}_{s}$$, respectively (a world-fixed transformation of $$T_{sa}$$), or a rotation and translation about $$\hat{x}_{a}$$ and $$\hat{y}_{a}$$, respectively (a body-fixed transformation of $$T_{sa}$$)? Now calculate $$T_{2} = TT_{sa}$$. Does $$T_{2}$$ correspond to a body-fixed or world-fixed transformation of $$T_{sa}$$?
 > - (f) Use $$T_{sb}$$ to change the representation of the point $$p_{b} = (1,2,3)$$ in {b} coordinates to {s} coordinates.
 > - (g) Choose a point $$p$$ represented by $$p_{s} = (1, 2, 3)$$ in {s} coordinates. Calculate $$p^{\prime} = T_{sb}p_{s}$$ and $$p^{\prime\prime} = T^{-1}_{sb}p_{s}$$. For each operation, should the result be interpreted as changing coordinates (from the {s} frame to {b}) without moving the point p, or as moving the location of the point without changing the reference frame of the representation?
-> - (h) A twist $$\mathscr{V}$$ is represented in {s} as Vs = (3, 2, 1, −1, −2, −3). What is its representation Va in frame {a}?
-> - (i) By hand, calculate the matrix logarithm [S]θ of Tsa. (You may verify your answer with software.) Extract the normalized screw axis S and rotation amount θ. Find a {q,sˆ,h} representation of the screw axis. Redraw the fixed frame {s} and in it draw S.
+> - (h) A twist $$\mathscr{V}$$ is represented in {s} as $$\mathscr{V}_{s} = (3, 2, 1, −1, −2, −3)$$. What is its representation $$\mathscr{V}_{a}$$ in frame {a}?
+> - (i) By hand, calculate the matrix logarithm $$[\mathscr{S}]\theta$$ of $$T_{sa}$$. (You may verify your answer with software.) Extract the normalized screw axis $$\mathscr{S}$$ and rotation amount $$\theta$$. Find a $$\left\{q,\hat{s},h\}$$ representation of the screw axis. Redraw the fixed frame {s} and in it draw $$\mathscr{S}$$.
 
 
 
