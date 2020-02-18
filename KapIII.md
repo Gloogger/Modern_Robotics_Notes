@@ -450,11 +450,11 @@ The exponential coordinate $$\hat{\omega}\theta$$ can therefore be found as
 $$
 \begin{align}
     \begin{split}
-        \hat{\omega}\theta &= \left( \frac{2\pi}{3} \right) \left( \frac{\sqrt{3}}{3} \begin{bmatrix} \right)
+        \hat{\omega}\theta &= \left( \frac{2\pi}{3} \right) \left( \frac{\sqrt{3}}{3} \begin{bmatrix} 
             1 \\
             -1 \\
             1 \\
-        \end{bmatrix}\\
+        \end{bmatrix}\right)\\
     \end{split}
 \end{align}
 $$
