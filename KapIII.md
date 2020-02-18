@@ -471,7 +471,7 @@ $$
 > - (i) By hand, calculate the matrix logarithm [S]θ of Tsa. (You may verify your answer with software.) Extract the normalized screw axis S and rotation amount θ. Find a {q,sˆ,h} representation of the screw axis. Redraw the fixed frame {s} and in it draw S.
 
 
-
+\mathscr{ABC} 
 
 
 ***
