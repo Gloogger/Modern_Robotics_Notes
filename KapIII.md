@@ -519,9 +519,9 @@ $$
             0 & 1 \\
         \end{bmatrix} \\
         &= \begin{bmatrix}
-            1 & 0 & 0 & -2 \\
+            1 & 0 & 0 & 0 \\
             0 & 0 & -1 & 0 \\
-            0 & 1 & 0 & 0 \\
+            0 & 1 & 0 & -2 \\
             0 & 0 & 0 & 1 \\
         \end{bmatrix} \\
     \end{split}
@@ -533,7 +533,7 @@ $$
 \begin{align}
     \begin{split}
         T_{ab} &= T_{as}T_{sb} \\
-        &= T_{sb}^{-1}T_{sb}\\
+        &= T_{sa}^{-1}T_{sb}\\
         &= \begin{bmatrix}
             R_{sa}^{T} & -R_{sa}^{T}p_{a} \\
             0 & 1 \\
@@ -587,8 +587,52 @@ $$
     <img src="https://drive.google.com/uc?export=view&id=1BvEo-WgZTLpNTJkHxm_NY6ddlbCElJRQ" alt="fig_3_10.png" width="500">
 </p>
 
-By the drawing above, $$T_{2}$$ corresponds to a rotation about $$\hat{x}_{x}$$ of $$-90^{\circ}$$ plus a translation about $$\hat{y}_{s}$$ of $$2$$ units. This behaviour is predicted by the adjacent subscripts cancellation rule.
+By the drawing above, $$T_{2}$$ corresponds to a rotation about $$\hat{x}_{s}$$ of $$-90^{\circ}$$ plus a translation about $$\hat{y}_{s}$$ of $$2$$ units. This behaviour is predicted by the adjacent subscripts cancellation rule.
 
+- (f)
+$$
+p_{s} = T_{sb}p_{b}= \begin{bmatrix}
+    1 \\
+    5 \\
+    -2 \\
+    1 \\
+\end{bmatrix}
+$$
+
+Truncate the meaningless last row of the vector, we have
+
+$$
+p_{s} = \begin{bmatrix}
+    1 \\
+    5 \\
+    -2 \\
+\end{bmatrix}
+$$
+
+- (g) From part (f) we have,
+p_{\prime} = \begin{bmatrix}
+    1 \\
+    5 \\
+    -2 \\
+\end{bmatrix}
+$$
+
+$$p_{\prime}$$ should be interpreted as moving the location of point $$p_{s}$$ without changing the reference frame, because the two adjacent subscripts are not common and cannot be cancelled. 
+
+$$
+\begin{align}
+    \begin{split}
+        p_{\prime\prime} &= T_{sb}^{-1}p_{s}\\
+        &= T_{bs}p_{s}\\
+        &= \begin{bmatrix}
+            1 \\
+            -3 \\
+            0 \\
+        \end{bmatrix}\text{late row truncated.}\\
+    \end{split}
+\end{align}
+
+$$p_{\prime\prime}$$ should be interpreted as changing the reference frame from {s} to {a} of point $$p_{s}$$ without moving its location, because the two adjacent subscripts are common and can therefore be cancelled. 
 
 ***
 
