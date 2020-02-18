@@ -611,19 +611,19 @@ $$
 
 - (g) From part (f) we have,
 $$
-p_{\prime} = \begin{bmatrix}
+p^{\prime} = \begin{bmatrix}
     1 \\
     5 \\
     -2 \\
 \end{bmatrix}
 $$
 
-$$p_{\prime}$$ should be interpreted as moving the location of point $$p_{s}$$ without changing the reference frame, because the two adjacent subscripts are not common and cannot be cancelled. 
+$$p^{\prime}$$ should be interpreted as moving the location of point $$p_{s}$$ without changing the reference frame, because the two adjacent subscripts are not common and cannot be cancelled. 
 
 $$
 \begin{align}
     \begin{split}
-        p_{\prime\prime} &= T_{sb}^{-1}p_{s}\\
+        p^{\prime\prime} &= T_{sb}^{-1}p_{s}\\
         &= T_{bs}p_{s}\\
         &= \begin{bmatrix}
             1 \\
@@ -632,8 +632,9 @@ $$
         \end{bmatrix}\text{late row truncated.}\\
     \end{split}
 \end{align}
+$$
 
-$$p_{\prime\prime}$$ should be interpreted as changing the reference frame from {s} to {a} of point $$p_{s}$$ without moving its location, because the two adjacent subscripts are common and can therefore be cancelled. 
+$$p^{\prime\prime}$$ should be interpreted as changing the reference frame from {s} to {a} of point $$p_{s}$$ without moving its location, because the two adjacent subscripts are common and can therefore be cancelled. 
 
 ***
 
