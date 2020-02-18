@@ -389,7 +389,7 @@ With some math, the ratio of free C-space on original C-space can be calculated.
 
 - (a) $$\mathbb{R}^{2}\times \mathbb{S}^{1}$$
 - (b) $$\mathbb{S}^{2}\times \mathbb{S}^{1}$$
-- (c) It will be (chassis on plane) times (the RRR joints) times (the limited P joint): $$\mathbb{R}^{2}\times \mathbb{S}^{1} \times \mathbb{S}^{1}\times \mathbb{S}^{1}\times \mathbb{S}^{1} \times [a,b]= \mathbb{R}^{2}\times \times \mathbb{T}^{4}\times [a,b] $$
+- (c) It will be (chassis on plane) times (the RRR joints) times (the limited P joint): $$\mathbb{R}^{2}\times \mathbb{S}^{1} \times \mathbb{S}^{1}\times \mathbb{S}^{1}\times \mathbb{S}^{1} \times [a,b]= \mathbb{R}^{2}\times \mathbb{T}^{4}\times [a,b] $$
 - (d) It will be (rigid body in space) times (6R arm): $$\mathbb{R}^{3}\times \mathbb{S}^{2} \times \mathbb{S}^{1} \times \mathbb{T}^{6} = \mathbb{R}^{3}\times \mathbb{S}^{2} \times \mathbb{T}^{7}$$
 
 > _**Exercise 2.31**_ A differential-drive mobile robot has two wheels that do not steer but whose speeds can be controlled independently. The robot goes forward and backward by spinning the wheels in the same direction at the same speed, and it turns by spinning the wheels at different speeds. The configuration of the robot is given by five variables: the $$(x, y)$$ location of the point halfway between the wheels, the heading direction $$\theta$$ of the robot’s chassis relative to the x-axis of the world frame, and the rotation angles $$\phi_{1}$$ and $$\phi_{2}$$ of the two wheels about the axis through the centers of the wheels (Figure 2.34). Assume that the radius of each wheel is r and the distance between the wheels is 2d.
