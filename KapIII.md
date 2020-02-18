@@ -54,6 +54,14 @@ $$
 \end{bmatrix}
 $$
 
+Adjoint representation formula:
+$$
+\left[\text{Ad}_{T}\right] = \begin{bmatrix}
+    R & 0 \\
+    [p]R & 0 \\
+\end{bmatrix} \in \mathbb{R}^{6\times6}
+$$
+
 ***
 
 ## Textbook Exercises Attempts
@@ -635,6 +643,30 @@ $$
 $$
 
 $$p^{\prime\prime}$$ should be interpreted as changing the reference frame from {s} to {a} of point $$p_{s}$$ without moving its location, because the two adjacent subscripts are common and can therefore be cancelled. 
+
+- h) We know that $$\mathscr{V}_{a}=\left[\text{Ad}_{T_{as}}\right]\mathscr{V}_{s}$$. To find $$\text{Ad}_{T_{as}}$$, we need to find $$T_{as}$$ first,
+$$
+T_{as} = T_{sa}^{-1} = \begin{bmatrix}
+    0 & 0 & 1 & 0 \\
+    -1 & 0 & 0 & 3 \\
+    0 & -1 & 0 & 0 \\
+    0 & 0 & 0 & 1 \\
+\end{bmatrix}
+$$
+
+Then, using the adjoint representation formula, we have
+$$
+\left[\text{Ad}_{T_{sa}}\right] = \begin{bmatrix}
+    0 & 0 & 1 & \; & 0 & 0 & 0 \\
+   -1 & 0 & 0 & \; & 0 & 0 & 0 \\
+    0 &-1 & 0 & \; & 0 & 0 & 0 \\
+    \,&\, &\, & \, &\, &\, &\, \\
+    0 &-3 & 0 & \; & 0 & 0 & 1 \\
+    0 & 0 & 0 & \; &-1 & 0 & 0 \\
+    0 & 0 &-3 & \; & 0 &-1 & 0 \\
+\end{bmatrix}
+$$
+
 
 ***
 
