@@ -476,6 +476,120 @@ $$
     <img src="https://drive.google.com/uc?export=view&id=1P7FJ5s9Gjs-BK9uVYKnJgKMuEN2YpR7S" alt="fig_3_8.png" width="500">
 </p>
 
+- (b) 
+$$ R_{sa} = 
+\begin{bmatrix}
+     0 & -1 & 0 \\
+     0 & 0 & -1 \\
+     1 & 0 & 0 \\
+\end{bmatrix},
+R_{sb} = 
+\begin{bmatrix}
+     1 & 0 & 0 \\
+     0 & 0 & 1 \\
+     0 & -1 & 0 \\
+\end{bmatrix},
+T_{sa} = 
+\begin{bmatrix}
+     0 & -1 & 0 & 3 \\
+     0 & 0 & -1 & 0 \\
+     1 & 0 & 0 & 0 \\
+     0 & 0 & 0 & 1 \\
+\end{bmatrix},
+T_{sb} = 
+\begin{bmatrix}
+     1 & 0 & 0 & 0 \\
+     0 & 0 & 1 & 2 \\
+     0 & -1 & 0 & 0 \\
+     0 & 0 & 0 & 1 \\
+\end{bmatrix}
+$$
+
+- (c)
+$$
+\begin{align}
+    \begin{split}
+        T_{sb}^{-1} &= 
+        \begin{bmatrix}
+            R_{sb} & p_{b} \\
+            0 & 1 \\
+        \end{bmatrix} =
+        \begin{bmatrix}
+            R_{sb}^{T} & -R_{sb}^{T}p_{b} \\
+            0 & 1 \\
+        \end{bmatrix} \\
+        &= \begin{bmatrix}
+            1 & 0 & 0 & -2 \\
+            0 & 0 & -1 & 0 \\
+            0 & 1 & 0 & 0 \\
+            0 & 0 & 0 & 1 \\
+        \end{bmatrix} \\
+    \end{split}
+\end{align}
+$$
+
+- (d)
+$$
+\begin{align}
+    \begin{split}
+        T_{ab} &= T_{as}T_{sb} \\
+        &= T_{sb}^{-1}T_{sb}\\
+        &= \begin{bmatrix}
+            R_{sa}^{T} & -R_{sa}^{T}p_{a} \\
+            0 & 1 \\
+        \end{bmatrix} T_{sb}\\
+        &= \begin{bmatrix}
+            0 & 0 & 1 & 0 \\
+            -1 & 0 & 0 & -3 \\
+            0 & -1 & 0 & 0 \\
+            0 & 0 & 0 & 1 \\
+        \end{bmatrix}\\
+    \end{split}
+\end{align}
+$$
+
+- (e)
+$$
+\begin{align}
+    \begin{split}
+        T_{1} &= T_{sa}T\\
+        &=\begin{bmatrix}
+            0 & 0 & -1 & 1 \\
+            0 & 1 & 0 & 0 \\
+            1 & 0 & 0 & 0 \\
+            0 & 0 & 0 & 1 \\
+        \end{bmatrix}\\
+    \end{split}
+\end{align}
+$$
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1XRX7ciAFVStfqXI3tyk8wBFA_KbZn_OQ" alt="fig_3_9.png" width="500">
+</p>
+
+By the drawing above, $$T_{1}$$ corresponds to a rotation about $$\hat{x}_{a}$$ of $$-90^{\circ}$$ plus a translation about $$\hat{y}_{a}$$ of $$2$$ units. This behaviour is predicted by the adjacent subscripts cancellation rule.
+
+$$
+\begin{align}
+    \begin{split}
+        T_{2} &= TT_{sa}\\
+        &=\begin{bmatrix}
+            0 & -1 & 0 & 3 \\
+            1 & 0 & 0 & 2 \\
+            0 & 0 & 1 & 0 \\
+            0 & 0 & 0 & 1 \\
+        \end{bmatrix}\\
+    \end{split}
+\end{align}
+$$
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1BvEo-WgZTLpNTJkHxm_NY6ddlbCElJRQ" alt="fig_3_10.png" width="500">
+</p>
+
+By the drawing above, $$T_{2}$$ corresponds to a rotation about $$\hat{x}_{x}$$ of $$-90^{\circ}$$ plus a translation about $$\hat{y}_{s}$$ of $$2$$ units. This behaviour is predicted by the adjacent subscripts cancellation rule.
+
+
 ***
 
 Image hosting template:
