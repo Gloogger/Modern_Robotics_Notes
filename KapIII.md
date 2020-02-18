@@ -471,7 +471,10 @@ $$
 > - (i) By hand, calculate the matrix logarithm $$[\mathscr{S}]\theta$$ of $$T_{sa}$$. (You may verify your answer with software.) Extract the normalized screw axis $$\mathscr{S}$$ and rotation amount $$\theta$$. Find a $$\{q,\hat{s},h\}$$ representation of the screw axis. Redraw the fixed frame {s} and in it draw $$\mathscr{S}$$.
 > - (j) Calculate the matrix exponential corresponding to the exponential coordinates of rigid-body motion $$\mathscr{S}\theta = (0, 1, 2, 3, 0, 0)$$. Draw the corresponding frame relative to {s}, as well as the screw axis $$\mathscr{S}$$.
 
-
+- (a)
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1P7FJ5s9Gjs-BK9uVYKnJgKMuEN2YpR7S" alt="fig_3_8.png" width="500">
+</p>
 
 ***
 
