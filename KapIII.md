@@ -774,7 +774,7 @@ $$
 
 At last, the screw axis represented in $$\{q,\hat{s},h\}$$ form is 
 $$
-{q,\hat{s},h} = \left\{\begin{bmatrix}
+\{q,\hat{s},h\} = \left\{\begin{bmatrix}
     1 \\
     1 \\
     0 \\
