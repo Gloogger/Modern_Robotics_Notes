@@ -750,11 +750,11 @@ $$
             0.5773 \\
             -0.5773 \\
             -1.1548 \\
-        \end{bmatrix} &= -\lvert\begin{array}{ccc}
+        \end{bmatrix} &= -\norm{\begin{array}{ccc}
             i & j & k \\
             0.5773 & -0.5773 & 0.5773 \\
             a & b & c \\
-        \end{array}\rvert \\
+        \end{array}} \\
         \left[ \begin{array}{ccc|c} 
             0 & 0.5773 & 0.5773 & 0.5773 \\ 
             -0.5773 & 0 & 0.5773 & -0.5773 \\
