@@ -750,24 +750,26 @@ $$
             0.5773 \\
             -0.5773 \\
             -1.1548 \\
-        \end{bmatrix} &= -\norm{\begin{array}{ccc}
+        \end{bmatrix} &= -\left\lvert \begin{array}{ccc}
             i & j & k \\
             0.5773 & -0.5773 & 0.5773 \\
             a & b & c \\
-        \end{array}} \\
-        \left[ \begin{array}{ccc|c} 
+        \end{array}\right\rvert \\
+    \end{split}
+\end{align}
+$$
+
+$$
+\left[ \begin{array}{ccc|c} 
             0 & 0.5773 & 0.5773 & 0.5773 \\ 
             -0.5773 & 0 & 0.5773 & -0.5773 \\
             -0.5773 & -0.5773 & 0 & -1.1548 \\
             \end{array} 
-         \right] \Longrightarrow q &= \begin{bmatrix}
+         \right] \Longrightarrow q = \begin{bmatrix}
             1 \\
             1 \\ 
             0 \\
          \end{bmatrix}
-         \\
-    \end{split}
-\end{align}
 $$
 
 At last, the screw axis represented in $$\{q,\hat{s},h\}$$ form is 
