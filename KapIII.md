@@ -790,10 +790,35 @@ $$
 1. Because $$\mathscr{S}\theta=[\hat{\omega}\theta,\,v\theta]^{T}$$, we can find $$\hat{omega}$$ and $$\theta$$.
 2. Since $$e^{[\mathscr{S}]\theta}=\begin{bmatrix} e^{[\hat{\omega}]\theta} & G(\theta)v \\ 0 & 1 \\ \end{bmatrix}$$, we need to first find each term first.
 3. Done!
+
 Here is the actual MATLAB code:
 
-
-
+```
+%% (j)
+s_theta = [0; 1; 2; 3; 0; 0];
+omega_theta = [0; 1; 2];
+v = [3; 0; 0];
+theta = norm(omega_theta);
+hat_omega = omega_theta ./ theta;
+bracket_omega = [      0       -hat_omega(3)  hat_omega(2);
+                  hat_omega(3)      0             0;
+                 -hat_omega(2)      0             0;       ];
+exp_omega_theta = eye(3) + sin(theta).* bracket_omega + (1-cos(theta)) ...
+                  .* bracket_omega^2;
+G = eye(3) .* theta + (1-cos(theta)).*bracket_omega + (theta-sin(theta))...
+    .* bracket_omega^2;
+exp_S_theta = [exp_omega_theta   G*v;
+                0     0    0      1 ];
+```
+The final result is,
+$$
+e^{[\mathscr{S}]\theta} = \begin{bmatrix}
+    -0.6173 &  -0.7037 &   0.3518 &   2.3602 \\
+    0.7037 &  -0.2938 &   0.6469  &  4.3396 \\
+   -0.3518 &   0.6469  &  0.6765 &  -2.1698 \\
+         0   &      0   &      0  &  1.0000 \\
+\end{bmatrix}
+$$
 
 ***
 
