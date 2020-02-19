@@ -770,7 +770,19 @@ $$
 \end{align}
 $$
 
-
+At last, the screw axis represented in $$\{q,\hat{s},h\}$$ form is 
+$$
+\{q,\hat{s},h\} = \left{\begin{bmatrix}
+    1 \\
+    1 \\
+    0 \\
+\end{bmatrix}, \begin{bmatrix}
+    0.5774 \\
+    -0.5774 \\
+    0.5774 \\
+\end{bmatrix}, 0.8271
+\right}
+$$
 
 
 
