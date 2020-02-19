@@ -787,7 +787,7 @@ $$
 $$
 
 - (j) The calculation steps are:
-1. Because $$\mathscr{S}\theta=[\hat{\omega}\theta,\,v\theta]^{T}$$, we can find $$\hat{omega}$$ and $$\theta$$.
+1. Because $$\mathscr{S}\theta=[\hat{\omega}\theta,\,v\theta]^{T}$$, we can find $$\hat{\omega}$$ and $$\theta$$.
 2. Since $$e^{[\mathscr{S}]\theta}=\begin{bmatrix} e^{[\hat{\omega}]\theta} & G(\theta)v \\ 0 & 1 \\ \end{bmatrix}$$, we need to first find each term first.
 3. Done!
 
@@ -819,6 +819,8 @@ e^{[\mathscr{S}]\theta} = \begin{bmatrix}
          0   &      0   &      0  &  1.0000 \\
 \end{bmatrix}
 $$
+
+
 
 ***
 
