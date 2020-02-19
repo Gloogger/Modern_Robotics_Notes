@@ -725,15 +725,7 @@ $$
 
 Since $$\omega$$ does not equal to 0, we know that $$\mathscr{S}$$ is just the normalized $$\mathscr{V}$$. Therefore we have
 $$
-\mathscr{S} = \begin{bmatrix}
-    0.5774 \\
-    -0.5774 \\
-    0.5774 \\
-    \, \\
-    1.0548 \\
-    -1.0548 \\
-    -0.6772 \\
-\end{bmatrix}
+\mathscr{S} = (0.5774, -0.5774, 0.5774, 1.0548, -1.0548, -0.6772) ^{T}
 $$
 The unit screw axis $$\hat{s}$$ is simply $$[0.5774, -0.5774, 0.5774]^{T}$$. Then find $$h=\frac{\hat{\omega}^{T}v}{\dot{\theta}}=0.8271$$.
 
@@ -758,11 +750,11 @@ $$
             0.5773 \\
             -0.5773 \\
             -1.1548 \\
-        \end{bmatrix} &= -\abs{\begin{bmatrix}
+        \end{bmatrix} &= -\lvert\begin{array}{ccc}
             i & j & k \\
             0.5773 & -0.5773 & 0.5773 \\
             a & b & c \\
-        \end{bmatrix}} \\
+        \end{array}\rvert \\
         \left[ \begin{array}{ccc|c} 
             0 & 0.5773 & 0.5773 & 0.5773 \\ 
             -0.5773 & 0 & 0.5773 & -0.5773 \\
