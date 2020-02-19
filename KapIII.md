@@ -685,7 +685,7 @@ $$
 \begin{align}
     \begin{split}
         \theta &= \cos^{-1}\left(\frac{\text{tr}(R_{sa})-1}{2}\right)=\frac{2\pi}{3}, \\
-        [\hat{\omega}] &= \frac{1}{2\sin(\theta)}(R_{sa}-R_{sa}^{T}) = \frac{sqrt{3}}{3} \begin{bmatrix}
+        [\hat{\omega}] &= \frac{1}{2\sin(\theta)}(R_{sa}-R_{sa}^{T}) = \frac{\sqrt{3}}{3} \begin{bmatrix}
             0 & -1 & -1 \\
             1 &  0 & -1 \\
             1 &  1 &  0 \\
@@ -713,13 +713,43 @@ $$
             -0.3516 &   0.3516 &   0.2257 \\
             -0.2257 &  -0.3516 &   0.3516 \\
         \end{bmatrix} \\
+        v &= G^{-1}(\theta)p \\
+        &= \begin{bmatrix}
+            1.0548  \\
+            -1.0548 \\
+            -0.6772 \\
+        \end{bmatrix}
     \end{split}
 \end{align}
 $$
+
+Since $$\omega$$ does not equal to 0, we know that $$\mathscr{S}$$ is just the normalized $$\mathscr{V}$$. Therefore we have
+$$
+\mathscr{S} = \begin{bmatrix}
+    0.5774 \\
+    -0.5774 \\
+    0.5774 \\
+    \, \\
+    1.0548 \\
+    -1.0548 \\
+    -0.6772 \\
+\end{bmatrix}
+$$
+The unit screw axis $$\hat{s}$$ is simply $$[0.5774, -0.5774, 0.5774]^{T}$$. Then find $$h=\frac{\hat{\omega}^{T}v}{\dot{\theta}}=0.8271$$.
+
 ```
 I = eye(3);     
 inv_G = 1/theta .* I - 1/2 .* skew_omega + ( 1/theta - 1/2 * cot(theta/2) ) .* skew_omega^2;
+p = [3; 0; 0];
+v = inv_G * p;
+skew_S = [skew_omega v;
+          0  0   0   0];
+s_hat = [0.5774; -0.5774; 0.5774]; % by hand
+omega_hat = s_hat;
+h = transpose(omega_hat) * v;
 ```
+
+
 
 
 
