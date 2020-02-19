@@ -749,6 +749,31 @@ omega_hat = s_hat;
 h = transpose(omega_hat) * v;
 ```
 
+Because in $$v=-\omega\times q + h \omega$$ there is a cross product, we need to solve a system of equations.
+Rearrange the aforesaid equation as $$v-h\omega = -\omega\times q$$. Let $$q=(a,b,c)^{T}$$. Then we have,
+$$
+\begin{align}
+    \begin{split}
+        \begin{bmatrix}
+            0.5773 \\
+            -0.5773 \\
+            -1.1548 \\
+        \end{bmatrix} &= -\abs{\begin{bmatrix}
+            i & j & k \\
+            0.5773 & -0.5773 & 0.5773 \\
+            a & b & c \\
+        \end{bmatrix}} \\
+        \left[ \begin{array}{ccc|c} 
+            0 & 0.5773 & 0.5773 & 0.5773 \\ 
+            -0.5773 & 0 & 0.5773 & -0.5773 \\
+            -0.5773 & -0.5773 & 0 & -1.1548 \\
+            \end{array} 
+         \right]\\
+    \end{split}
+\end{align}
+$$
+
+By observation, we have the solution $$q=(1,1,0)^{T}$$.
 
 
 
