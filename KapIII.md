@@ -691,8 +691,35 @@ $$
         \end{bmatrix} \\
     \end{split}
 \end{align}
-
 $$
+```
+%% Exercise 3.16
+%% (i)
+R_sa = [0 -1  0;
+        0  0 -1;
+        1  0  0];
+theta = acos(-1/2);
+skew_omega = 1/(2*sin(theta)) .* (R_sa - transpose(R_sa));
+```
+Now we need to find $$v$$. From the formula we know that $$v=G^{-1}(\theta)p$$. Therefore, we need to first find $$G^{-1}(\theta)$$ using,
+$$
+\begin{align}
+    \begin{split}
+        G^{-1}(\theta) &= \frac{1}{\theta}I-\frac{1}{2}[\theta]+\left( \frac{1}{\theta} - \frac{1}{2}\cot\frac{\theta}{2} \right)[\omega]^{2} \\
+        &= \begin{bmatrix}
+            0.3516  &  0.2257  &  0.3516 \\
+            -0.3516 &   0.3516 &   0.2257 \\
+            -0.2257 &  -0.3516 &   0.3516 \\
+        \end{bmatrix} \\
+    \end{split}
+\end{align}
+$$
+```
+I = eye(3);     
+inv_G = 1/theta .* I - 1/2 .* skew_omega + ( 1/theta - 1/2 * cot(theta/2) ) .* skew_omega^2;
+```
+
+
 
 
 ***
