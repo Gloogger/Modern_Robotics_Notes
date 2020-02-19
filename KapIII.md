@@ -773,6 +773,7 @@ $$
 $$
 
 At last, the screw axis represented in $$\{q,\hat{s},h\}$$ form is 
+
 $$
 \{q,\hat{s},h\} = \left\{\begin{bmatrix}
     1 \\
@@ -784,6 +785,12 @@ $$
     0.5774 \\
 \end{bmatrix}, 0.8271 \right\}
 $$
+
+- (j) The calculation steps are:
+1. Because $$\mathscr{S}\theta=[\hat{\omega}\theta,\,v\theta]^{T}$$, we can find $$\hat{omega}$$ and $$\theta$$.
+2. Since $$e^{[\mathscr{S}]\theta}=\begin{bmatrix} e^{[\hat{\omega}]\theta} & G(\theta)v \\ 0 & 1 \\ \end{bmatrix}$$, we need to first find each term first.
+3. Done!
+Here is the actual MATLAB code:
 
 
 
