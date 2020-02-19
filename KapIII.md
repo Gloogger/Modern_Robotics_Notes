@@ -637,7 +637,7 @@ $$
             1 \\
             -3 \\
             0 \\
-        \end{bmatrix}\text{late row truncated.}\\
+        \end{bmatrix}\text{last row truncated.}\\
     \end{split}
 \end{align}
 $$
@@ -665,6 +665,33 @@ $$
     0 & 0 & 0 & \; &-1 & 0 & 0 \\
     0 & 0 &-3 & \; & 0 &-1 & 0 \\
 \end{bmatrix}
+$$
+Finally, we have 
+$$
+\mathscr{V}_{a} = \begin{bmatrix}
+    1 \\
+    -3 \\
+    -2 \\
+    -9 \\
+    1 \\
+    -1 \\
+\end{bmatrix}
+$$
+
+- (i) This is a big chunk. Get Ready! The calculation is done on MATLAB.
+We have found $$R_{sa}$$ in previous parts, now we need to find $$\theta$$ and $$[\hat{\omega}]$$. Because $$\text{tr}(R_{sa})=0$$, the third choice of the algorithm should be used. Therefore, we have
+$$
+\begin{align}
+    \begin{split}
+        \theta &= \cos^{-1}\left(\frac{\text{tr}(R_{sa})-1}{2}\right)=\frac{2\pi}{3}, \\
+        [\hat{\omega}] &= \frac{1}{2\sin(\theta)}(R_{sa}-R_{sa}^{T}) = \frac{sqrt{3}}{3} \begin{bmatrix}
+            0 & -1 & -1 \\
+            1 &  0 & -1 \\
+            1 &  1 &  0 \\
+        \end{bmatrix} \\
+    \end{split}
+\end{align}
+
 $$
 
 
