@@ -680,6 +680,7 @@ $$
 
 - (i) This is a big chunk. Get Ready! The calculation is done on MATLAB.
 We have found $$R_{sa}$$ in previous parts, now we need to find $$\theta$$ and $$[\hat{\omega}]$$. Because $$\text{tr}(R_{sa})=0$$, the third choice of the algorithm should be used. Therefore, we have
+
 $$
 \begin{align}
     \begin{split}
@@ -692,6 +693,7 @@ $$
     \end{split}
 \end{align}
 $$
+
 ```
 %% Exercise 3.16
 %% (i)
