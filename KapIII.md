@@ -760,12 +760,16 @@ $$
             -0.5773 & 0 & 0.5773 & -0.5773 \\
             -0.5773 & -0.5773 & 0 & -1.1548 \\
             \end{array} 
-         \right]\\
+         \right] \Longrightarrow q &= \begin{bmatrix}
+            1 \\
+            1 \\ 
+            0 \\
+         \end{bmatrix}
+         \\
     \end{split}
 \end{align}
 $$
 
-By observation, we have the solution $$q=(1,1,0)^{T}$$.
 
 
 
