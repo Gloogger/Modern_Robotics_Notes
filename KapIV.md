@@ -35,7 +35,7 @@ My own notes:
 ***
 
 ## Textbook Exercises Attempts
-
+> _**Exercise 4.2**_ The RRRP SCARA robot of Figure 4.12 is shown in its zero position. Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {0}, and the screw axes $$\mathscr{B}_{i}$$ in {b}. For $$\mathpzc{l}_{0} = \mathpzc{l}_{1} = \mathpzc{l}_{2} = 1$$ and the joint variable values $$\theta = (0, \frac{\pi}{2}, -\frac{\pi}{2},1)$$, use both the **FKinSpace** and the **FKinBody** functions to find the end-effector configuration $$T\in \text{SE}(3)$$. Confirm that they agree with each other.
 
 
 ***
