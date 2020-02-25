@@ -10,9 +10,9 @@ There have been some fine and meticulous summary of the theory part of the **Mod
 
 The kinematics theory favored by the **Modern Robotics**  course is _**Product-of-Exponentials (PoE)**_. There is an alternative kenematic theory called _**Denavit-Hartenburg Method (D-H method)**_, which does not gain much attention in this course. If you are interested, there is a free online course called [RoboGrok](http://robogrok.com/) which addresses the D-H method in more detail. 
 
-
 ## **Table of Content**
 
+* [**Kapitel Null: Notes on Maths**](Kap0.html)
 * **Kapitel I: Preview (not important)**
 * [**Kapitel II: Configuration Space**](KapII.html)
 * [**Kapitel III: Rigid Body Motion**](KapIII.html)
