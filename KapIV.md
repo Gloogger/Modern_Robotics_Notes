@@ -83,6 +83,10 @@ T_Blist =
 
 > _**Exercise 4.7**_ The PRRRRR spatial open chain of Figure 4.13 is shown in its zero position. Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {0}, and the screw axes $$\mathscr{B}_{i}$$ in {b}.
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=15-oKmA8JODSi2RdGF3Aqdy-dYuuT5Nie" alt="fig_2.png">
+</p>
+
 
 ***
 
