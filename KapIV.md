@@ -87,6 +87,12 @@ T_Blist =
     <img src="https://drive.google.com/uc?export=view&id=15-oKmA8JODSi2RdGF3Aqdy-dYuuT5Nie" alt="fig_2.png">
 </p>
 
+> _**Exercise 4.8**_ The spatial RRRRPR open chain of Figure 4.14 is shown in its zero position, with fixed and end-effector frames chosen as indicated. Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {0}, and the screw axes $$\mathscr{B}_{i}$$ in {b}.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1BYTUlCWXmCznw9wGBlHLTjKG0GVi9eby" alt="fig_3.png">
+</p>
+
 
 ***
 
