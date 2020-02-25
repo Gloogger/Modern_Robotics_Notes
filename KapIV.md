@@ -14,11 +14,19 @@ is_project_page: false
 </p>
 
 ## Useful Notes and Equations
-For a comprehensive and thorough summary of the theory, check MuChenSun's wonderful note [here](https://muchensun.github.io/ModernRoboticsCourseNotes/ch4.html).
+For a comprehensive and thorough summary of the theory, check MuChenSun's wonderful note [here](https://muchensun.github.io/ModernRoboticsCourseNotes/ch3.html).
 
 My own notes:
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1DSVOJTZFy7FHh_PZEt5pvCj8gykDoQVq" alt="fig_3_1.png">
+    <img src="https://drive.google.com/uc?export=view&id=1wYI4DR4fpYST-s8QQRrNHSIwlt-jSAH_" alt="note_1.png">
+</p>
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1KYGsDUZOsULj4aBQVtI3rRhhfUzhhlPD" alt="note_2.png">
+</p>
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1zO-rZXdRBeAw1S9dykbHKAfGuKNKlksR" alt="note_3.png">
 </p>
 
 
