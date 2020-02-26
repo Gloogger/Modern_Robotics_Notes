@@ -101,6 +101,12 @@ T_Blist =
 
 > _**Exercise 4.10**_ The URRPR spatial open chain of Figure 4.16 is shown in its zero position. Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {0}, and the screw axes $$\mathscr{B}_{i}$$ in {b}.
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=19wIFmyPiu4dLMAKMeWT0S7x-2FygKbCP" alt="fig_5.png">
+</p>
+
+> _**Exercise 4.11**_ The spatial RPRRR open chain of Figure 4.17 is shown in its zero position. Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {0}, and the screw axes $$\mathscr{B}_{i}$$ in {b}.
+
 
 
 ***
