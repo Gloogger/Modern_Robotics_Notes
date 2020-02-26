@@ -121,7 +121,7 @@ Setting $$\theta_{5}=\pi$$ and all other joint variables to zero, we have
 $$
 \begin{align}
     \begin{split}
-        T_{06} &= e^{[\mathscr{S}_{1}]\theta_{1}} e^{[\mathscr{S}_{2}]\theta_{2}} e^{[\mathscr{S}_{3}]\theta_{3}} e^{[\mathscr{S}_{4}]\theta_{4}} e^{[\mathscr{S}_{1}]\theta_{5}} M\\
+        T_{06} &= e^{[\mathscr{S}_{1}]\theta_{1}} e^{[\mathscr{S}_{2}]\theta_{2}} e^{[\mathscr{S}_{3}]\theta_{3}} e^{[\mathscr{S}_{4}]\theta_{4}} e^{[\mathscr{S}_{5}]\theta_{5}} M\\
         &= I I I I e^{[\mathscr{S}_{5}]\theta_{5}} M\\
         &= \begin{bmatrix}
             -1 & 0 & 0 & 0 \\
@@ -169,6 +169,12 @@ T_60 =
          0   -1.0000         0    6.4142
          0         0         0    1.0000
 ```
+
+> _**Exercise 4.13**_ The spatial RRRPRR open chain of Figure 4.19 is shown in its zero position. Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {0}, and the screw axes $$\mathscr{B}_{i}$$ in {b}.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=14dgRZzlvCoOj9T6kSCiwkC4A_LXC7_1N" alt="fig_8.png">
+</p>
 
 ***
 
