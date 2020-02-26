@@ -176,6 +176,8 @@ T_60 =
     <img src="https://drive.google.com/uc?export=view&id=14dgRZzlvCoOj9T6kSCiwkC4A_LXC7_1N" alt="fig_8.png">
 </p>
 
+> _**Exercise 4.14**_ The RPH robot of Figure 4.20 is shown in its zero position. Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {s}, and the screw axes $$\mathscr{B}_{i}$$ in {b}. Use both the _FKinSpace_ and the _FKinBody_ functions to find the end-effector configuration $$T\in \text{SE}(3)$$ when $$\theta = (\pi/2, 3, \pi)$$. Confirm that the results agree.
+
 ***
 
 Image hosting template:
