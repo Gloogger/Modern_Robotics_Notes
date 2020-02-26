@@ -111,6 +111,8 @@ T_Blist =
     <img src="https://drive.google.com/uc?export=view&id=1sRQV5rZnI2A08wwGjg6-i950pw6P_8vD" alt="fig_6.png">
 </p>
 
+> _**Exercise 4.12**_ The RRPRRR spatial open chain of Figure 4.18 is shown in its zero position (all joints lie on the same plane). Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {0}, and the screw axes $$\mathscr{B}_{i}$$ in {b}. Setting $$\theta_{5}=\pi$$ and all other joint variables to zero, find $$T_{06}$$ and $$T_{60}$$.
+
 
 ***
 
