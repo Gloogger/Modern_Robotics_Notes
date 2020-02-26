@@ -35,8 +35,13 @@ My own notes:
 ***
 
 ## Textbook Exercises Attempts
+> _**Exercise 5.1**_ A wheel of unit radius is rolling to the right at a rate of 1 rad/s (see Figure 5.14; the dashed circle shows the wheel at $$t = 0$$).
+> - (a) Find the spatial twist $$\mathscr{V}_{s}(t)$$ as a function of $$t$$.
+> - (b) Find the linear velocity of the {b}-frame origin expressed in {s}-frame coordinates.
 
-
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=17O-kHM4aTNNQocBkjoGZ98V7XOJrgLDD" alt="fig_1.png">
+</p>
 
 ***
 
