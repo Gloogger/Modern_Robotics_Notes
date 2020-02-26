@@ -17,7 +17,7 @@ The kinematics theory favored by the **Modern Robotics**  course is _**Product-o
 * [**Kapitel II: Configuration Space**](KapII.html)
 * [**Kapitel III: Rigid Body Motion**](KapIII.html)
 * [**Kapitel IV: Forward Kinematics**](KapIV.html)
-* [**Kapitel V: Velocity Kinematics and Statics**](kapV.html)
+* [**Kapitel V: Velocity Kinematics and Statics**](KapV.html)
 * [**Kapitel VI: Inverse Kinematics**](KapVI.html)
 * [**Kapitel VII: Kinematics of Closed Chains**](KapVII.html)
 * [**Kapitel VIII: Dynamics of Open Chains**](KapVIII.html)
