@@ -222,7 +222,13 @@ T_03_b =
 Reference frames {$$b_{1}$$} and {$$b_{2}$$} are attached to the two end-effectors, as shown.
 > - (a) Suppose that end-effector 1 is grasping a tree (which can be thought of as “ground”) and end-effector 2 is free to move. Assume that the robot is in its zero configuration. Then $$T_{b_{1}b_{2}} \in \text{SE}(3)$$ can be expressed in the following product of exponentials form:
   $$T_{b_{1}b_{2}} = e^{\mathscr{S}_{1}\theta_{1}} e^{\mathscr{S}_{2}\theta_{2}} \dots e^{\mathscr{S}_{5}\theta_{5}} M$$. 
-  Find $$S_{3}$$, $$S_{5}$$, and M.
+  Find $$S_{3}$$, $$S_{5}$$, and $$M$$.
+> - (b) **Don't know how to do**.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1hpQVTnJqAgtRw-QeZcIehN-zEjc4tTBo" alt="fig_10.png">
+</p>
+
 
 ***
 
