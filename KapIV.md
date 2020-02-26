@@ -182,7 +182,41 @@ T_60 =
     <img src="https://drive.google.com/uc?export=view&id=1yCHzYEvAT8ZqMElYCwmycoz1Eb9237wp" alt="fig_9.png">
 </p>
 
+```
+%% Exercise 4.14
+Slist = [[0; 0; 1; 4; 0; 0], ...
+         [0; 0; 0; 0; 1; 0], ...
+         [0; 0;-1;-6; 0; -0.1]];
+M = [-1 0  0 0;
+      0 1  0 6;
+      0 0 -1 2;
+      0 0  0 1];
+thetalist = [pi/2; 3; pi];
+Blist = [[0; 0;-1; 2; 0; 0], ...
+         [0; 0; 0; 0; 1; 0], ...
+         [0; 0; 1;-6; 0; 0.1]];
+T_03_s = FKinSpace(M, Slist, thetalist);
+T_03_b = FKinBody(M, Blist, thetalist);
+=========================================
+>> T_03_s
 
+T_03_s =
+
+   -0.0000    1.0000         0   -5.0000
+    1.0000    0.0000         0    4.0000
+         0         0   -1.0000    1.6858
+         0         0         0    1.0000
+
+>> T_03_b
+
+T_03_b =
+
+   -0.0000    1.0000         0    7.0000
+    1.0000    0.0000         0    4.0000
+         0         0   -1.0000    1.6858
+         0         0         0    1.0000
+```
+**Question!** Still don't know why $$T_{03,s}$$ and $$T_{03,b}$$ aren't equal.
 
 ***
 
