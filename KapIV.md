@@ -113,6 +113,30 @@ T_Blist =
 
 > _**Exercise 4.12**_ The RRPRRR spatial open chain of Figure 4.18 is shown in its zero position (all joints lie on the same plane). Determine the end-effector zero position configuration M, the screw axes $$\mathscr{S}_{i}$$ in {0}, and the screw axes $$\mathscr{B}_{i}$$ in {b}. Setting $$\theta_{5}=\pi$$ and all other joint variables to zero, find $$T_{06}$$ and $$T_{60}$$.
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1sChw6SoXCxBfs8VyaR1vYbxykL-pza1U" alt="fig_7.png">
+</p>
+
+Setting $$\theta_{5}=\pi$$ and all other joint variables to zero, we have
+$$
+\begin{align}
+    \begin{split}
+        T_{06} &= e^{[\mathscr{S}_{1}]\theta_{1}} e^{[\mathscr{S}_{2}]\theta_{2}} e^{[\mathscr{S}_{3}]\theta_{3}} e^{[\mathscr{S}_{4}]\theta_{4}} e^{[\mathscr{S}_{1}]\theta_{5}} M\\
+        &= I I I I e^{[\mathscr{S}_{5}]\theta_{5}} M\\
+        &= \begin{bmatrix}
+            -1 & 0 & 0 & 0 \\
+             0 & 0 &-1 & 5L \\
+             0 &-1 & 0 & 5L \\
+             0 & 0 & 0 & 1 \\
+        \end{bmatrix} \begin{bmatrix}
+            1 & 0 & 0 & L \\
+            0 & 1 & 0 & (4+\sqrt{2}) L \\
+            0 & 0 & 1 & -\sqrt{2} L \\
+            0 & 0 & 0 & 1 \\
+        \end{bmatrix}
+    \end{split}
+\end{align}
+$$
 
 ***
 
