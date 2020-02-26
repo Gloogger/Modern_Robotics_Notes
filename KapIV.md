@@ -218,6 +218,12 @@ T_03_b =
 ```
 **Question!** Still don't know why $$T_{03,s}$$ and $$T_{03,b}$$ aren't equal.
 
+> _**Exercise 4.17**_ Figure 4.22 shows a snake robot with end-effectors at each end.
+Reference frames {$$b_{1}$$} and {$$b_{2}$$} are attached to the two end-effectors, as shown.
+> - (a) Suppose that end-effector 1 is grasping a tree (which can be thought of as “ground”) and end-effector 2 is free to move. Assume that the robot is in its zero configuration. Then $$T_{b_{1}b_{2}} \in \text{SE}(3)$$ can be expressed in the following product of exponentials form:
+  $$T_{b_{1}b_{2}} = e^{\mathscr{S}_{1}\theta_{1}} e^{\mathscr{S}_{2}\theta_{2}} \dots e^{\mathscr{S}_{5}\theta_{5}} M$$. 
+  Find $$S_{3}$$, $$S_{5}$$, and M.
+
 ***
 
 Image hosting template:
