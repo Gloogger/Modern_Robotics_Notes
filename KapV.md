@@ -120,7 +120,78 @@ tau_b =
     <img src="https://drive.google.com/uc?export=view&id=1aGs66Y9QodHuZXa16CpKxgfCoOS8ssnK" alt="fig_4.png" width="400">
   </p>
 
-- (a)
+- See the code below:
+
+```
+%% Exercise 5.7
+
+% Part (a)
+SList = [[0; 0; 1; 0; 0; 0], ...
+         [1; 0; 0; 0; 2; 0], ...
+         [0; 0; 0; 0; 1; 0]];
+thetalist = [pi/2; pi/2; 1];
+M = [-1 0 0 0;
+      0 0 1 3;
+      0 1 0 2;
+      0 0 0 1];
+% T = FKinSpace(M, Slist, thetalist)
+T_sb = FKinSpace(M, SList, thetalist);
+% Js = JacobianSpace(Slist, thetalist)
+J_s = JacobianSpace(SList, thetalist);
+
+=======================================
+
+>> T_sb
+
+T_sb =
+
+   -0.0000    1.0000   -0.0000   -0.0000
+   -1.0000   -0.0000    0.0000    0.0000
+         0    0.0000    1.0000    6.0000
+         0         0         0    1.0000
+
+>> J_s
+
+J_s =
+
+         0    0.0000         0
+         0    1.0000         0
+    1.0000         0         0
+         0   -2.0000   -0.0000
+         0    0.0000    0.0000
+         0         0    1.0000
+      
+=======================================
+
+% Part (b)
+BList = [[0; 1; 0; 3; 0; 0], ...
+        [-1; 0; 0; 0; 3; 0], ...
+         [0; 0; 0; 0; 0; 1]];
+T_bs = FKinBody(M, BList, thetalist);
+J_b = JacobianBody(BList, thetalist);
+
+=======================================
+
+>> T_bs
+
+T_bs =
+
+   -0.0000    1.0000   -0.0000   -0.0000
+   -1.0000   -0.0000    0.0000    0.0000
+         0    0.0000    1.0000    6.0000
+         0         0         0    1.0000
+
+>> J_b
+
+J_b =
+
+         0   -1.0000         0
+    0.0000         0         0
+    1.0000         0         0
+    0.0000         0         0
+         0    4.0000         0
+         0         0    1.0000
+```
 
 ***
 
