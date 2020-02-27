@@ -43,6 +43,50 @@ My own notes:
     <img src="https://drive.google.com/uc?export=view&id=17O-kHM4aTNNQocBkjoGZ98V7XOJrgLDD" alt="fig_1.png">
 </p>
 
+> _**Exercise 5.2**_ The 3R planar open chain of Figure 5.15(a) is shown in its zero position.
+> - (a) Suppose that the last link must apply a wrench corresponding to a force of 5 N in the $$\hat{x}^{s}$$-direction of the {s} frame, with zero component in the $$\hat{y}_{s}$$-direction and zero moment about the $$\hat{z}_{s}$$-axis. What torques should be applied at each joint?
+> - (b) Suppose that the last link must apply a force of 5 N in the yˆs-direction, with zero components in the other wrench directions. What torques should be applied at each joint?
+  <p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1kHnAA7EojWrDBG_zN_n7HMmwC7z0zzRO" alt="fig_2.png">
+  </p>
+  
+N.B. in figure part (a), the robot is not in its zero position!!!!
+
+- (a) Since $$\tau = J_{s}^{T}(\theta) \cdot \mathscr{F}_{s}$$, we need to first find _SList_ and _thetalist_ and then use the function _JacobianSpace_ to find $$J_{s}^{T}(\theta)$$. $$\mathscr{F}_{s}$$ can be found by observation. The following MATLAB code is self-explanatory.
+
+```
+%% Exercise 5.2 
+
+%  Part (a)
+F_s = [0; 0; 0; 5; 0; 0];
+Slist = [[0; 0; 1; 0; 0; 0], ...
+         [0; 0; 1; 0;-1; 0], ...
+         [0; 0; 1; 0;-2; 0]];
+thetalist =[0; pi/4; 0];
+J_s_T = transpose(JacobianSpace(Slist, thetalist));
+tau = J_s_T * F_s;
+
+%  Part (b)
+F_s_b = [0; 0; 0; 0; 5; 0];
+tau_b = J_s_T * F_s_b;
+===================================================
+>> tau_a
+
+tau_a =
+
+         0
+         0
+    3.5355
+
+>> tau_b
+
+tau_b =
+
+         0
+   -5.0000
+   -8.5355
+```
+
 ***
 
 Image hosting template:
