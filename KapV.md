@@ -255,7 +255,7 @@ D_w =
      0     0     3
 ```
 
-The length of the principal semi-axis is the sqrt of the eigenvalue. Therefore the length are $$\sqrt(2),\,\sqrt{2},\,\sqrt{3}$$ resepectively. The direction of the semi-axis are V_w as shown above.
+The length of the principal semi-axis is the sqrt of the eigenvalue. Therefore the length are $$\sqrt{2},\,\sqrt{2},\,\sqrt{3}$$ resepectively. The direction of the semi-axis are V_w as shown above.
 
 
 ```
