@@ -47,7 +47,7 @@ My own notes:
 > - (a) Suppose that the last link must apply a wrench corresponding to a force of 5 N in the $$\hat{x}^{s}$$-direction of the {s} frame, with zero component in the $$\hat{y}_{s}$$-direction and zero moment about the $$\hat{z}_{s}$$-axis. What torques should be applied at each joint?
 > - (b) Suppose that the last link must apply a force of 5 N in the yˆs-direction, with zero components in the other wrench directions. What torques should be applied at each joint?
   <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1kHnAA7EojWrDBG_zN_n7HMmwC7z0zzRO" alt="fig_2.png">
+    <img src="https://drive.google.com/uc?export=view&id=1kHnAA7EojWrDBG_zN_n7HMmwC7z0zzRO" alt="fig_2.png" width="400">
   </p>
   
 N.B. in figure part (a), the robot is not in its zero position!!!!
@@ -87,6 +87,21 @@ tau_b =
    -8.5355
 ```
 
+> _**Exercise 5.3**_ Answer the following questions for the 4R planar open chain of Figure 5.15(b).
+> - (a) For the forward kinematics of the form
+  $$T(\theta) = e^{[\mathscr{S}_{1}]\theta_{1}} e^{[\mathscr{S}_{2}]\theta_{2}} e^{[\mathscr{S}_{3}]\theta_{3}} e^{[\mathscr{S}_{4}]\theta_{4}} M$$
+  write down $$M \in \text{SE}(2)$$ and each $$\mathscr{S}_{i} = (\omega_{zi}, v_{xi}, v_{yi}) \in \mathbb{R}^{3}$$.
+> - (b) Write down the body Jacobian.
+> - (c) Suppose that the chain is in static equilibrium at the configuration $$\theta_{1}=\theta_{2}=0, \theta_{3}=\pi/2, \theta_{4}=-\pi/2$$ and that a force $$f = (10,10,0)$$ and a moment $$m = (0,0,10)$$ are applied to the tip (both f and m are expressed with respect to the fixed frame). What are the torques experienced at each joint?
+> - (d) Under the same conditions as (c), suppose that a force $$f = (-10,10,0)$$ and a moment $$m = (0,0,-10)$$, also expressed in the fixed frame, are applied to the tip. What are the torques experienced at each joint?
+> - (e) Find all kinematic singularities for this chain.
+
+
+
+
+
+
+https://drive.google.com/file/d/1xi5UOFij9gfPSPXuuYrBo459qLJta0O_/view?usp=sharing
 ***
 
 Image hosting template:
