@@ -14,7 +14,7 @@ is_project_page: false
 </p>
 
 ## Useful Notes and Equations
-For a comprehensive and thorough summary of the theory, check MuChenSun's wonderful note [here](https://muchensun.github.io/ModernRoboticsCourseNotes/ch3.html).
+For a comprehensive and thorough summary of the theory, check MuChenSun's wonderful note [here](https://muchensun.github.io/ModernRoboticsCourseNotes/ch6.html).
 
 My own notes:
 <p align="center">
