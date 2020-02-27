@@ -114,8 +114,7 @@ tau_b =
 - (e) When $$\theta_{2}=\theta_{3}=\theta_{4}=n\pi, \,\text{where}\,n\in \mathbb{Z}^{+}$$.
 
 > _**Exercise 5.7**_ The RRP robot in Figure 5.19 is shown in its zero position.
-> - (a) Write down the screw axes in the space frame. Evaluate the forward kinematics when $$\theta = (90^{\circ}, 90^{\circ}, 1)$$. Hand-draw or use a computer to show the arm and the end-e↵ector frame in this configuration. Obtain the space
-Jacobian $$J_{s}$$ for this configuration.
+> - (a) Write down the screw axes in the space frame. Evaluate the forward kinematics when $$\theta = (90^{\circ}, 90^{\circ}, 1)$$. Hand-draw or use a computer to show the arm and the end-e↵ector frame in this configuration. Obtain the space Jacobian $$J_{s}$$ for this configuration.
 > - (b) Write down the screw axes in the end-effector body frame. Evaluate the forward kinematics when $$\theta = (90^{\circ}, 90^{\circ}, 1)$$ and confirm that you get the same result as in part (a). Obtain the body Jacobian $$J_{b}$$ for this configuration.
 
 
