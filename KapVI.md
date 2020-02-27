@@ -37,7 +37,56 @@ My own notes:
 >  
 >  when your initial guess is $$(x^{0}, y^{0})=(1,1)$$. Write the general form of the gradient (for any guess $$(x,y)$$) and compute the results of the first two iterations. You can do this by hand or write a program. Also, give all the correct roots, not just the one that would be found from your initial guess. How many are there?
   
+From $$g(x,y)$$ we know that $$x_{d} = (4,9)^{T}$$, $$f(\theta)=(x^{2}, y^{2})^{T}$$.
 
+$$ \frac{\delta f}{\delta \theta} = J(\theta) = \begin{bmatrix} 
+    2x & 0 \\
+    0 & 2y \\
+\end{bmatrix}
+$$
+
+$$ J^{-1}(\theta) = \begin{bmatrix}
+    \frac{1}{2x} & 0 \\
+    0 & \frac{1}{2y} \\
+\end{bmatrix}
+$$
+
+$$
+\begin{align}
+    \begin{split}
+        \theta^{1} &= \begin{bmatrix}
+            \frac{1}{2} & 0 \\
+            0 & \frac{1}{2} \\
+        \end{bmatrix} \begin{bmatrix}
+            4-1^{2} \\
+            9-1^{2} \\
+        \end{bmatrix} + \begin{bmatrix}
+            1 \\
+            1 \\
+        \end{bmatrix} \\
+        &= \begin{bmatrix}
+            2.5 \\
+            5
+        \end{bmatrix} \\
+        \theta_{2} &= \begin{bmatrix}
+            \frac{1}{5} & 0 \\
+            0 & \frac{1}{10} \\
+        \end{bmatrix} \begin{bmatrix}
+            4 - 2.5^{2} \\
+            9 - 5^{2} \\
+        \end{bmatrix} + \begin{bmatrix}
+            2.5 \\
+            5 \\
+        \end{bmatrix} \\
+        &= \begin{bmatrix}
+            2.05 \\
+            3.4 \\
+        \end{bmatrix}
+    \end{split}
+\end{align}
+$$
+
+There should be a total of 4 solutions, since x could be -2 or 2, and y could be -3 or 3.
 
 
 ***
