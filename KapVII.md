@@ -14,47 +14,17 @@ is_project_page: false
 </p>
 
 ## Useful Notes and Equations
-For a comprehensive and thorough summary of the theory, check MuChenSun's wonderful note [here](https://muchensun.github.io/ModernRoboticsCourseNotes/ch3.html).
+For a comprehensive and thorough summary of the theory, check MuChenSun's wonderful note [here](https://muchensun.github.io/ModernRoboticsCourseNotes/ch7.html).
 
-My own notes:
+Since I am really not interested in closed chain robots, the content in this chapter is skipped.
+
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1DSVOJTZFy7FHh_PZEt5pvCj8gykDoQVq" alt="fig_3_1.png">
+    <img src="https://drive.google.com/uc?export=view&id=1BR9AQPa1jnBRsEG61-dYRK61ZWVNHim9" alt="嫌弃.png">
 </p>
-
-
-### Useful Equations:
-
-***
-
-## Textbook Exercises Attempts
-
 
 
 ***
 
-Image hosting template:
-
-```
-<p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=" alt="Erklaerung">
-</p>
-```
-
-```
-$$
-\begin{align}
-    \begin{split}
-    \end{split}
-\end{align}
-$$
-
-
-$$
-\begin{bmatrix}
-       
-\end{bmatrix}
-$$
-```
 
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='#top';">Back To Top</button>
