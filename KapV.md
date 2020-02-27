@@ -110,8 +110,8 @@ tau_b =
 \end{bmatrix} \in \mathbb{R}^{3}$$.
 
 - (b) I am too lazy to do that by hand. One of the online quizzes of this Coursera MOOC actually gives you the answer...
-- Because I am using MATLAB to do this course, and MATLAB is quite insufficient for symbolic manipulation, part (c) and (d) are skipped.
-
+- Because I am using MATLAB to do this course, and MATLAB is quite impotent on symbolic manipulation, part (c) and (d) are skipped.
+- (e) When $$\theta_{2}=\theta_{3}=\theta_{4}=n\pi \,\text{where}n\in \mathbb{Z}^{+}$$.
 
 
 ***
