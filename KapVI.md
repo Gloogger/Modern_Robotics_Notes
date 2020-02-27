@@ -28,13 +28,13 @@ My own notes:
 
 ## Textbook Exercises Attempts
 > _**Exercise 6.8**_ Use Newton–Raphson iterative numerical root finding to perform two steps in finding the root of
-
+>
   $$ g(x,y) = \begin{bmatrix}
     x^2 - 4\\
     y^2 - 9\\
   \end{bmatrix}
   $$
-  
+>  
 >  when your initial guess is $$(x^{0}, y^{0})=(1,1)$$. Write the general form of the gradient (for any guess $$(x,y)$$) and compute the results of the first two iterations. You can do this by hand or write a program. Also, give all the correct roots, not just the one that would be found from your initial guess. How many are there?
   
 
