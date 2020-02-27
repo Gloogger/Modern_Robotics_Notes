@@ -193,6 +193,31 @@ J_b =
          0         0    1.0000
 ```
 
+> _**Exercise 5.26**_ The kinematics of the 7R WAM robot are given in Section 4.1.3.
+> - (a) Give the numerical body Jacobian $$J_{b}$$ when all joint angles are $$\pi/2$$. Separate the Jacobian matrix into an angular-velocity portion $$J_{\omega}$$ (the joint rates act on the angular velocity) and a linear-velocity portion $$J_{v}$$ (the joint rates act on the linear velocity).
+> - (b) For this configuration, calculate the directions and lengths of the principal semi-axes of the three-dimensional angular-velocity manipulability ellipsoid (based on $$J_{\omega}$$) and the directions and lengths of the principal semi-axes of the three-dimensional linear-velocity manipulability ellipsoid (based on $$J_{v}$$).
+  <p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1MRYfifhxRgKQAdrLoqem9cCiVkDFBt4e" alt="fig_5.png" width="400">
+  </p>
+
+- (a) By observation (also on Coursera quizzes), we have
+$$ J_{\omega} = 
+\begin{bmatrix}
+    0 & -1 & 0 & 0 & -1 & 0 & 0 \\
+    0 & 0 & 1 & 0 & 0 & 1 & 0 \\
+    1 & 0 & 0 & 1 & 0 & 0 & 1 \\
+\end{bmatrix}
+$$
+
+$$ J_{v} = 
+\begin{bmatrix}
+    -0.105 & 0 & 0.006 & -0.045 & 0 & 0.006 & 0 \\
+    -0.889 & 0.006 & 0 & -0.844 & 0.006 & 0 & 0 \\
+    0 & -0.105 & 0.889 & 0 & 0 & 0 & 0 \\
+\end{bmatrix}
+$$
+
+
 ***
 
 Image hosting template:
