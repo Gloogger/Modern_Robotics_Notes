@@ -95,13 +95,25 @@ tau_b =
 > - (c) Suppose that the chain is in static equilibrium at the configuration $$\theta_{1}=\theta_{2}=0, \theta_{3}=\pi/2, \theta_{4}=-\pi/2$$ and that a force $$f = (10,10,0)$$ and a moment $$m = (0,0,10)$$ are applied to the tip (both f and m are expressed with respect to the fixed frame). What are the torques experienced at each joint?
 > - (d) Under the same conditions as (c), suppose that a force $$f = (-10,10,0)$$ and a moment $$m = (0,0,-10)$$, also expressed in the fixed frame, are applied to the tip. What are the torques experienced at each joint?
 > - (e) Find all kinematic singularities for this chain.
+  <p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1xi5UOFij9gfPSPXuuYrBo459qLJta0O_" alt="fig_3.png" width="400">
+  </p>
+
+- (a) $$M = \begin{bmatrix}
+   1 & 0 & L_{1} + L_{2} + L_{3} + L_{4} \\
+   0 & 1 & 0 \\
+   0 & 0 & 1 \\
+\end{bmatrix} \in \text{SE}(2)$$, $$\mathscr{S} = \begin{bmatrix}
+   1 & 1 & 1 & 1 \\
+   0 & 0 & 0 & 0 \\
+   0 & -L_{1} & -(L_{1}+L_{2}) & -(L_{1}+L_{2}+L_{3}) \\
+\end{bmatrix} \in \mathbb{R}^{3}$$.
+
+- (b) I am too lazy to do that by hand. One of the online quizzes of this Coursera MOOC actually gives you the answer...
+- Because I am using MATLAB to do this course, and MATLAB is quite insufficient for symbolic manipulation, part (c) and (d) are skipped.
 
 
 
-
-
-
-https://drive.google.com/file/d/1xi5UOFij9gfPSPXuuYrBo459qLJta0O_/view?usp=sharing
 ***
 
 Image hosting template:
