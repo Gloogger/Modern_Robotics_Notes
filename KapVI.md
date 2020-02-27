@@ -35,7 +35,9 @@ My own notes:
   \end{bmatrix}
   $$
   
-  when your initial guess is $$(x^{0}, y^{0})=(1,1)$$. Write the general form of the gradient (for any guess $$(x,y)$$) and compute the results of the first two iterations. You can do this by hand or write a program. Also, give all the correct roots, not just the one that would be found from your initial guess. How many are there?
+>  when your initial guess is $$(x^{0}, y^{0})=(1,1)$$. Write the general form of the gradient (for any guess $$(x,y)$$) and compute the results of the first two iterations. You can do this by hand or write a program. Also, give all the correct roots, not just the one that would be found from your initial guess. How many are there?
+  
+
 
 
 ***
