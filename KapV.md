@@ -201,6 +201,7 @@ J_b =
   </p>
 
 - (a) By observation (also on Coursera quizzes), we have
+
 $$ J_{\omega} = 
 \begin{bmatrix}
     0 & -1 & 0 & 0 & -1 & 0 & 0 \\
@@ -217,6 +218,67 @@ $$ J_{v} =
 \end{bmatrix}
 $$
 
+- (b) See code below
+
+```
+%% Exercise 5.26
+% Part (b)
+J_b = [0 -1 0 0 -1 0 0;
+       0 0 1 0 0 1 0;
+       1 0 0 1 0 0 1;
+       -0.105 0 0.006 -0.045 0 0.006 0;
+       -0.889 0.006 0 -0.844 0.006 0 0;
+       0 -0.105 0.889 0 0 0 0];
+J_w = J_b(1:3,:);
+J_v = J_b(4:6,:);
+A_w = J_w * transpose(J_w);
+[V_w D_w] = eig(A_w);
+A_v = J_v * transpose(J_v);
+[V_v D_v] = eig(A_v);
+
+========================================
+
+>> V_w
+
+V_w =
+
+     1     0     0
+     0     1     0
+     0     0     1
+
+>> D_w
+
+D_w =
+
+     2     0     0
+     0     2     0
+     0     0     3
+```
+
+The length of the principal semi-axis is the sqrt of the eigenvalue. Therefore the length are $$\sqrt(2),\,\sqrt{2},\,\sqrt{3}$$ resepectively. The direction of the semi-axis are V_w as shown above.
+
+
+```
+>> V_v
+
+V_v =
+
+   -0.9962    0.0067   -0.0872
+    0.0872   -0.0004   -0.9962
+    0.0067    1.0000    0.0002
+    
+>> D_v
+
+D_v =
+
+    0.0016         0         0
+         0    0.8014         0
+         0         0    1.5142
+```
+
+Again, the length are the sqrt of D_v, and the direction are V_v.
+
+- (c) Not sure.
 
 ***
 
