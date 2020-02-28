@@ -96,7 +96,7 @@ $$
 
 Therefore, the two spheres have the following inertia matrix:
 
-$$ I_{\text{sphere}} = 
+$$ \mathcal{I}_{\text{sphere}} = 
 \begin{bmatrix}
        2.76460 & 0 & 0 \\
        0 & 2.76460 & 0 \\
@@ -106,7 +106,7 @@ $$
 
 Finally, adding the two inertia matrices up gives the inertial matrix of the dumbbell:
 
-$$ I_{\text{dumbbell}} =
+$$ \mathcal{I}_{\text{dumbbell}} =
 \begin{bmatrix}
     2.77107 & 0 & 0 \\
     0 & 2.77107 & 0 \\
