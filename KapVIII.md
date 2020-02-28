@@ -30,6 +30,49 @@ My own notes:
 > - (a) Find the approximate rotational inertia matrix $$\mathcal{I}_{b}$$ in a frame {b} at the center of mass with axes aligned with the principal axes of inertia of the dumbbell.
 > - (b) Write down the spatial inertia matrix $$\mathcal{G}_{b}$$.
 
+See the diagram below:
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1_vXdxfkMKCnMURUEImuCWfvWDoyml8Zh" alt="fig_1.png" width="500">
+</p>
+For the cylinder, we have
+
+$$
+\begin{align}
+    \begin{split}
+        m &= \pi r^{2} h \rho \\
+        &= \pi 0.02^2 0.2 7500 \\
+        &= 1.88500 \, \text{kgm}^{2} \\
+        I_{xx} = I_{yy} &= \frac{m\left( 3r^{2} + h^{2} \right)}{12} \\
+        &= 6.47168e-3 \, \text{kgm}^{2} \\
+        I_{zz} = \frac{1}{2} m r^{2} \\
+        &= 3.77e-4 \text{kgm}^{2} \\
+    \end{split}
+\end{align}
+$$
+
+Therefore,
+
+$$ \mathcal{I}_{cyl} = 
+\begin{bmatrix}
+    6.47168e-3 & 0 & 0 \\
+    0 & 6.47168e-3 & 0 \\
+    0 & 0 & 3.77e-4 \\
+\end{bmatrix}
+$$
+
+For one sphere, we have
+
+$$
+\begin{align}
+    \begin{split}
+        a = b = c = r &= 0.1 \text{m} \\
+        m = \rho V &= \rho \frac{4\pi a b c}{3} \\
+        &= 31.41590 \text{kgm}^{2} \\
+    \end{split}
+\end{align}
+$$
+
+
 
 ***
 
