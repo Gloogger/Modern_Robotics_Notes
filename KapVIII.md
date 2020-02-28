@@ -87,7 +87,7 @@ Because the inertia of the sphere is calculated in its own center frame {c}, we 
 $$
 \begin{align}
     \begin{split}
-        I_{\text{sphere},{b},} &= I_{\text{sphere},{c}} + m d^{2}\\
+        I_{\text{sphere, {b}}} &= I_{\text{sphere, {c}}} + m d^{2}\\
         &= 0.12566 + 31.4159 \cdot 0.2 \\
         &= 1.38230 \, \text{kgm}^{2} \\
     \end{split}
@@ -114,7 +114,18 @@ $$ I_{\text{dumbbell}} =
 \end{bmatrix}
 $$
 
-- (b)
+- (b) The total mass of the dumbbell is $$\sum m = 64.7168\,\text{kg}$$. Therefore, the spatial inertia matrix is,
+
+$$ \mathcal{G}_{b} = 
+\begin{bmatrix}
+    \mathcal{I}_{dumbbell} & 0 \\
+    0 & 64.7168 \cdot \begin{bmatrix}
+       1 & 0 & 0 \\
+       0 & 1 & 0 \\
+       0 & 0 & 1 \\
+    \end{bmatrix}
+\end{bmatrix}
+$$
 
 
 ***
