@@ -16,9 +16,13 @@ is_project_page: false
 ## Useful Notes and Equations
 For a comprehensive and thorough summary of the theory, check MuChenSun's wonderful note [here](https://muchensun.github.io/ModernRoboticsCourseNotes/ch8.html).
 
-My own notes:
+My own useless notes:
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=1rD6lfWDzWFAR3CN-GxD9cGoFu4NmHmdJ" alt="note_1.png">
+</p>
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1dJFxAOmOdBuaR8Srisk2FyZPiZR4p1Fp" alt="note_2.png">
 </p>
 
 ### Useful Equations:
@@ -127,31 +131,11 @@ $$ \mathcal{G}_{b} =
 \end{bmatrix}
 $$
 
+> _**Exercise 8.15**_ Dynamics of the UR5 robot.
+> - (b) Simulate the UR5 falling under gravity with acceleration $$g = 9.81 \text{m/s}^{2}$$ in the $$-\hat{z}_{s}$$-direction. The robot starts at its zero configuration and zero joint torques are applied. Simulate the motion for three seconds, with at least 100 integration steps per second. (Ignore the effects of friction and the geared rotors.)
+
+
 ***
-
-Image hosting template:
-
-```
-<p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=" alt="Erklaerung">
-</p>
-```
-
-```
-$$
-\begin{align}
-    \begin{split}
-    \end{split}
-\end{align}
-$$
-
-
-$$
-\begin{bmatrix}
-       
-\end{bmatrix}
-$$
-```
 
 
 <p style="text-align:center;">
