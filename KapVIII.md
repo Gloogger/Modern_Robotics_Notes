@@ -134,6 +134,54 @@ $$
 > _**Exercise 8.15**_ Dynamics of the UR5 robot.
 > - (b) Simulate the UR5 falling under gravity with acceleration $$g = 9.81 \text{m/s}^{2}$$ in the $$-\hat{z}_{s}$$-direction. The robot starts at its zero configuration and zero joint torques are applied. Simulate the motion for three seconds, with at least 100 integration steps per second. (Ignore the effects of friction and the geared rotors.)
 
+```Matlab
+%% Data Given in Section 4.2
+M01 = [1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0.089159; 0, 0, 0, 1];
+M12 = [0, 0, 1, 0.28; 0, 1, 0, 0.13585; -1, 0, 0, 0; 0, 0, 0, 1];
+M23 = [1, 0, 0, 0; 0, 1, 0, -0.1197; 0, 0, 1, 0.395; 0, 0, 0, 1];
+M34 = [0, 0, 1, 0; 0, 1, 0, 0; -1, 0, 0, 0.14225; 0, 0, 0, 1];
+M45 = [1, 0, 0, 0; 0, 1, 0, 0.093; 0, 0, 1, 0; 0, 0, 0, 1];
+M56 = [1, 0, 0, 0; 0, 1, 0, 0; 0, 0, 1, 0.09465; 0, 0, 0, 1];
+M67 = [1, 0, 0, 0; 0, 0, 1, 0.0823; 0, -1, 0, 0; 0, 0, 0, 1];
+G1 = diag([0.010267495893, 0.010267495893,  0.00666, 3.7, 3.7, 3.7]);
+G2 = diag([0.22689067591, 0.22689067591, 0.0151074, 8.393, 8.393, 8.393]);
+G3 = diag([0.049443313556, 0.049443313556, 0.004095, 2.275, 2.275, 2.275]);
+G4 = diag([0.111172755531, 0.111172755531, 0.21942, 1.219, 1.219, 1.219]);
+G5 = diag([0.111172755531, 0.111172755531, 0.21942, 1.219, 1.219, 1.219]);
+G6 = diag([0.0171364731454, 0.0171364731454, 0.033822, 0.1879, 0.1879, 0.1879]);
+Glist = cat(3, G1, G2, G3, G4, G5, G6);
+Mlist = cat(3, M01, M12, M23, M34, M45, M56, M67); 
+Slist = [0,         0,         0,         0,        0,        0;
+         0,         1,         1,         1,        0,        1;
+         1,         0,         0,         0,       -1,        0;
+         0, -0.089159, -0.089159, -0.089159, -0.10915, 0.005491;
+         0,         0,         0,         0,  0.81725,        0;
+         0,         0,     0.425,   0.81725,        0,  0.81725];
+         
+%% Define gravity and joint positions
+g = [0; 0; -9.81];                  % gravity term
+thetalist = [0; 0; 0; 0; 0; 0];     % home configuration
+dthetalist = [0; 0; 0; 0; 0; 0];    % Originally stationary
+dt = 0.01;                          % 100 steps per second
+simuTime = 3;                       % Length of simulation in seconds
+Ftipmat = zeros(simuT1/dt1, 6);     % simuT1/dt1 gives the total steps,
+% since the XXmat function is defined as a Nxn matrix, in which the N 
+% refers to steps and n refers to the joint variables
+taumat = zeros(simuT1/dt1, 6);      % same as above
+
+intRes = 10;   % Magic number for integration resolution, chosen arbitrarily.
+
+%% Calculate thetamatrix
+[thetamat, dthetamat] ...
+         = ForwardDynamicsTrajectory(thetalist, dthetalist, taumat, g, ...
+                                     Ftipmat, Mlist, Glist, Slist, dt, ...
+                                     intRes);
+                                     
+%% Output trajectory as .csv file
+writematrix(thetamat,'forSimulation.csv','Delimiter','comma')
+% Use the .csv file in CoppeliaSim to visualize the motion
+```
+
 
 ***
 
