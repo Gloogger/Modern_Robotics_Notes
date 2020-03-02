@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 'Kapitel VIII: Trajectory Generation'
+title: 'Kapitel VIII: Dynamics of Open Chains'
 description: Useful Equations and Textbook Exercise Attempts
 is_project_page: false
 ---
