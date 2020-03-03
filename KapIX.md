@@ -31,6 +31,7 @@ is_project_page: false
     </p>
 
 List the table below:
+
 $$
 \begin{tabular}{|c|c|c|}\hline
     s & x & y \\\hline
@@ -40,6 +41,17 @@ $$
     \frac{3}{4} & 2 & -1 \\\hline
     \frac{4}{4} & 0 & 0 \\\hline
 \end{tabular}
+$$
+
+By observation, we get,
+
+$$
+\begin{align}
+    \begin{split}
+        x &= 2\left(1-\cos (2\pi s) \right) \\
+        y &= \sin (2\pi s) \\
+    \end{split}
+\end{align}
 $$
 
 ***
