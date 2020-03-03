@@ -83,7 +83,7 @@ Don't know how to do.
 
 > _**Exercise 9.4**_ Consider a straight-line path $$\theta (s) = \theta_{\text{start}} + s (\theta_{\text{end}} - \theta_{\text{start}})$$, $$s \in [0,1]$$ from $$\theta_{\text{start}} = (0, 0)$$ to $$\theta_{\text{end}} = (\pi, \pi/3)$$. The motion starts and ends at rest. The feasible joint velocities are $$\lvert \dot{\theta_{1}} \rvert$$, $$\lvert \dot{\theta_{2}}\rvert \leq 2 \, \text{rad/s} $$ and the feasible joint accelerations are $$\lvert \ddot{\theta_{1}} \rvert$$, $$\ddot{\theta_{2}} \leq 0.5 \, \text{rad/s}^{2}$$. Find the fastest motion time $$T$$ using a cubic time scaling that satisfies the joint velocity and acceleration limits.
 
-Because the two joints has the same velocity and acceleration limits, we just need to consider the largest movement, which in this case is $$\theta_{1} = \pi$$. Then, $$\theta(s) = 0 + s (\pi - 0) =  \pi s$$. The terminal constraints for this cubic time scaling function are:
+Because the two joints have the same velocity and acceleration limits, we just need to consider the largest one, which in this case is $$\theta_{\text{end,}\,1} = \pi$$. Then, $$\theta(s) = 0 + s (\pi - 0) =  \pi s$$. The terminal constraints for this cubic time scaling function are:
 
 $$
 \begin{cases}
