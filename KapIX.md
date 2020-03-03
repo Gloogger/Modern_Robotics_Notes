@@ -88,13 +88,15 @@ Because the two joints has the same velocity and acceleration limits, we just ne
 $$
 \begin{align}
     \begin{split}
-        \dot{\theta} &= \dot{s} \pi \, \text{and} \, \lvert \dot{\theta_{1}} \leq 2 \Rightarrow \dot{s} \leq \frac{2}{\pi}\\
-        \ddot{\theta} &= \ddot{s} \pi \, \text{and} \, \lvert \ddot{\theta_{1}} \leq 0.5 \Rightarrow \ddot{s} \leq \frac{1}{2\pi} \\ 
+        \dot{\theta} &= \dot{s} \pi \; \text{and} \; \lvert \dot{\theta_{1}} \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi}\\
+        \ddot{\theta} &= \ddot{s} \pi \; \text{and} \; \lvert \ddot{\theta_{1}} \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} \\
+        s(0) &= 0 \\
+        s(T) &= 1 \\
     \end{split}
 \end{align}
 $$
 
-The cubic time scaling to be solved is $$s(t) = a_{0} + a_{1}t + a_{2} t^{2} + a_{3} t_{3}$$.
+The cubic time scaling to be solved is $$s(t) = a_{0} + a_{1}t + a_{2} t^{2} + a_{3} t_{3}$$. Subs
 
 
 ***
