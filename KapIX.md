@@ -198,7 +198,11 @@ The solution is $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2}=0,\, a_{3}=\frac{10}{T^3},
 
 > _**Exercise 9.14**_ Plot by hand the acceleration profile $$\ddot{s}(t)$$ for an S-curve time scaling.
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1rS9Tiik35-v8zh6G5xmKRZ0E1dxYw61I" alt="fig_7.png" width="500">
+</p>
 
+> 
 
 ***
 
