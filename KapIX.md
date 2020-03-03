@@ -126,7 +126,7 @@ Since we know the maximal speed occurs at $$t=\frac{T}{2}$$, we have
 $$
 \begin{align}
     \begin{split}
-        \dot{\theta_{max}} &= \dot{\theta}\left(\frac{T}{2}\right) \\
+        \dot{\theta}_{max} &= \dot{\theta}\left(\frac{T}{2}\right) \\
         &= \frac{6\pi}{T^{2}} \frac{T}{2} - \frac{6\pi}{T^{3}} \left(\frac{T}{2}\right)^{2} \\
         &= \frac{3\pi}{2T} \leq 2 \\
         T_{\text{min, vel}} &= \frac{3\pi}{4} \approx 2.3562 
@@ -143,7 +143,7 @@ Since we know the maximal acceleration occurs at either terminals, i.e., $$t=0$$
 $$
 \begin{align}
     \begin{split}
-        \ddot{\theta_{max}} &= \ddot{\theta}\left(0\right) \\
+        \ddot{\theta}_{max} &= \ddot{\theta}\left(0\right) \\
         &= \frac{6\pi}{T^{2}} \leq \frac{1}{2} \\
         T_{\text{min, acc}} &= 2 \sqrt{3\pi} \approx 6.1400 
     \end{split}
