@@ -162,6 +162,16 @@ $$
 
 The solution is $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2}=0,\, a_{3}=\frac{10}{T^3},\, a_{4}=-\frac{15}{T^4},\, a_{5}=\frac{6}{T^5} \right\}$$.
 
+> _**Exercise 9.7**_ If you want to use a polynomial time scaling for point-to-point motion with zero initial and final velocities, accelerations, and jerks, what would be the minimum order of the polynomial?
+
+7.
+
+> _**Exercise 9.8**_ Prove that the trapezoidal time scaling, using the maximum allowable acceleration a and velocity v, minimizes the time of motion T.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1uAwOr6Lt9uy10qD4wGt3jhlaH1FLz_gg" alt="fig_2.png" width="550">
+</p>
+
 ***
 
 Image hosting template:
