@@ -146,8 +146,21 @@ $$
 
 Thus, the minimal motion time is, $$T=\max( T_{\text{min, vel}},\, T_{\text{min, acc}})=2 \sqrt{3\pi}$$.
 
+> _**Exercise 9.5**_ Find the fifth-order polynomial time scaling that satisfies $$s(T) =1$$ and $$s(0) = \dot{s}(0) = \ddot{s}(0) = \dot{s}(T) = \ddot{s}(T) = 0$$.
 
+Let the fifth-order time scaling be $$s(t) = a_{0} + a_{1} t + a_{2} t^{2} + a_{3} t^{3} + a_{4} t^{4} + a_{5} t^{5}$$. Solve
 
+$$\left( \begin{array}{cccccc|c} 
+1 & 0 & 0 & 0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 & 0 & 0 & 0 \\
+1 & T & T^2 & T^3 & T^4 & T^5 & 1 \\
+0 & 1 & 2T & 3T^2 & 4T^3 & 5T^4 & 0 \\
+0 & 0 & 1 & 6T & 12T^2 & 20T^3 & 0 \\ 
+\end{array} \right)
+$$
+
+The solution is $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2}=0,\, a_{3}=\frac{10}{T^3},\, a_{4}=-\frac{15}{T^4},\, a_{5}=\frac{6}{T^5} \right\}$$.
 
 ***
 
