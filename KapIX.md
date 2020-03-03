@@ -77,6 +77,9 @@ $$
 \end{align}
 $$
 
+> _**Exercise 9.3**_ Don't know how to do.
+
+> _**Exercise 9.4**_ Consider a straight-line path $$\theta (s) = \theta_{\text{start}} + s (\theta_{\text{end}} - \theta_{\text{start}})$$, $$s \in [0,1]$$ from $$\theta_{\text{start}} = (0, 0)$$ to $$\theta_{\text{end}} = (\pi, \pi/3)$$. The motion starts and ends at rest. The feasible joint velocities are $$|\dot{\theta_{1}}|$$, $$|\dot{\theta_{2}}| \leq 2 $$ rad/s and the feasible joint accelerations are $$|\ddot{\theta_{1}}|$$, $$\ddot{\theta_{2}} \leq 0.5 \, \text{rad/s}^{2}$$. Find the fastest motion time $$T$$ using a cubic time scaling that satisfies the joint velocity and acceleration limits.
 
 
 ***
