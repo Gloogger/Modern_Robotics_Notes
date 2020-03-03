@@ -104,6 +104,36 @@ $$
 \end{array} \right)
 $$
 
+$$
+\begin{equation}
+  X = \left \{
+  \begin{aligned}
+    &0, && \text{if}\ a=1 \\
+    &1, && \text{otherwise}
+  \end{aligned} \right.
+\end{equation} 
+$$
+
+$$
+\begin{equation}
+  X=\left\{
+  \begin{array}{@{}ll@{}}
+    0, & \text{if}\ a=1 \\
+    1, & \text{otherwise}
+  \end{array}\right.
+\end{equation} 
+$$
+
+$$
+  \begin{equation}
+    X=
+    \begin{cases}
+      0, & \text{if}\ a=1 \\
+      1, & \text{otherwise}
+    \end{cases}
+  \end{equation}
+$$
+
 Thus, the coefficents are obtained as $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2} = \frac{3}{T^{2}},\, a_{3}=- \frac{2}{T^{3}} \right\}$$.
 
 $$
