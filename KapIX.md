@@ -117,18 +117,40 @@ $$
 \end{align}
 $$
 
-Using the given velocity and acceleration limits, 
+Now we should find the minimal motion time $$T$$ in accordance with the velocity and acceleration limits. Because we don't know which one is controlling, so we have to calculate both. $$T_{\text{min}}$$ computed using velocity limit is:
+
+$$ \lvert \dot{\theta_{1}} \rvert \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi} $$
+
+Since we know the maximal speed occurs at $$t=\frac{T}{2}$$, we have
 
 $$
 \begin{align}
     \begin{split}
-        \dot{\theta} &= \pi \dot{s}  \; \text{and} \; \lvert \dot{\theta_{1}} \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi}\\
-        \ddot{\theta} &= \pi \ddot{s}  \; \text{and} \; \lvert \ddot{\theta_{1}} \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} \\
+        \dot{\theta_{max}} &= \dot{\theta}\left(\frac{T}{2}\right) \\
+        &= \frac{6\pi}{T^{2}} \frac{T}{2} - \frac{6\pi}{T^{3}} \left(\frac{T}{2}\right)^{2} \\
+        &= \frac{3\pi}{2T} \leq 2 \\
+        T_{\text{min, vel}} &= \frac{3\pi}{4} \approx 2.3562 
     \end{split}
 \end{align}
 $$
 
-the minimal motion time $$T$$ can be 
+$$T_{\text{min}}$$ computed using acceleration limit is:
+
+$$ \lvert \ddot{\theta_{1}} \rvert \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} $$
+
+Since we know the maximal acceleration occurs at either terminals, i.e., $$t=0$$ or $$t=T$$, we have
+
+$$
+\begin{align}
+    \begin{split}
+        \ddot{\theta_{max}} &= \ddot{\theta}\left(0\right) \\
+        &= \frac{6\pi}{T^{2}} \leq \frac{1}{2} \\
+        T_{\text{min, acc}} &= 2 \sqrt{3\pi} \approx 6.1400 
+    \end{split}
+\end{align}
+$$
+
+Thus, the minimal motion time is, $$T=\max( T_{\text{min, vel}},\, T_{\text{min, acc}})=2 \sqrt{3\pi}$$.
 
 
 
