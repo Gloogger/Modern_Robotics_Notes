@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 'Kapitel IX: Motion Planning'
+title: 'Kapitel IX: Trajectory Generation'
 description: Useful Equations and Textbook Exercise Attempts
 is_project_page: false
 ---
@@ -14,11 +14,9 @@ is_project_page: false
 </p>
 
 ## Useful Notes and Equations
-For a comprehensive and thorough summary of the theory, check MuChenSun's wonderful note [here](https://muchensun.github.io/ModernRoboticsCourseNotes/ch3.html).
 
-My own notes:
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1DSVOJTZFy7FHh_PZEt5pvCj8gykDoQVq" alt="fig_3_1.png">
+    <img src="https://drive.google.com/uc?export=view&id=1n1aBoej-dckoSiwXJ36s1Jn7wM62V-HK" alt="note_1.png">
 </p>
 
 
