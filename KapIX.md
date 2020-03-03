@@ -184,6 +184,14 @@ The solution is $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2}=0,\, a_{3}=\frac{10}{T^3},
     <img src="https://drive.google.com/uc?export=view&id=1BythTOPYCTcS_7j2I8jgMaur2HtdpdEr" alt="fig_4.png" width="500">
 </p>
 
+> _**Exercise 9.11**_ If $$v$$ and $$T$$ are specified for a trapezoidal time scaling, prove that $$vT > 1$$ is a necessary condition for the motion to be able to complete in time T . Prove that $$vT \leq 2$$ is a necessary condition for a three-stage trapezoidal motion.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1PRgmQXi5vqhw-g53GRn7j795JJtO8PtL" alt="fig_5.png" width="550">
+</p>
+
+
+
 ***
 
 Image hosting template:
