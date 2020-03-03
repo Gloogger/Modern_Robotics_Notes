@@ -93,6 +93,18 @@ $$ \left{ \begin{aligned}
 \end{aligned}\right.
 $$
 
+Substitute the above constraints into the cubic time scaling $$s(t) = a_{0} + a_{1}t + a_{2} t^{2} + a_{3} t^{3}$$, solve
+
+$$
+\left( \begin{array}{cccc|c} 
+1 & T & T^2 & T^3 & 1 \\ 
+1 & 0 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 & 0 \\
+0 & 1 & 2T & 3T^2 & 0 \\
+\end{array} \right)
+$$
+
+Thus, the coefficents are obtained as $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2} = \frac{3}{T^{2}},\, a_{3}=- \frac{2}{T^{3}} \right\}$$.
 
 $$
 \begin{align}
@@ -105,7 +117,7 @@ $$
 \end{align}
 $$
 
-The cubic time scaling to be solved is $$s(t) = a_{0} + a_{1}t + a_{2} t^{2} + a_{3} t^{3}$$. Subs
+
 
 
 ***
