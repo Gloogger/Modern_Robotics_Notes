@@ -105,16 +105,30 @@ $$
 \end{array} \right)
 $$
 
-Thus, the coefficents are obtained as $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2} = \frac{3}{T^{2}},\, a_{3}=- \frac{2}{T^{3}} \right\}$$.
+Thus, the coefficents are obtained as $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2} = \frac{3}{T^{2}},\, a_{3}=- \frac{2}{T^{3}} \right\}$$. Substitute the coefficients into the path function gives
 
 $$
 \begin{align}
     \begin{split}
-        \dot{\theta} &= \dot{s} \pi \; \text{and} \; \lvert \dot{\theta_{1}} \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi}\\
-        \ddot{\theta} &= \ddot{s} \pi \; \text{and} \; \lvert \ddot{\theta_{1}} \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} \\
+        \theta &= \pi s = \frac{3\pi}{T^{2}} t^{2} - \frac{2\pi}{T^{3}} t^{3} \\
+        \dot{\theta} &= \pi \dot{s} = \frac{6\pi}{T^{2}} t - \frac{6\pi}{T^{3}} t^{2} \\
+        \ddot{\theta} &= \pi \ddot{s} = \frac{6\pi}{T^{2}} - \frac{12\pi}{T^{3}} t \\
     \end{split}
 \end{align}
 $$
+
+Using the given velocity and acceleration limits, 
+
+$$
+\begin{align}
+    \begin{split}
+        \dot{\theta} &= \pi \dot{s}  \; \text{and} \; \lvert \dot{\theta_{1}} \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi}\\
+        \ddot{\theta} &= \pi \ddot{s}  \; \text{and} \; \lvert \ddot{\theta_{1}} \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} \\
+    \end{split}
+\end{align}
+$$
+
+the minimal motion time $$T$$ can be 
 
 
 
