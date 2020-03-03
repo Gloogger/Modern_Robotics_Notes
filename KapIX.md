@@ -117,11 +117,9 @@ $$
 \end{align}
 $$
 
-Now we should find the minimal motion time $$T$$ in accordance with the velocity and acceleration limits. Because we don't know which one is controlling, so we have to calculate both. $$T_{\text{min}}$$ computed using velocity limit is:
+Now we should find the minimal motion time $$T$$ in accordance with the velocity and acceleration limits. Because we don't know which one is controlling, so we have to calculate both. 
 
-$$ \lvert \dot{\theta_{1}} \rvert \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi} $$
-
-Since we know the maximal speed occurs at $$t=\frac{T}{2}$$, we have
+The elocity limit is $$ \lvert \dot{\theta_{1}} \rvert \leq 2 $$. Since we know the maximal speed occurs at $$t=\frac{T}{2}$$, we have,
 
 $$
 \begin{align}
@@ -134,11 +132,7 @@ $$
 \end{align}
 $$
 
-$$T_{\text{min}}$$ computed using acceleration limit is:
-
-$$ \lvert \ddot{\theta_{1}} \rvert \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} $$
-
-Since we know the maximal acceleration occurs at either terminals, i.e., $$t=0$$ or $$t=T$$, we have
+The cceleration limit is $$ \lvert \ddot{\theta_{1}} \rvert \leq \frac{1}{2}$$. Since we know the maximal acceleration occurs at either terminals, i.e., $$t=0$$ or $$t=T$$, we have,
 
 $$
 \begin{align}
