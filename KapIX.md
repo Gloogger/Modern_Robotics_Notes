@@ -32,17 +32,6 @@ is_project_page: false
 
 List the table below:
 
-$$
-\begin{tabular}{|c|c|c|}\hline
-    s & x & y \\\hline
-    0 & 0 & 0 \\\hline
-    \frac{1}{4} & 2 & 1 \\\hline
-    \frac{2}{4} & 4 & 0 \\\hline
-    \frac{3}{4} & 2 & -1 \\\hline
-    \frac{4}{4} & 0 & 0 \\\hline
-\end{tabular}
-$$
-
 | $$s$$  | $$x$$ | $$y$$ |
 | ------- | ------ | ------------- |
 | 0 | 0  | 0 |
@@ -58,6 +47,21 @@ $$
     \begin{split}
         x &= 2\left(1-\cos (2\pi s) \right) \\
         y &= \sin (2\pi s) \\
+    \end{split}
+\end{align}
+$$
+
+> _**Exercise 9.2**_ A cylindrical path in $$X = (x, y, z)$$ is given by $$x = \cos(2\pi s)$$, $$y = \sin(2\pi s)$$, $$z = 2s$$, $$s \in [0,1]$$, and its time scaling is $$s(t) = \frac{1}{4} t + \frac{1}{8} t^{2}$$, $$t \in [0, 2]$$. Write done $$\dot{X}$$ and $$\ddot{X}$$.
+
+$$
+\begin{align}
+    \begin{split}
+        \dot{X} &= \frac{dX}{ds} \frac{ds}{dt} \\
+        &= \begin{bmatrix}
+            -2 \pi \sin (2\pi s) \\
+            2 \pi \cos (2\pi s) \\
+            2 \\
+        \end{bmatrix} \cdot \left( \frac{1}{4} + \frac{1}{4} t \right)
     \end{split}
 \end{align}
 $$
