@@ -25,8 +25,22 @@ is_project_page: false
 ***
 
 ## Textbook Exercises Attempts
+> _**Exercise 9.1**_ Consider an elliptical path in the $$(x,y)$$-plane. The path starts at $$(0,0)$$ and proceeds clockwise to $$(2,1)$$, $$(4,0)$$, $$(2,-1)$$, and back to $$(0,0)$$ (Figure 9.15). Write the path as a function of $$s \in [0, 1]$$.
+    <p align="center">
+        <img src="https://drive.google.com/uc?export=view&id=1Qy4lC75kuGIOE9nMml4BELj8fJYLEcwW" alt="fig_1.png" width="400">
+    </p>
 
-
+List the table below:
+$$
+\begin{tabular}{|c|c|c|}\hline
+    s & x & y \\\hline
+    0 & 0 & 0 \\\hline
+    \frac{1}{4} & 2 & 1 \\\hline
+    \frac{2}{4} & 4 & 0 \\\hline
+    \frac{3}{4} & 2 & -1 \\\hline
+    \frac{4}{4} & 0 & 0 \\\hline
+\end{tabular}
+$$
 
 ***
 
