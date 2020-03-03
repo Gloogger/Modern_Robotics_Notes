@@ -88,10 +88,10 @@ Because the two joints has the same velocity and acceleration limits, we just ne
 $$
 \begin{align}
     \begin{split}
-        \dot{\theta} &= \dot{s} \pi \; \text{and} \; \lvert \dot{\theta_{1}} \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi}\\
-        \ddot{\theta} &= \ddot{s} \pi \; \text{and} \; \lvert \ddot{\theta_{1}} \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} \\
         s(0) &= 0 \\
         s(T) &= 1 \\
+        \dot{\theta} &= \dot{s} \pi \; \text{and} \; \lvert \dot{\theta_{1}} \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi}\\
+        \ddot{\theta} &= \ddot{s} \pi \; \text{and} \; \lvert \ddot{\theta_{1}} \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} \\
     \end{split}
 \end{align}
 $$
