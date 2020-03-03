@@ -66,6 +66,19 @@ $$
 \end{align}
 $$
 
+Similarly,
+
+$$
+\begin{align}
+    \begin{split}
+        \ddot{X} &= \frac{d^{2}X}{ds^{s}} \frac{ds}{dt} + \frac{dX}{ds} \frac{d^{2}s}{dt^{2}} \\
+        &= \ldots \\
+    \end{split}
+\end{align}
+$$
+
+
+
 ***
 
 Image hosting template:
