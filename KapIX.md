@@ -85,6 +85,13 @@ Don't know how to do.
 
 Because the two joints has the same velocity and acceleration limits, we just need to consider the largest movement, which in this case is $$\theta_{1} = \pi$$. Then, $$\theta(s) = 0 + s (\pi - 0) =  \pi s$$. Recall that the terminal constraints for a cubic time scaling function are:
 
+$$
+\begin{cases}
+  0, & \text{if}\ a=1 \\
+  1, & \text{otherwise}
+\end{cases}
+$$
+
 $$ \left{ \begin{aligned}
     &s(0) = 0 \\
     &s(T) = 1 \\
@@ -104,43 +111,11 @@ $$
 \end{array} \right)
 $$
 
-$$
-\begin{equation}
-  X = \left \{
-  \begin{aligned}
-    &0, && \text{if}\ a=1 \\
-    &1, && \text{otherwise}
-  \end{aligned} \right.
-\end{equation} 
-$$
-
-$$
-\begin{equation}
-  X=\left\{
-  \begin{array}{@{}ll@{}}
-    0, & \text{if}\ a=1 \\
-    1, & \text{otherwise}
-  \end{array}\right.
-\end{equation} 
-$$
-
-$$
-  \begin{equation}
-    X=
-    \begin{cases}
-      0, & \text{if}\ a=1 \\
-      1, & \text{otherwise}
-    \end{cases}
-  \end{equation}
-$$
-
 Thus, the coefficents are obtained as $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2} = \frac{3}{T^{2}},\, a_{3}=- \frac{2}{T^{3}} \right\}$$.
 
 $$
 \begin{align}
     \begin{split}
-        s(0) &= 0 \\
-        s(T) &= 1 \\
         \dot{\theta} &= \dot{s} \pi \; \text{and} \; \lvert \dot{\theta_{1}} \leq 2 \, \Rightarrow \, \dot{s} \leq \frac{2}{\pi}\\
         \ddot{\theta} &= \ddot{s} \pi \; \text{and} \; \lvert \ddot{\theta_{1}} \leq 0.5 \, \Rightarrow \, \ddot{s} \leq \frac{1}{2\pi} \\
     \end{split}
