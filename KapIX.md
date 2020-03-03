@@ -182,7 +182,7 @@ The solution is $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2}=0,\, a_{3}=\frac{10}{T^3},
 
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=1BythTOPYCTcS_7j2I8jgMaur2HtdpdEr" alt="fig_4.png" width="500">
-</p>https://drive.google.com/file/d//view?usp=sharing
+</p>
 
 ***
 
