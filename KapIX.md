@@ -87,8 +87,8 @@ Because the two joints has the same velocity and acceleration limits, we just ne
 
 $$
 \begin{cases}
-  0, & \text{if}\ a=1 \\
-  1, & \text{otherwise}
+  0, \\
+  1, 
 \end{cases}
 $$
 
