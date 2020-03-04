@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 'Kapitel X: Robot Control'
+title: 'Kapitel X: Motion Planning'
 description: Useful Equations and Textbook Exercise Attempts
 is_project_page: false
 ---
