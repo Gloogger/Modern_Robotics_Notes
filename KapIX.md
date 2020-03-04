@@ -222,30 +222,6 @@ The solution is $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2}=0,\, a_{3}=\frac{10}{T^3},
 
 ***
 
-Image hosting template:
-
-```
-<p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=" alt="Erklaerung">
-</p>
-```
-
-```
-$$
-\begin{align}
-    \begin{split}
-    \end{split}
-\end{align}
-$$
-
-
-$$
-\begin{bmatrix}
-       
-\end{bmatrix}
-$$
-```
-
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='#top';">Back To Top</button>
 <p>
