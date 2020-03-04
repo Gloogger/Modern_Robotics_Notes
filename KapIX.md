@@ -208,6 +208,15 @@ The solution is $$\left\{ a_{0}=0,\, a_{1}=0,\, a_{2}=0,\, a_{3}=\frac{10}{T^3},
     <img src="https://drive.google.com/uc?export=view&id=1rREcc_TQrrg-JnPMLNX9JMF3jZd7ekE4" alt="fig_8.png">
 </p>
 
+> _**Exercise 9.20**_ By hand or by computer, plot a trapezoidal motion profile in the $$(s, \dot{s})$$-plane.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1Ifxmu4Y27poPaAg7fRQLSkYKtHPz4qIe" alt="fig_9.png" width="400">
+</p>
+
+> _**Exercise 9.21**_ Figure 9.16 shows three candidate motion curves in the $$(s, \dot{s})$$- plane (A, B, and C) and three candidate motion cones at $$\dot{s} = 0$$ (a, b, and c). Two of the three curves and two of the three motion cones cannot be correct for any robot dynamics. Indicate which are incorrect and explain your reasoning. Explain why the remaining curve and motion cone are possibilities.
+
+
 
 ***
 
