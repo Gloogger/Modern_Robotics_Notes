@@ -22,4 +22,7 @@ The kinematics theory favored by the **Modern Robotics**  course is _**Product-o
 * [**Kapitel VII: Kinematics of Closed Chains**](KapVII.html)
 * [**Kapitel VIII: Dynamics of Open Chains**](KapVIII.html)
 * [**Kapitel IX: Trajectory Generation**](KapIX.html)
-* [**Kapitel X: Robot Control**](KapX.html)
+* [**Kapitel X: Motion Planning**](KapX.html)
+* [**Kapitel XI: Robot Control**](KapXI.html)
+
+***
