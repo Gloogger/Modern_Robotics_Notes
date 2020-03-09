@@ -544,6 +544,8 @@ end
     <img src="https://drive.google.com/uc?export=view&id=1lc3fSL48dHMnDkYjPmhwqqi_Xj68euUc" alt="fig_1.png">
 </p>
 
+Note that _resC_ is the number of intervals used to discretize the C-space.
+
 ***
 
 ## Implementation of PRM (Probabilistic RoadMap)
@@ -894,31 +896,15 @@ end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ```
 
-***
+### Results
 
-Image hosting template:
-
-```
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=" alt="Erklaerung">
+    <img src="https://drive.google.com/uc?export=view&id=1ogqkExlGLLJsyc6DhZCW7sCX2RBgNI01" alt="fig_2.png">
 </p>
-```
 
-```
-$$
-\begin{align}
-    \begin{split}
-    \end{split}
-\end{align}
-$$
+Note that _N_ is the number of random nodes generated inside the given C-space.
 
-
-$$
-\begin{bmatrix}
-       
-\end{bmatrix}
-$$
-```
+***
 
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='#top';">Back To Top</button>
