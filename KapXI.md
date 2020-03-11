@@ -76,29 +76,10 @@ $$\omega_d = \omega_n \sqrt{1-\zeta^2} = 9.94987\,\text{rad/s}$$
 
 ***
 
-Image hosting template:
+The rest of the chapter is basically the same old string-damper system that is familiar to any mechanical engineering student, therefore the exercise is skipped here.
 
-```
-<p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=" alt="Erklaerung">
-</p>
-```
+***
 
-```
-$$
-\begin{align}
-    \begin{split}
-    \end{split}
-\end{align}
-$$
-
-
-$$
-\begin{bmatrix}
-       
-\end{bmatrix}
-$$
-```
 
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='#top';">Back To Top</button>
