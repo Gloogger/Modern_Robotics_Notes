@@ -30,11 +30,41 @@ is_project_page: false
 
 By definition, the percentage settling time is defined as $$N\%t = -\frac{\ln\left(N/100 \right)}{\zeta \omega_{n}}$$. Therefore, $$5\%t = -\frac{\ln\left(5/100 \right)}{t} \approx \frac{3}{\zeta \omega_{n}} $$.
 
+> _**Exercise 11.3**_ Solve for any constants and give the specific equation for an underdamped second-order system with $$\omega_n = 4$$, $$\zeta = 0.2$$, $$\theta_{e}(0) = 1$$, and $$\dot{\theta_{e}}(0) = 0$$. Calculate the damped natural frequency, approximate overshoot, and $$2\%$$ settling time. Plot the solution on a computer and measure the exact overshoot and settling time.
+
+$$
+\begin{align}
+    \begin{split}
+        \omega_d &= \omega_n \sqrt{1-\zeta^2}\\
+        &= 4 \sqrt{1-0.2^2} \\
+        &= 3.9192 \\
+    \end{split}
+\end{align}
+$$
+
+$$
+\begin{align}
+    \begin{split}
+        \text{overshoot} &= \text{exp}\left( \frac{-\pi \zeta}{\sqrt{1-\zeta^2}} \right) \\
+        &= 0.5266 \\
+        &= 52.66\% \\
+    \end{split}
+\end{align}
+$$
+
+$$
+\begin{align}
+    \begin{split}
+        2\%t &= -\frac{\text{ln}(0.02)}{\zeta \omega_n} \\
+        &= 4.8900\,\text{s} \\
+    \end{split}
+\end{align}
+$$
+
+
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=1rAZ-0cepe9dzwQ-LPIOiA0kHv6262Vru" alt="fig_1.png" width='500'>
 </p>
-
-> _**Exercise 11.3**_ Solve for any constants and give the specific equation for an underdamped second-order system with $$\omega_n = 4$$, $$\zeta = 0.2$$, $$\theta_{e}(0) = 1$$, and $$\dot{\theta_{e}}(0) = 0$$. Calculate the damped natural frequency, approximate overshoot, and $$2\%$$ settling time. Plot the solution on a computer and measure the exact overshoot and settling time.
 
 ***
 
