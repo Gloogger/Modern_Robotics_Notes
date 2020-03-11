@@ -906,6 +906,13 @@ Note that _N_ is the number of random nodes generated inside the given C-space.
 
 ***
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1Ns_O1sro0m_NgVlTO32nN0M74p-5fHDR" alt="fig_3.png">
+</p>
+Quelle: https://www.willowgarage.com/blog/2009/09/04/robot-comics-path-planning?page=9
+
+***
+
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='#top';">Back To Top</button>
 <p>
