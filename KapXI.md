@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 'Kapitel X: Robot Control'
+title: 'Kapitel XI: Robot Control'
 description: Useful Equations and Textbook Exercise Attempts
 is_project_page: false
 ---
@@ -9,8 +9,8 @@ is_project_page: false
 
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='index.html';">Homepage</button>
-<span style="float:left;"><button type="button" onclick="window.location.href='KapIX.html';">Previous</button></span>
-<span style="float:right;"><button type="button" onclick="window.location.href='KapXI.html';">Next</button></span>
+<span style="float:left;"><button type="button" onclick="window.location.href='KapX.html';">Previous</button></span>
+<span style="float:right;"><button type="button" onclick="window.location.href='KapXII.html';">Next</button></span>
 </p>
 
 ## Useful Notes and Equations
