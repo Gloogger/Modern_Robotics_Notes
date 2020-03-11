@@ -77,6 +77,8 @@ $$\omega_d = \omega_n \sqrt{1-\zeta^2} = 9.94987\,\text{rad/s}$$
 > _**Exercise 11.5**_ Consider a pendulum in a gravitational field with $$g = 10 \;\text{m/s}^2$$. The pendulum consists of a $$2$$ kg mass at the end of a $$1$$ m massless rod. The pendulum joint has a viscous-friction coefficient of $$b = 0.1\,\text{Nms/rad}$$.
 > - (a) Write the equation of motion of the pendulum in terms of $$\theta$$, where $$\theta=0$$ corresponds to the “hanging down” configuration.
 > - (b) Linearize the equation of motion about the stable “hanging down” equilibrium. To do this, replace any trigonometric terms in $$\theta$$ with the linear term in the Taylor expansion. Give the effective mass and spring constants $$m$$ and $$k$$ in the linearized dynamics $$m \ddot{\theta} + b\dot{\theta}+k\theta =0$$. At the stable equilibrium, what is the damping ratio? Is the system underdamped, critically damped, or overdamped? If it is underdamped, what is the damped natural frequency? What is the time constant of convergence to the equi- librium and the $$2\%$$ settling time?
+> - (c) Now write the linearized equations of motion for $$\theta=0$$ at the balanced upright configuration. What is the e↵ective spring constant $$k$$?
+> - (d) You add a motor at the joint of the pendulum to stabilize the upright position, and you choose a P controller $$\tau = K_p \theta$$. For what values of $$K_p$$ is the upright position stable?
 
 ***
 
