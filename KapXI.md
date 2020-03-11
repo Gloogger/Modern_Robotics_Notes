@@ -74,9 +74,9 @@ $$\omega_d = \omega_n \sqrt{1-\zeta^2} = 9.94987\,\text{rad/s}$$
     <img src="https://drive.google.com/uc?export=view&id=1E4cNcTbYAii87Rd3e0WwtIcQr9Yi0PL4" alt="fig_2.png" width="500">
 </p>
 
-***
-
-The rest of the chapter is basically the same old string-damper system(which is familiar to any mechanical engineering student), therefore these exercises are skipped here.
+> _**Exercise 11.5**_ Consider a pendulum in a gravitational field with $$g = 10 \;\text{m/s}^2$$. The pendulum consists of a $$2$$ kg mass at the end of a $$1$$ m massless rod. The pendulum joint has a viscous-friction coefficient of $$b = 0.1\,\text{Nms/rad}$$.
+> - (a) Write the equation of motion of the pendulum in terms of $$\theta$$, where $$\theta=0$$ corresponds to the “hanging down” configuration.
+> - (b) Linearize the equation of motion about the stable “hanging down” equilibrium. To do this, replace any trigonometric terms in $$\theta$$ with the linear term in the Taylor expansion. Give the effective mass and spring constants $$m$$ and $$k$$ in the linearized dynamics $$m \ddot{\theta} + b\dot{\theta}+k\theta =0$$. At the stable equilibrium, what is the damping ratio? Is the system underdamped, critically damped, or overdamped? If it is underdamped, what is the damped natural frequency? What is the time constant of convergence to the equi- librium and the $$2\%$$ settling time?
 
 ***
 
