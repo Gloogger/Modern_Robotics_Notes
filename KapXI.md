@@ -16,7 +16,7 @@ is_project_page: false
 ## Useful Notes and Equations
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1DSVOJTZFy7FHh_PZEt5pvCj8gykDoQVq" alt="fig_3_1.png">
+    <img src="https://drive.google.com/uc?export=view&id=1GFg44TORbXqWhLeVb-plRI6V1l8LPiYK" alt="note_1.png">
 </p>
 
 
@@ -25,6 +25,8 @@ is_project_page: false
 ***
 
 ## Textbook Exercises Attempts
+
+> _**Exercise**_ 11.2 The $$2%$$ settling time of an underdamped second-order system is approximately $$t = \frac{4}{\zeta \omega_{n}}$$, for $$e^{-\zeta \omega_{n} t}=0.02$$. What is the $$5%$$ settling time?
 
 
 
