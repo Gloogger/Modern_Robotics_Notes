@@ -56,14 +56,22 @@ $$
 \begin{align}
     \begin{split}
         2\%t &= -\frac{\text{ln}(0.02)}{\zeta \omega_n} \\
-        &= 4.8900\,\text{s} \\
+        &= 4.8900\,\text{rad/s} \\
     \end{split}
 \end{align}
 $$
 
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1rAZ-0cepe9dzwQ-LPIOiA0kHv6262Vru" alt="fig_1.png" width='500'>
+    <img src="https://drive.google.com/uc?export=view&id=1rAZ-0cepe9dzwQ-LPIOiA0kHv6262Vru" alt="fig_1.png" width="500">
+</p>
+
+> _**Exercise 11.4**_ Solve for any constants and give the specific equation for an underdamped second-order system with $$\omega_n = 10$$, $$\zeta = 0.1$$, $$\theta_e (0) = 0$$, and $$\dot{\theta_e} (0) = 1$$. Calculate the damped natural frequency. Plot the solution on a computer.
+
+$$\omega_d = \omega_n \sqrt{1-\zeta^2} = 9.94987\,\text{rad/s}$$
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1E4cNcTbYAii87Rd3e0WwtIcQr9Yi0PL4" alt="fig_2.png" width="500">
 </p>
 
 ***
