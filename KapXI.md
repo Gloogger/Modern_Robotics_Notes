@@ -97,12 +97,6 @@ $$\omega_d = \omega_n \sqrt{1-\zeta^2} = 9.94987\,\text{rad/s}$$
 
 ***
 
-```
-<p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=" alt="fig_2.png" width="500">
-</p>
-```
-
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='#top';">Back To Top</button>
 <p>
