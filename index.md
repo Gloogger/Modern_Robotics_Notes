@@ -24,5 +24,6 @@ The kinematics theory favored by the **Modern Robotics**  course is _**Product-o
 * [**Kapitel IX: Trajectory Generation**](KapIX.html)
 * [**Kapitel X: Motion Planning**](KapX.html)
 * [**Kapitel XI: Robot Control**](KapXI.html)
+* [**Kapitel XII: Grasping and Manipulation**](KapXII.html)
 
 ***
