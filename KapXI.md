@@ -85,7 +85,7 @@ $$\omega_d = \omega_n \sqrt{1-\zeta^2} = 9.94987\,\text{rad/s}$$
     <img src="https://drive.google.com/uc?export=view&id=1-2u56jTaOty0Vg_W9QSsdjyZEMiuYcyw" alt="fig_3.png" width="600">
 </p>
 
-- (b) $$1\cdot \ddot{theta} + 0 \cdot \dot{\theta} + 10\cdot \theta = 0$$
+- (b) $$1\cdot \ddot{\theta} + 0 \cdot \dot{\theta} + 10\cdot \theta = 0$$
 By observation, we get $$m=1$$, $$b = 0$$, $$k=10$$. The natural frequency is $$\omega_n = \sqrt{\frac{k}{m}} = \sqrt{\frac{10}{1}} = \sqrt{10}$$. From $$2\zeta \omega_n = 0$$, the damping ratio is obtained as $$\zeta = 0$$. Since $$\zeta < 0$$, the system is **underdamped**. The damped natural frequency is $$\omega_d = \omega_n \sqrt{1-\zeta^2} = \sqrt{10}$$. The $$2\%$$ settling time is $$2\%t = -\frac{ln(0.02)}{\zeta \omega_n} \approx \frac{4}{0} = \infty$$.
 
 ***
