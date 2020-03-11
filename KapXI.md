@@ -76,7 +76,7 @@ $$\omega_d = \omega_n \sqrt{1-\zeta^2} = 9.94987\,\text{rad/s}$$
 
 ***
 
-The rest of the chapter is basically the same old string-damper system(which is familiar to any mechanical engineering student), therefore the exercise is skipped here.
+The rest of the chapter is basically the same old string-damper system(which is familiar to any mechanical engineering student), therefore these exercises are skipped here.
 
 ***
 
