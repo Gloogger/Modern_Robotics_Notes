@@ -30,7 +30,7 @@ is_project_page: false
 
 By definition, the percentage settling time is defined as $$N\%t = -\frac{\ln\left(N/100 \right)}{\zeta \omega_{n}}$$. Therefore, $$5\%t = -\frac{\ln\left(5/100 \right)}{t} \approx \frac{3}{\zeta \omega_{n}} $$.
 
-
+> _**Exercise 11.3**_ Solve for any constants and give the specific equation for an underdamped second-order system with $$\omega_n = 4$$, $$\zeta = 0.2$$, $$\theta_{e}(0) = 1$$, and $$\dot{\theta_{e}}(0) = 0$$. Calculate the damped natural frequency, approximate overshoot, and $$2\%$$ settling time. Plot the solution on a computer and measure the exact overshoot and settling time.
 
 ***
 
