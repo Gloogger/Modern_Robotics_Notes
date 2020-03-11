@@ -92,7 +92,8 @@ $$\omega_d = \omega_n \sqrt{1-\zeta^2} = 9.94987\,\text{rad/s}$$
   The damped natural frequency is $$\omega_d = \omega_n \sqrt{1-\zeta^2} = \sqrt{10}$$. 
   The $$2\%$$ settling time is $$2\%t = -\frac{ln(0.02)}{\zeta \omega_n} \approx \frac{4}{0} = \infty$$.
 
-- (c) 
+- (c) Don't know how to do.
+- (d) Don't know how to do.
 
 ***
 
