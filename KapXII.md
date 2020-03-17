@@ -21,7 +21,7 @@ is_project_page: false
 
 ### Useful Equations:
 
-From twist to CoR:
+* From twist to CoR:
 
 $$\text{CoR}(\mathscr{V})=\{ sgn{\mathscr{V}},\; \begin{bmatrix}
     x_c \\
@@ -93,6 +93,32 @@ $$
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=1GGh8EwjWRbT61bfkjRcJdzo1YcKC4brt" alt="fig_1.png" width="500">
 </p>
+
+> _**Exercise 12.3**_ A rigid body is contacted at $$p=(1,2,3)$$ with a contact normal into the body $$\hat{n}=(0,1,0)$$. Write the constraint on the body’s twist $$\mathscr{V}$$ due to this contact.
+
+By the impenetrability constraint, we have $$ \mathscr{F}^T ( \mathscr{V}_a - \mathscr{V}_b ) \leq 0 $$. Assume everything other than the body is stationary, $$\mathscr{V}_b = 0$$.
+
+$$
+\begin{align}
+    \begin{split}
+        \mathscr{F}^T &= \left( [p]\hat{n} \hat{n} \right)^T \\
+        &= \left( \left( \begin{bmatrix}
+            0 & -3 & 2 \\
+            3 & 0 & -1 \\
+            -2 & 1 & 0 \\
+        \end{bmatrix} \begin{bmatrix}
+            0 \\
+            1 \\
+            0 \\
+        \end{bmatrix} \right)^T \begin{bmatrix} 
+            0 \\
+            1 \\
+            0 \\
+        \end{bmatrix}^T \right) \\
+        &= [-3 0 1 0 1 0] \\
+    \end{split}
+\end{align}
+$$
 
 ***
 
