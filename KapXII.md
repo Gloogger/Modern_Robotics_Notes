@@ -115,7 +115,9 @@ $$
             1 \\
             0 \\
         \end{bmatrix}^T \right) \\
-        &= [-3 0 1 0 1 0] \\
+        &= \begin{bmatrix}
+         -3 & 0 & 1 & 0 & 1 & 0 \\
+        \end{bmatrix} \\
     \end{split}
 \end{align}
 $$
@@ -123,7 +125,9 @@ $$
 $$
 \begin{align}
     \begin{split}
-        \mathscr{V}^T \mathscr{V}_A &= [-3 0 1 0 1 0] \begin{bmatrix}
+        \mathscr{V}^T \mathscr{V}_A &= \begin{bmatrix}
+         -3 & 0 & 1 & 0 & 1 & 0 \\
+        \end{bmatrix} \begin{bmatrix}
             \omega_x \\
             \omega_y \\
             \omega_z \\
