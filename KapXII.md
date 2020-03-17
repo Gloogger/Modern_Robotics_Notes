@@ -42,6 +42,72 @@ $$
 
 ***
 
+## Implementation of Planar Form Closure Test （by First-Order Analysis）
+This implementation is done in MATLAB, the algorithm is adopted from the 
+
+```Matlab
+%% This script takes in a list of support points and the contact normal in
+%  radians measured from the positive x-axis, in the following form:
+%  |    x    |      y     |   angle of contact normal from positive x axis|
+%  |    0    |      0     |                  1.5708                       |
+%  is a support point at origin with its contact normal pointing in the
+%  direction of positive y-axis.
+%  If the planar body IS in form closure by first-order anaylsis, this
+%  script returns 1; if not, returns 0.
+%  Written by Donglin Sui (lordblackwoods@gmail.com) on 2020.03.17
+%  For personal interests
+
+
+%% Use this part to test the function
+% Alternative way of getting input support point list:
+% pointList = readmatrix('Input_points.csv');
+%% Test 1 (see the corresponding screenshot for detail)
+pointList1 = [[1 0 pi/2];
+             [3 0 pi/2];
+             [4 4  pi ];
+             [0 6 -1.19029]];
+IsClosure1 = FormClosureFirstOrder(pointList1);
+
+%% Test 2
+pointList2 = [[1 0 pi/2];
+             [3 0 pi/2];
+             [4 4  pi ];
+             [0 6 -pi/4]];
+IsClosure2 = FormClosureFirstOrder(pointList2);
+
+%% Function define below
+function IsClosure = FormClosureFirstOrder(pointList)
+    N = size(pointList,1);
+    f = ones(1,N);
+    A = -1 .* eye(N);
+    b = -1 .* f;
+    F = [];
+    for i = 1:N
+        p = [pointList(i,1) pointList(i,2)];
+        theta = pointList(i,3);
+        n = [cos(theta) sin(theta)];
+        m_iz = cross([p 0],[n 0]);
+        F = [F [m_iz(3); n(1); n(2)]];
+    end
+    Aeq = F;
+    beq = [0 0 0];
+    k = linprog(f,A,b,Aeq,beq);
+    if isempty(k)
+        fprintf('The body is not in form closure by first-order analysis.\n');
+        IsClosure = false;
+    else 
+        fprintf('The body is in form closure by first-order analysis.\n');
+        IsClosure = true;
+    end
+end
+```
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1Yv8yIH_ltmqXTw42Dl-Uo0ux40MoQMBc" alt="2TestCase.png">
+</p>
+
+***
+
 ## Textbook Exercises Attempts
 > _**Exercise 12.1**_ Prove that the impenetrability constraint (12.4) is equivalent to the constraint (12.7).
 
