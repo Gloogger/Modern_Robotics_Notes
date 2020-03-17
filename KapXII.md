@@ -15,7 +15,7 @@ is_project_page: false
 
 ## Useful Notes and Equations
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1DSVOJTZFy7FHh_PZEt5pvCj8gykDoQVq" alt="fig_3_1.png">
+    <img src="https://drive.google.com/uc?export=view&id=19wVnSOuhlOEECWJ5RL1qdnYI9Y4YSf-n" alt="note_1.png">
 </p>
 
 
