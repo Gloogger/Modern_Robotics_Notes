@@ -23,7 +23,7 @@ is_project_page: false
 
 * From twist to CoR:
 
-$$\text{CoR}(\mathscr{V})=\left\{ \text{sgn}(\mathscr{V}),\; \begin{bmatrix}
+$$\text{CoR}(\mathscr{V})=\left\{ \text{sgn}(\omega_z),\; \begin{bmatrix}
     x_c \\
     y_c \\
 \end{bmatrix}
@@ -101,7 +101,7 @@ By the impenetrability constraint, we have $$ \mathscr{F}^T ( \mathscr{V}_a - \m
 $$
 \begin{align}
     \begin{split}
-        \mathscr{F}^T &= \left( [p]\hat{n} \hat{n} \right)^T \\
+        \mathscr{F}^T &= \left( [p]\hat{n} \;\; \hat{n} \right)^T \\
         &= \left( \left( \begin{bmatrix}
             0 & -3 & 2 \\
             3 & 0 & -1 \\
@@ -110,7 +110,7 @@ $$
             0 \\
             1 \\
             0 \\
-        \end{bmatrix} \right)^T \begin{bmatrix} 
+        \end{bmatrix} \right)^T \;\; \begin{bmatrix} 
             0 \\
             1 \\
             0 \\
@@ -125,7 +125,7 @@ $$
 $$
 \begin{align}
     \begin{split}
-        \mathscr{V}^T \mathscr{V}_A &= \begin{bmatrix}
+        \mathscr{F}^T \mathscr{V}_A &= \begin{bmatrix}
          -3 & 0 & 1 & 0 & 1 & 0 \\
         \end{bmatrix} \begin{bmatrix}
             \omega_x \\
@@ -139,6 +139,17 @@ $$
     \end{split}
 \end{align}
 $$
+
+> _**Exercise 12.4**_ A space frame $$\{ s \}$$ is defined at a contact between a stationary constraint and a body. The contact normal, into the body, is along the $$\hat{z}$$-axis of the $$\{ s \}$$ frame.
+> - (a) Write down the constraint on the body’s twist $$\mathscr{V}$$ if the contact is a frictionless point contact.
+> - (b) Write down the constraints on $$\mathscr{V}$$ if the contact is a point contact with friction.
+> - (c) Write down the constraints on $$\mathscr{V}$$ if the contact is a soft contact.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1FJy47MkfiWZ9VO6deGbC0mfuh26uaTbz" alt="fig_2.png" width="400">
+</p>
+
+
 
 ***
 
