@@ -54,8 +54,8 @@ See my notes above.
 - (a) Using the twist-to-CoR formula, we have 
 
 $$\begin{bmatrix}
- x_{c1}\\
- y_{c1} \\
+ x_{c,1}\\
+ y_{c,1} \\
 \end{bmatrix} = \begin{bmatrix}
  -\frac{0}{1} \\
  \frac{2}{1} \\
@@ -65,8 +65,33 @@ $$\begin{bmatrix}
 \end{bmatrix}
 $$
 
+$$\begin{bmatrix}
+ x_{c,2}\\
+ y_{c,2} \\
+\end{bmatrix} = \begin{bmatrix}
+ -\frac{-1}{1} \\
+ \frac{0}{1} \\
+\end{bmatrix} = \begin{bmatrix}
+ 1 \\
+ 0 \\
+\end{bmatrix}
+$$
+
+- (b)
+$$\begin{bmatrix}
+ x_{c,2}\\
+ y_{c,2} \\
+\end{bmatrix} = \begin{bmatrix}
+ -\frac{-1}{-1} \\
+ \frac{0}{-1} \\
+\end{bmatrix} = \begin{bmatrix}
+ -1 \\
+ 0 \\
+\end{bmatrix}
+$$
+
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=" alt="fig_1.png" width="500">
+    <img src="https://drive.google.com/uc?export=view&id=1GGh8EwjWRbT61bfkjRcJdzo1YcKC4brt" alt="fig_1.png" width="500">
 </p>
 
 ***
