@@ -23,11 +23,11 @@ is_project_page: false
 
 * From twist to CoR:
 
-$$\text{CoR}(\mathscr{V})=\{ sgn{\mathscr{V}},\; \begin{bmatrix}
+$$\text{CoR}(\mathscr{V})=\left\{ \text{sgn}(\mathscr{V}),\; \begin{bmatrix}
     x_c \\
     y_c \\
 \end{bmatrix}
-\}$$
+\right\}$$
 
 $$
 \begin{bmatrix}
@@ -116,6 +116,22 @@ $$
             0 \\
         \end{bmatrix}^T \right) \\
         &= [-3 0 1 0 1 0] \\
+    \end{split}
+\end{align}
+$$
+
+$$
+\begin{align}
+    \begin{split}
+        \mathscr{V}^T \mathscr{V}_A &= [-3 0 1 0 1 0] \begin{bmatrix}
+            \omega_x \\
+            \omega_y \\
+            \omega_z \\
+            v_x \\
+            v_y \\
+            v_z \\
+        \end{bmatrix} \\
+        &= -3 \omega_x + \omega_z + v_y \leq 0 \\
     \end{split}
 \end{align}
 $$
