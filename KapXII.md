@@ -155,6 +155,20 @@ $$
     <img src="https://drive.google.com/uc?export=view&id=1tNVmD-_iTatDHy7wcEoldg85_BM8GKZp" alt="fig_3.png">
 </p>
 
+> _**Exercise 12.6**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by finger 1. Label the feasible CoRs with their contact labels.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1PcDEU4MoQViM183384hB8JaLpTVsBo6K" alt="fig_4.png">
+</p>
+
+> _**Exercise 12.7**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1 and 2. Label the feasible CoRs with their contact labels.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=15VyRmFY7WkIeXlQpJgf82lmiVu2m_ITh" alt="fig_5.png">
+</p>
+
+
+
 ***
 
 Image hosting template:
