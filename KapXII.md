@@ -21,6 +21,25 @@ is_project_page: false
 
 ### Useful Equations:
 
+From twist to CoR:
+
+$$\text{CoR}(\mathscr{V})=\{ sgn{\mathscr{V}},\; \begin{bmatrix}
+    x_c \\
+    y_c \\
+\end{bmatrix}
+\}$$
+
+$$
+\begin{bmatrix}
+ x_c \\
+ y_c \\
+\end{bmatrix} = \begin{bmatrix}
+ -\frac{v_y}{\omega_z} \\
+ \frac{v_x}{\omega_z} \\
+\end{bmatrix}
+$$
+
+
 ***
 
 ## Textbook Exercises Attempts
@@ -32,6 +51,23 @@ See my notes above.
 > - (a) Consider the two planar twists $$\mathscr{V}_1 = (\omega_{z1}, v_{x1}, v_{y1})=(1,2,0)$$ and $$\mathscr{V}_2 = (\omega_{z2}, v_{x2}, v_{y2})=(1,0,-1)$$. Draw the corresponding CoRs in a planar coordinate frame, and illustrate pos$$(\{\mathscr{V}_1 , \mathscr{V}_2\})$$ as CoRs.
 > - (b) Draw the positive span of $$\mathscr{V}_1 = (\omega_{z1}, v_{x1}, v_{y1})=(1,2,0)$$ and $$\mathscr{V}_2 = (\omega_{z2}, v_{x2}, v_{y2})=(-1,0,-1)$$ as CoRs.
 
+- (a) Using the twist-to-CoR formula, we have 
+
+$$\begin{bmatrix}
+ x_{c1}\\
+ y_{c1} \\
+\end{bmatrix} = \begin{bmatrix}
+ -\frac{0}{1} \\
+ \frac{2}{1} \\
+\end{bmatrix} = \begin{bmatrix}
+ 0 \\
+ 2 \\
+\end{bmatrix}
+$$
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=" alt="fig_1.png" width="500">
+</p>
 
 ***
 
