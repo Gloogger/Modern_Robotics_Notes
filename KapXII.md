@@ -185,6 +185,14 @@ $$
     <img src="https://drive.google.com/uc?export=view&id=1ZnCUHNvy21xonxvz_fpfEEAdlhHTjD-S" alt="fig_8.png">
 </p>
 
+> _**Exercise 12.11**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1, 2, and 4.
+
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=19ZRNFS2KdfG9WmX1iItMsZ_9Okco7YPs" alt="fig_9.png">
+</p>
+
+
 ***
 
 Image hosting template:
