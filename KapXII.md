@@ -43,7 +43,7 @@ $$
 ***
 
 ## Implementation of Planar Form Closure Test （by First-Order Analysis）
-This implementation is done in MATLAB, the algorithm is adopted from the 
+This implementation is done in MATLAB, the algorithm is adopted from the textbook. The basic idea behind the first-order analysis using the linear solver is that, if $$\text{pos}(\cup_i \mathscr{F}_i)$$ contains the origin $$[0\; 0\; 0]^T$$, then every possible wrench $$\mathscr{F}$$ will be spanned by this positive span, i.e., the body is in form closure.
 
 ```Matlab
 %% This script takes in a list of support points and the contact normal in
