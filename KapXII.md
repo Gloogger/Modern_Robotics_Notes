@@ -256,10 +256,19 @@ $$
 
 > _**Exercise 12.11**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1, 2, and 4.
 
-
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=19ZRNFS2KdfG9WmX1iItMsZ_9Okco7YPs" alt="fig_9.png">
 </p>
+
+> _**Exercise 12.12**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1, 3, and 5.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1HDGcSvx76MJ8yPTESAQfmEEeVx1Xp3Ym" alt="fig_10.png">
+</p>
+
+> _**Exercise 12.13**_ Refer again to the triangle of Figure 12.29.
+> - (a) Draw the wrench cone from contact 5, assuming a friction angle $$\alpha = 22.5^{\circ}$$ (a friction coefficient $$\mhu = 0.41$$), using moment labeling.
+> - (b) Add contact 2 to the moment-labeling drawing. The friction coefficient at contact 2 is $$\mhu = 1$$.
 
 
 ***
