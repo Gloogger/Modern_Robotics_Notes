@@ -276,6 +276,17 @@ $$
 
 > _**Exercise 12.14**_ Refer again to the triangle of Figure 12.29. Draw the moment-labeling region corresponding to contact 1 with $$\mu = 1$$ and contact 4 with $$\mu = 0$$.
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=14aFHIwqQCyV6XRLdvG0yQPrLU3ElJyli" alt="fig_12.png">
+</p>
+
+> _**Exercise 12.15**_ The planar grasp of Figure 12.30 consists of five frictionless point contacts. The square’s size is $$4 \times 4 $$.
+> - (a) Show that this grasp does not yield force closure.
+> - (b) The grasp of part (a) can be modified to yield force closure by adding one frictionless point contact. Draw all the possible locations for this contact.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1LECk4KDJrosivThSCQVzZ_Fsyy1wESbP" alt="fig_13.png">
+</p>
 
 ***
 
