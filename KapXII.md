@@ -317,7 +317,7 @@ g
     <img src="https://drive.google.com/uc?export=view&id=1Q4aEvhZUMyxqTRBXMPLfv67Ks4fzMi6w" alt="fig_16.png">
 </p>
 
-> _**Exercise**_ 12.19
+> _**Exercise 12.19**_
 > - (a) For the planar grasp of Figure 12.34(a), assume contact C is frictionless, while the friction coecient at contacts A and B is $$\mu = 1$$. Determine whether this grasp is force closure.
 > - (b) For the planar grasp of Figure 12.34(b), assume contacts A and B are frictionless, while contact C has a friction cone of half-angle $$\beta$$. Find the range of values of $$\beta$$ that makes this grasp force closure.
 
@@ -328,6 +328,11 @@ g
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=1xPpPfAL-4oyW_9qYiNRT4ODUsDJ0JioX" alt="fig_17_b.png">
 </p>
+
+> _**Exercise 12.23**_ A frictionless finger begins pushing a box over a table (Figure 12.36). There is friction between the box and the table, as indicated in the figure. There are three possible contact modes between the box and the table: either the box slides to the right flat against the table, or it tips over at the right lower corner, or it tips over that corner while the corner also slides to the right. Which actually occurs? Assume a quasistatic force balance and answer the following questions.
+> - (a) For each of the three contact modes, draw the moment-labeling regions corresponding to the table’s friction cone edges active in that contact mode.
+> - (b) For each moment-labeling drawing, determine whether the pushing force plus the gravitational force can be quasistatically balanced by the support forces. From this, determine which contact mode actually occurs.
+> - (c) Graphically show a different support-friction cone for which the contact mode is different from your solution above.
 
 ***
 
