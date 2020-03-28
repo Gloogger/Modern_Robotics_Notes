@@ -309,7 +309,7 @@ g
     <img src="https://drive.google.com/uc?export=view&id=15alV9T8kNoOZ5P4jWwkqnyoti3SsjaV8" alt="fig_15_b.png" width="500">
 </p>
 
-- (c) It seems linke the top-right '++++' area cannot be eliminated in the current grasp. Therefore no position is able to generate a force-closure grasp.
+- (c) It seems like the top-right '++++' area cannot be eliminated in the current grasp. Therefore no position is able to generate a force-closure grasp.
 
 > _**Exercise 12.18**_ A square is restrained by three point contacts as shown in Figure 12.33: $$f_1$$ is a point contact with friction coefficient $$\mu$$, while $$f_2$$ and $$f_3$$ are frictionless point contacts. If $$c = \frac{1}{4}$$ and $$h = \frac{1}{2}$$, find the range of values of $$\mu$$ such that grasp yields force closure.
 
@@ -318,8 +318,16 @@ g
 </p>
 
 > _**Exercise**_ 12.19
-> - (a) For the planar grasp of Figure 12.34(a), assume contact C is frictionless, while the friction coe cient at contacts A and B is $$\mu = 1$$. Determine whether this grasp is force closure.
+> - (a) For the planar grasp of Figure 12.34(a), assume contact C is frictionless, while the friction coecient at contacts A and B is $$\mu = 1$$. Determine whether this grasp is force closure.
 > - (b) For the planar grasp of Figure 12.34(b), assume contacts A and B are frictionless, while contact C has a friction cone of half-angle $$\beta$$. Find the range of values of $$\beta$$ that makes this grasp force closure.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1-WDe7YAjWqMJCeAR-ecu-MvuKqgBmd5t" alt="fig_17_a.png">
+</p>
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1xPpPfAL-4oyW_9qYiNRT4ODUsDJ0JioX" alt="fig_17_b.png">
+</p>
 
 ***
 
