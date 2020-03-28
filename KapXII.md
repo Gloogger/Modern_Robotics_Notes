@@ -285,8 +285,10 @@ $$
 > - (b) The grasp of part (a) can be modified to yield force closure by adding one frictionless point contact. Draw all the possible locations for this contact.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1LECk4KDJrosivThSCQVzZ_Fsyy1wESbP" alt="fig_13.png">
+    <img src="https://drive.google.com/uc?export=view&id=1CwXr1kfz2tODs6ewepg8Ieo65Ek67RGY" alt="fig_13.png">
 </p>
+
+> _**Exercise 12.16**_ Assume the contacts shown in Figure 12.31 are frictionless point contacts. Determine whether the grasp yields force closure. If it does not, how many additional frictionless point contacts are needed to construct a force closure grasp?
 
 ***
 
