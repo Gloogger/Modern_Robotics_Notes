@@ -227,19 +227,19 @@ $$
 > _**Exercise 12.6**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by finger 1. Label the feasible CoRs with their contact labels.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1PcDEU4MoQViM183384hB8JaLpTVsBo6K" alt="fig_4.png">
+    <img src="https://drive.google.com/uc?export=view&id=1PcDEU4MoQViM183384hB8JaLpTVsBo6K" alt="fig_4.png" width="400">
 </p>
 
 > _**Exercise 12.7**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1 and 2. Label the feasible CoRs with their contact labels.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=15VyRmFY7WkIeXlQpJgf82lmiVu2m_ITh" alt="fig_5.png">
+    <img src="https://drive.google.com/uc?export=view&id=15VyRmFY7WkIeXlQpJgf82lmiVu2m_ITh" alt="fig_5.png" width="400">
 </p>
 
 > _**Exercise 12.8**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 2 and 3. Label the feasible CoRs with their contact labels.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1FJLphy3EFFTXi8MGNOuAfDw35fc2co-V" alt="fig_6.png">
+    <img src="https://drive.google.com/uc?export=view&id=1FJLphy3EFFTXi8MGNOuAfDw35fc2co-V" alt="fig_6.png" width="500">
 </p>
 
 > _**Exercise 12.9**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1 and 5. Label the feasible CoRs with their contact labels.
@@ -251,19 +251,19 @@ $$
 > _**Exercise 12.10**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1, 2, and 3.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1ZnCUHNvy21xonxvz_fpfEEAdlhHTjD-S" alt="fig_8.png">
+    <img src="https://drive.google.com/uc?export=view&id=1ZnCUHNvy21xonxvz_fpfEEAdlhHTjD-S" alt="fig_8.png" width="400">
 </p>
 
 > _**Exercise 12.11**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1, 2, and 4.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=19ZRNFS2KdfG9WmX1iItMsZ_9Okco7YPs" alt="fig_9.png">
+    <img src="https://drive.google.com/uc?export=view&id=19ZRNFS2KdfG9WmX1iItMsZ_9Okco7YPs" alt="fig_9.png" width="500">
 </p>
 
 > _**Exercise 12.12**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1, 3, and 5.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1HDGcSvx76MJ8yPTESAQfmEEeVx1Xp3Ym" alt="fig_10.png">
+    <img src="https://drive.google.com/uc?export=view&id=1HDGcSvx76MJ8yPTESAQfmEEeVx1Xp3Ym" alt="fig_10.png" width="450">
 </p>
 
 > _**Exercise 12.13**_ Refer again to the triangle of Figure 12.29.
@@ -271,13 +271,13 @@ $$
 > - (b) Add contact 2 to the moment-labeling drawing. The friction coefficient at contact 2 is $$\mu = 1$$.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1kocJB37YALWHeyJ3AwwPcjDxLJV_Op19" alt="fig_11.png">
+    <img src="https://drive.google.com/uc?export=view&id=1kocJB37YALWHeyJ3AwwPcjDxLJV_Op19" alt="fig_11.png" width="500">
 </p>
 
 > _**Exercise 12.14**_ Refer again to the triangle of Figure 12.29. Draw the moment-labeling region corresponding to contact 1 with $$\mu = 1$$ and contact 4 with $$\mu = 0$$.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=14aFHIwqQCyV6XRLdvG0yQPrLU3ElJyli" alt="fig_12.png">
+    <img src="https://drive.google.com/uc?export=view&id=14aFHIwqQCyV6XRLdvG0yQPrLU3ElJyli" alt="fig_12.png" width="400">
 </p>
 
 > _**Exercise 12.15**_ The planar grasp of Figure 12.30 consists of five frictionless point contacts. The square’s size is $$4 \times 4 $$.
@@ -302,11 +302,11 @@ closure.
 g
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1bwOg_Y51XeEc_z5JHHxU7-pkRJsA09e7" alt="fig_15_a.png">
+    <img src="https://drive.google.com/uc?export=view&id=1bwOg_Y51XeEc_z5JHHxU7-pkRJsA09e7" alt="fig_15_a.png" width="500">
 </p>
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=15alV9T8kNoOZ5P4jWwkqnyoti3SsjaV8" alt="fig_15_b.png">
+    <img src="https://drive.google.com/uc?export=view&id=15alV9T8kNoOZ5P4jWwkqnyoti3SsjaV8" alt="fig_15_b.png" width="500">
 </p>
 
 - (c) It seems linke the top-right '++++' area cannot be eliminated in the current grasp. Therefore no position is able to generate a force-closure grasp.
