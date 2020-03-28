@@ -290,6 +290,17 @@ $$
 
 > _**Exercise 12.16**_ Assume the contacts shown in Figure 12.31 are frictionless point contacts. Determine whether the grasp yields force closure. If it does not, how many additional frictionless point contacts are needed to construct a force closure grasp?
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1-71yzEh_li8HtMheAx41gNJ_Ipp_nNAe" alt="fig_14.png">
+</p>
+
+> _**Exercise 12.17**_ Consider the L-shaped planar object of Figure 12.32.
+> - (a) Suppose that both contacts are point contacts with friction coefficient $$\mu = 1$$. Determine whether this grasp yields force closure.
+(b) Now suppose that point contact 1 has friction coe cient μ = 1, while point contact 2 is frictionless. Determine whether this grasp yields force
+closure.
+> - (c) The vertical position of contact 1 is allowed to vary; denote its height by $$x$$. Find all positions $$x$$ such that the grasp is force closure with $$\mu = 1$$ for contact 1 and $$\mu = 0$$ for contact 2.
+
+
 ***
 
 Image hosting template:
