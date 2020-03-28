@@ -313,6 +313,9 @@ g
 
 > _**Exercise 12.18**_ A square is restrained by three point contacts as shown in Figure 12.33: $$f_1$$ is a point contact with friction coefficient $$\mu$$, while $$f_2$$ and $$f_3$$ are frictionless point contacts. If $$c = \frac{1}{4}$$ and $$h = \frac{1}{2}$$, find the range of values of $$\mu$$ such that grasp yields force closure.
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1Q4aEvhZUMyxqTRBXMPLfv67Ks4fzMi6w" alt="fig_16.png">
+</p>
 
 ***
 
