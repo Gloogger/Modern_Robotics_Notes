@@ -317,6 +317,10 @@ g
     <img src="https://drive.google.com/uc?export=view&id=1Q4aEvhZUMyxqTRBXMPLfv67Ks4fzMi6w" alt="fig_16.png">
 </p>
 
+> _**Exercise**_ 12.19
+> - (a) For the planar grasp of Figure 12.34(a), assume contact C is frictionless, while the friction coe cient at contacts A and B is $$\mu = 1$$. Determine whether this grasp is force closure.
+> - (b) For the planar grasp of Figure 12.34(b), assume contacts A and B are frictionless, while contact C has a friction cone of half-angle $$\beta$$. Find the range of values of $$\beta$$ that makes this grasp force closure.
+
 ***
 
 Image hosting template:
