@@ -263,7 +263,7 @@ $$
 > _**Exercise 12.12**_ Draw the set of feasible twists as CoRs when the triangle of Figure 12.29 is contacted only by fingers 1, 3, and 5.
 
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1HDGcSvx76MJ8yPTESAQfmEEeVx1Xp3Ym" alt="fig10.png">
+    <img src="https://drive.google.com/uc?export=view&id=1HDGcSvx76MJ8yPTESAQfmEEeVx1Xp3Ym" alt="fig_10.png">
 </p>
 
 > _**Exercise 12.13**_ Refer again to the triangle of Figure 12.29.
@@ -310,6 +310,9 @@ g
 </p>
 
 - (c) It seems linke the top-right '++++' area cannot be eliminated in the current grasp. Therefore no position is able to generate a force-closure grasp.
+
+> _**Exercise 12.18**_ A square is restrained by three point contacts as shown in Figure 12.33: $$f_1$$ is a point contact with friction coefficient $$\mu$$, while $$f_2$$ and $$f_3$$ are frictionless point contacts. If $$c = \frac{1}{4}$$ and $$h = \frac{1}{2}$$, find the range of values of $$\mu$$ such that grasp yields force closure.
+
 
 ***
 
