@@ -340,6 +340,9 @@ g
 
 > _**Exercise 12.24**_ In Figure 12.37 body 1, of mass m1 with center of mass at $$(x_1,y_1)$$, leans on body 2, of mass $$m_2$$ with center of mass at $$(x_2,y_2)$$. Both are supported by a horizontal plane, and gravity acts downward. The friction coefficient at all four contacts (at $$(0, 0)$$, at $$(x_L , y)$$, at $$(x_L , 0)$$, and at $$(x_R, 0)$$) is $$\mu > 0$$. We want to know whether it is possible for the assembly to stay standing by some choice of contact forces within the friction cones. Write down the six equations of force balance for the two bodies in terms of the gravitational forces and the contact forces, and express the conditions that must be satisfied for this assembly to stay standing. How many equations and unknowns are there?
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1qIN975E8alZjwFThLqhwv0pbtmIGsQK5" alt="fig_19.png">
+</p>
 
 ***
 
