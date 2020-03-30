@@ -334,6 +334,10 @@ g
 > - (b) For each moment-labeling drawing, determine whether the pushing force plus the gravitational force can be quasistatically balanced by the support forces. From this, determine which contact mode actually occurs.
 > - (c) Graphically show a different support-friction cone for which the contact mode is different from your solution above.
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1ZSh-ZQX_hwbd5wfJaEZxjDmDx3OBjmYf" alt="fig_18.png" width="500">
+</p>
+
 ***
 
 Image hosting template:
