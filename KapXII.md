@@ -45,7 +45,8 @@ $$
 
 ***
 
-## Implementation of Planar Form Closure Test （by First-Order Analysis）
+## Implementation of Planar Form Closure Test 
+### （by First-Order Analysis）
 This implementation is done in MATLAB, the algorithm is adopted from the textbook. The basic idea behind the first-order analysis using the linear solver is that, if $$\text{pos}(\cup_i \mathscr{F}_i)$$ contains the origin $$[0\; 0\; 0]^T$$, then every possible wrench $$\mathscr{F}$$ will be spanned by this positive span, i.e., the body is in form closure.
 
 ```Matlab
@@ -107,6 +108,238 @@ end
 
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=1Yv8yIH_ltmqXTw42Dl-Uo0ux40MoQMBc" alt="2TestCase.png">
+</p>
+
+***
+
+## Implementation of Assembly Stability Test 
+### （by First-Order Analysis）
+The following implementation is done in MATLAB.
+
+```Matlab
+%% This script performs the evaluation of the stability of an assembly 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  The scripts takes two input, the first input is a description of the 
+%  static mass properties, massList, in the form of
+%
+%  massList = [    body_ID_1,    mass_1,    x_cm_1,    y_cm_1;
+%                  body_ID_2,    mass_2,    x_cm_2,    y_cm_2;
+%                    ...          ...         ...        ...  ];
+%
+%  the second input is a description of the contacts, contactList, in the 
+%  form of
+%
+%  contactList = [   body_ID_1,   body_ID_2,   x_c,   y_c,   theta,   mu;
+%                    body_ID_1,   body_ID_4,   x_c,   y_c,   theta,   mu;
+%                       ...          ...       ...    ...     ...    ... ];
+%
+% in which body_ID_1 and body_ID_2 are the ID of bodies:
+% body_ID = 0 for ground; body_ID = 1 for body 1; body_ID = 2 for body 2,
+% etc. x_c and y_c are the point of contact, theta is the direction of
+% contract normal relative to the first body, mu is the coefficient of
+% friction at point of contact.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  Written by Donglin Sui (lordblackwoods@gmail.com) on 2020/03/31
+%  For personal interests
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Testing
+%% Example 1
+%  This example was taken from fig.12.37 of the textbook, in which the 
+%  structure is not stable. The expected value of IsStable is FALSE.
+massList1 = [1, 2, 25, 35;
+             2, 5, 66, 42];
+contactList1 =  [1, 0,  0,  0, pi/2, 0.1;
+                 1, 2, 60, 60,   pi, 0.5;
+                 2, 0, 72,  0, pi/2, 0.5;
+                 2, 0, 60,  0, pi/2, 0.5];
+fprintf('*********Example 1*********\n')
+IsStable1 = evaluateStability(massList1,contactList1);
+fprintf('*********End of Example 1*********\n')
+
+%% Example 2 (also from fig.12.37 of the textbook)
+%  This example is stable as the mu has increased from 0.1 to 0.5 for the
+%  first contact. The expected value of IsStable is TRUE.
+massList2 = [1, 2,  25, 35;
+             2, 10, 66, 42];
+contactList2 =  [1, 0,  0,  0, pi/2,  0.5;
+                 1, 2, 60, 60,   pi,  0.5;
+                 2, 0, 72,  0, pi/2,  0.5;
+                 2, 0, 60,  0, pi/2,  0.5];
+fprintf('*********Example 2*********\n')
+IsStable2 = evaluateStability(massList2,contactList2);
+fprintf('*********End of Example 2*********\n')
+
+%% Example 3 (three-body arch, fig.12.27 in textbook)
+%  assume mass = 5 for all three bodies
+%  The first frictional coefficient that allows the assembly to remain
+%  stable is mu = 0.428. Any value below that will result in instability.
+massList3 =    [1, 5, 110,  70;
+                2, 5, 260, 130;
+                3, 5, 410,  70];
+mu3 = 0.428;
+contactList3 = [1, 0,   0,   0,     pi/2, mu3;
+                1, 0,  80,   0,     pi/2, mu3;
+                1, 2, 160, 160, -2.81993, mu3;
+                1, 2, 180, 100, -2.81993, mu3;
+                3, 2, 360, 160, -0.32166, mu3;
+                3, 2, 340, 100, -0.32166, mu3;
+                3, 0, 440,   0,     pi/2, mu3;
+                3, 0, 520,   0,     pi/2, mu3];
+fprintf('*********Example 3*********\n')
+IsStable3 = evaluateStability(massList3,contactList3);
+fprintf('*********End of Example 3*********\n')
+
+
+
+%% The evaluation function is defined below
+function IsStable = evaluateStability(massList, contactList)
+    numBody = size(massList,1);
+    numContact = size(contactList,1);
+    
+    % For each body, the wrenches have 3 dimension, namely [m fx fy],
+    % therefore we have 3*numBody columns, and each contact is specified by
+    % a friction cone consists of two wrench, therefore we have
+    % 2*numContact rows
+    F = zeros(3 * numBody, 2 * numContact);
+    
+    % loop through all contacts
+    for i = 1 : numContact
+        body_ID_1 = contactList(i,1);
+        body_ID_2 = contactList(i,2);
+        
+        % contact point is augmented to spatial vector because MATLAB 
+        % built-in function can only calculate the cross product between 
+        % spatial vectors
+        contactPoint = [contactList(i,3); ...
+                        contactList(i,4); ...
+                                0        ];
+        
+        whichContact = i;           % contact index
+        theta = contactList(i,5);
+        mu = contactList(i,6);
+        
+        % if Body 1 is body-on-ground
+        if body_ID_1 ~= 0
+            angle1 = theta - atan2(mu,1);  % direction of wrench 1 of the 
+                                           % friction cone
+            angle2 = theta + atan2(mu,1);  % direction of wrench 2 of the 
+                                           % friction cone
+                                           
+            % convert angle into unit vector
+            n1 = [cos(angle1); ...
+                  sin(angle1); ...
+                       0      ];
+            n2 = [cos(angle2); ...
+                  sin(angle2); ...
+                       0      ];
+            
+            skew_p_n1 = cross(contactPoint, n1);
+            skew_p_n2 = cross(contactPoint, n2);
+            
+            F1 = [skew_p_n1(3); ...
+                    n1(1:2,:)  ];
+            F2 = [skew_p_n2(3); ...
+                    n2(1:2,:)  ];
+            
+            F( (body_ID_1 - 1) * 3 + 1 : (body_ID_1 * 3), ...
+               (whichContact - 1) * 2 + 1) = F1;
+            F( (body_ID_1 - 1) * 3 + 1 : (body_ID_1 * 3), ...
+               (whichContact - 1) * 2 + 2) = F2;
+        end
+        
+        % if Body 2 is body-on-ground
+        if body_ID_2 ~= 0
+            angle1 = theta - atan2(mu,1) + pi;  % direction of wrench 1 of 
+                                                % the friction cone, + pi
+                                                % is used to account for
+                                                % 'equal but opposite'
+            angle2 = theta + atan2(mu,1) + pi;  % direction of wrench 2 of 
+                                                % the friction cone, + pi
+                                                % is used to account for
+                                                % 'equal but opposite'
+                                           
+            % convert angle into unit vector
+            n1 = [cos(angle1); ...
+                  sin(angle1); ...
+                       0      ];
+            n2 = [cos(angle2); ...
+                  sin(angle2); ...
+                       0      ];
+            
+            skew_p_n1 = cross(contactPoint, n1);
+            skew_p_n2 = cross(contactPoint, n2);
+            
+            F1 = [skew_p_n1(3); ...
+                    n1(1:2,:)  ];
+            F2 = [skew_p_n2(3); ...
+                    n2(1:2,:)  ];
+            
+            F( (body_ID_2 - 1) * 3 + 1 : (body_ID_2 * 3), ...
+               (whichContact - 1) * 2 + 1) = F1;
+            F( (body_ID_2 - 1) * 3 + 1 : (body_ID_2 * 3), ...
+               (whichContact - 1) * 2 + 2) = F2;
+        end
+    end
+    
+    % loop through Fext (wrench due to gravity)
+    Fext = [];
+    g = 9.81;
+    theta_g = -pi/2;
+    for ii = 1 : numBody
+        CM = [massList(ii,3); ...
+              massList(ii,4); ...
+                    0        ];
+        m = massList(ii,2);
+        n_g = m .* g .* [cos(theta_g); ...
+                         sin(theta_g); ...
+                               0      ];
+        skew_p_n_g = cross(CM,n_g);
+        Fext = [Fext; ... 
+                [skew_p_n_g(3);...
+                    n_g(1:2,:) ]];
+    end
+    
+    % linear planning coefficient
+    f = ones(1,2 * numContact);
+    A = -1 .* eye(2 * numContact);
+    b = -1 .* ones(1, 2 * numContact);
+    Aeq = F;
+    beq = -1 .* Fext;
+    k = linprog(f,A,b,Aeq,beq);
+    
+    % preparing output
+    fprintf('==================================================\n')
+    if isempty(k)
+        fprintf('The assembly IS NOT stable.\n')
+        IsStable = false;
+        fprintf('There does not exist a k such that Fk = 0 while ki >= 1.\n')
+    else
+        fprintf('The assembly IS stable.\n')
+        IsStable = true;
+        fprintf('The positve coefficient k in Fk = 0 is:\n')
+        disp(k)
+    end
+    fprintf('==================================================\n')
+end
+```
+
+### Testing examples
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=19PYn2d6F1PqQ48lME3jESIB9A3Ao8Z_2" alt="Ex1.png">
+</p>
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1-DMZaiU7FRMT2xkHUuvbSNg_XSQCXVpj" alt="Ex2.png">
+</p>
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=12OXdZO9eVLRA0degsdS-ZYtGQefG9cAa" alt="Ex3.png">
 </p>
 
 ***
