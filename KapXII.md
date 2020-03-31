@@ -344,6 +344,26 @@ g
     <img src="https://drive.google.com/uc?export=view&id=1qIN975E8alZjwFThLqhwv0pbtmIGsQK5" alt="fig_19.png">
 </p>
 
+## Slipping/tipping Question
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1tvKXimvvMZDzNCiQsI55ptb4Soa8xmPd" alt="fig_20.png">
+</p>
+
+Source:https://books.google.com.hk/books?id=Xpgi5gSuBxsC&pg=PA657&lpg=PA657&dq=slipping+or+tipping+problems+using+wrenches&source=bl&ots=lVolW9m97Q&sig=ACfU3U03i05F27mvky9ecBo6aak7BNeNMQ&hl=en&sa=X&ved=2ahUKEwjj_9jstMLoAhXkyIsBHVy7BHIQ6AEwAHoECAcQAQ#v=onepage&q=slipping%20or%20tipping%20problems%20using%20wrenches&f=false
+
+Now, consider a box sitting on a table with $$\mu = 1$$ and the friction cone shown below, if the contact mode is SrSr, then in which region lies the center-of-mass? 
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1cetGrZ1Rw5wA990fXQq2jxv4dxgxrN4f" alt="fig_21.png" width="400">
+</p>
+
+Using the same principle shown above, we know that the possible regions are A, B, D, and G.
+
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1StK8WkM4v2NYQWvTe0WamsydkZFKods7" alt="fig_22.png">
+</p>
+
 ***
 
 Image hosting template:
