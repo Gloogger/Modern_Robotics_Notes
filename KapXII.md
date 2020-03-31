@@ -615,30 +615,6 @@ For BR mode, the regions are A, C, D, E, F, G.
 
 ***
 
-Image hosting template:
-
-```
-<p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=" alt="Erklaerung">
-</p>
-```
-
-```
-$$
-\begin{align}
-    \begin{split}
-    \end{split}
-\end{align}
-$$
-
-
-$$
-\begin{bmatrix}
-       
-\end{bmatrix}
-$$
-```
-
 <p style="text-align:center;">
 <button type="button" onclick="window.location.href='#top';">Back To Top</button>
 <p>
