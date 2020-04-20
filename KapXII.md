@@ -42,20 +42,20 @@ $$
 \end{bmatrix}
 $$
 
-### Remark on Planar Graphical Method
+## Remark on Planar Graphical Method
 
 Because I think the graphical graphical method of wrench is not as intuitive as that of CoR's, so I want to talk about how I understand this method.
 
 I found the definition of the method in another textbook (Springer Handbook of Robotics) more helpful:
 
-> 27.3.1 Graphical Planar Methods
+> - 27.3.1 Graphical Planar Methods
 > Just as homogeneous twist cones for planar problems can be represented as convex signed (+ or −) CoR regions in the plane, homogeneous wrench cones for planar problems can be represented as convex signed regions in the plane. This is called moment labeling [27.14, 34]. Given a collection of lines of force in the plane (e.g., the edges of friction cones from a set of point contacts), the set of all nonnegative linear combinations of these can be represented by labeling all the points in the plane with either a ‘+’ if all resultants make nonnegative moment about that point, a ‘−’ if all make nonpositive moment about that point, a ‘±’ if all make zero moment about that point, and a blank label if there exist resultants making positive moment and resultants making negative moment about that point.
 
 Two steps:
 1. When the line of action of an external wrench $$w_{ext}$$ does not pass through any grey areas (signed regions), then this external wrench can be balanced off by the frictional forces provided by the contact points. In other words, the object will remain stationary or quasistatic. 
 2. When the line of action of an external wrench $$w_{ext}$$ does pass through any grey areas, draw an opposing wrench of that $$w_{ext}$$, then evaluate whether this opposing wrench is _compatible_ with the existing signs or not.
 
-#### Example 1 from Springer Handbook
+### Example 1 from Springer Handbook
 
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=1wCIGGohjRuZI7KrTlUSkiJThYCZBHgDj" alt="springer_1.png">
@@ -63,7 +63,7 @@ Two steps:
 
 According to step (1), we can know that the external wrench $$w_{ext}$$ will not cause the object to move because its line of action does not pass through any signed areas. Secondly, according to step (2), if we draw the opposing wrench in the opposite direction of $$w_{ext}$$, we will find that the opposing wrench will still produce a counterclockwise moment for the points inside the grey area marked '+', so this opposing wrench is compatible with the original signed area, thus the object is stationary/quasistatic.
 
-#### Example 2 from Springer Handbook
+### Example 2 from Springer Handbook
 
 <p align="center">
     <img src="https://drive.google.com/uc?export=view&id=1AOHKf2eXbFmAR4TPrit-bSkW0LD5IoYE" alt="springer_2.png">
