@@ -65,6 +65,14 @@ According to step (1), we can know that the external wrench $$w_{ext}$$ will not
 
 #### Example 2 from Springer Handbook
 
+<p align="center">
+    <img src="https://drive.google.com/uc?export=view&id=1AOHKf2eXbFmAR4TPrit-bSkW0LD5IoYE" alt="springer_2.png">
+</p>
+
+For figure a), $$w_2$$ does not pass through any gray area, so by step (1) we know that it will not cause the object to move; similarly, looking at the opposing wrench of $$w_2$$ we will find that the opposing wrench will still produce counter-clockwise moments for all points inside the grey area marked '+', then by step (2) we know that it will not cause the object to move. 
+
+The line of action of $$w_1$$ does pass through the gray area, so we must consider its opposing wrench. This opposing wrench separates the signed region into two halfs. For points on the LHS, the opposing wrench still produces a counter-clockweise moment, but for points on the RHS, the opposing wrench will produce negative moments. Therefore, by step (2), $$w_1$$ will cause the object to mvoe.
+
 ***
 
 ## Implementation of Planar Form Closure Test 
