@@ -1,8 +1,8 @@
 ---
 layout: post
 mathjax: true
-title: 'Capstone Project'
-description: My attemp for the capstone project
+title: 'Schlusssteinprojekt'
+description: My attemp for the Schlusssteinprojekt
 is_project_page: false
 ---
 
@@ -34,8 +34,6 @@ is_project_page: false
 %  http://hades.mech.northwestern.edu/index.php/Mobile_Manipulation_Capstone
 %=========================================================================%
 %  Written by Donglin Sui (lordblackwoods@gmail.com) on 2020/04/03
-%  For the purpose of Coursera Modern Robotics Course 6: Capstone
-%  submission
 %=========================================================================%
 %                     The Program Begins Here.
 %                   　　　　　　_.，------..
