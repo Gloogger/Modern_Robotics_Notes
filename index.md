@@ -28,6 +28,6 @@ The kinematics theory favored by the **Modern Robotics**  course is _**Product-o
 * [**Kapitel XI:    Robot Control**](KapXI.html)
 * [**Kapitel XII:   Grasping and Manipulation**](KapXII.html)
 * [**Kapitel XIII:  Wheeled Mobile Robot**](KapXIII.html)
-* [**Capstone Project**](Capstone.html)
+* [**Schlusssteinprojekt**](Schlusssteinprojekt.html)
 
 ***
