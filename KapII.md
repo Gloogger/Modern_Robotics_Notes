@@ -29,7 +29,7 @@ It is also worth noticing that a dof has to be real-valued coordinates. For inst
 ### Tables
 All pictures, tables, charts, unless noted otherwise, are taken from \[1].
 <p align="center">
-    <img src="https://drive.google.com/uc?export=view&id=1iMx1lfOZzl9-pem5sGMQhX-9SB123DAY" alt="Tables of common joints(kapII_pic_1.jpg)">
+    <img src="images/Kapitel%20II/kapII_pic_1.jpg" alt="Tables of common joints(kapII_pic_1.jpg)">
 </p>
 
 ### Equations
